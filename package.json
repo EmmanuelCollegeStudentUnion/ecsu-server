@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "build": "tsc index.ts",
-    "start": "node dist/index.js"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prod": "pm2 start app.js"
   },
   "dependencies": {
     "apollo-server-express": "^2.3.1",
@@ -12,6 +13,7 @@
     "yaml-front-matter": "^4.0.0"
   },
   "devDependencies": {
+    "pm2": "^3.2.9",
     "typescript": "^3.2.4"
   }
 }
