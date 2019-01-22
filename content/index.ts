@@ -14,9 +14,8 @@ function itemsForContent(contentType) {
             const file = fs.readFileSync(filename, "utf8");
             const content = yamlFront.loadFront(imageRemapExternal(file));
             return {
-                text: content.title,
                 title: content.title,
-                name: slug[1],
+                slug: slug[1],
                 items: [],
                 url: urlText,
                 ...content
@@ -47,7 +46,7 @@ const mapping = {}
 Object.keys(content).forEach(collection => {
     mapping[collection] = {}
     content[collection].forEach(item => {
-        mapping[collection][item.name] = item
+        mapping[collection][item.slug] = item
     });
 })
 
