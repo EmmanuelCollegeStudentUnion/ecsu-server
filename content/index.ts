@@ -10,7 +10,7 @@ function itemsForContent(contentType) {
     return paths
         .map(filename => {
             const slug = filename.match(`^./content/${contentType}\/(.*)\.md`);
-            const urlText = url.resolve(`/${contentType}/`, "");
+            const urlText = url.resolve(`/${contentType}/`, slug[1]);
             const file = fs.readFileSync(filename, "utf8");
             const content = yamlFront.loadFront(imageRemapExternal(file));
             return {
