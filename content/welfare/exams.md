@@ -9,7 +9,7 @@ Easter term is here at last, which means that the sun is shining, there are load
 
 
 |File|Size
-|------
+|------|-----
 |[Easter Term Welfare Timetable 2015](/pdf/welfareeaster2015.pdf)|376.92 KiB
 
 ## Exam Tips
