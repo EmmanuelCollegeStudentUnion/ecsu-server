@@ -3,7 +3,6 @@ const yamlFront = require('yaml-front-matter');
 const glob = require('glob');
 const url = require('url');
 const fs = require('fs')
-import imageRemapExternal from './image-remap-external';
 
 function itemsForContent(contentType) {
     const paths = glob.sync(`./content/${contentType}/*.md`)
@@ -12,7 +11,7 @@ function itemsForContent(contentType) {
             const slug = filename.match(`^./content/${contentType}\/(.*)\.md`);
             const urlText = url.resolve(`/${contentType}/`, slug[1]);
             const file = fs.readFileSync(filename, "utf8");
-            const content = yamlFront.loadFront(imageRemapExternal(file));
+            const content = yamlFront.loadFront(file);
             return {
                 title: content.title,
                 slug: slug[1],
