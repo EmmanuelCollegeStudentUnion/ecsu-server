@@ -1,0 +1,20 @@
+---
+image: /assets/images/access/p_warren.jpeg
+subtitle: ''
+title: Patrick Warren
+blog: Access Blog
+---
+
+Hello, I'm Patrick and I'm from Lancashire, in the cold dark North. I went to a state secondary school and sixth-form college, and am now in my second year studying Medicine at Emmanuel College.
+
+I became interested in Cambridge when researching the Medicine courses offered by different universities. I found that the Cambridge course description matched most closely my own feelings about how Medicine should be approached as a subject: firstly, developing a solid grounding in the science, followed by separate training in how to apply that knowledge to real patients. It's important to emphasize that Cambridge offers very little patient contact in the first three years, and that every medical course in the country produces skilled, professional doctors. If clinical experience integrated throughout the whole course sounds more appealing to you, go for that! You're more likely to enjoy yourself if you pick a course that suits you.
+
+When I applied, I didn't expect to get a place. I thought that to get in to Cambridge, you had to be a superhuman overachiever with 20 A* GCSEs, Grade 8 in at least 4 instruments, and have competed in the Olympics (maybe a slight exaggeration!). I felt a bit underqualified applying with no phenomenal sporting or musical achievements, especially compared to some of the applications I\u2019d seen on a certain student forum. But I learnt that this is all unnecessary - Cambridge in particular care a lot more about the academics, and there's such a diverse mix of characters here. I feel way more comfortable and less intimidated than I thought I would when I applied.
+
+Most of my days start with an 8.45 or 9am lecture, followed by dissection, lab practical, or free time. There\u2019s normally a 12.15-1.15pm lecture, and there may be a teaching session of some description in the afternoon, but I do have quite a few days which finish by lunchtime. The timetable is a lot more relaxed than I expected it to be; it's very rare to have a full 9-5 day, and even with supervisions (very small group teaching sessions), most weeks have about 20 hours of scheduled teaching. This leaves you with a lot of time to yourself, so it is up to you to divide that time between work, play, and sleep; most people find a balance that allows good health, enough work, and a social life.
+
+My favourite thing about being at Cambridge is the collegiate system, which gives everyone a very personalised experience. The college-organised small-group supervisions are fantastic, as they allow you to ask your own questions to experts in the fields, whether that be to understand confusing parts of the lecture material, or just to find out more about what you\u2019re personally interested in. You also get to know your Director of Studies over the terms, and if you have any personal problems which affect your work, you can talk to them and they will help to find a solution which works best for you. Also, no paragraph praising Cambridge is complete without mentioning the Porters! The late-night chats over cups of coffee really help when commitments are piling up, and their general amazing-ness really makes you feel supported and part of the wider College family. 
+
+
+One last thing to any potential applicants studying here is a lot better if you really love your subject. The workload here is manageable, but occasionally it can get a bit mad! If you aren't genuinely fascinated by your subject, I think it would be tricky to find the motivation to work hard enough to keep up, as a lot is expected of you. However, remember that although it\u2019s tough, everyone faces the same challenge here regardless of background, and there is absolutely zero reason to be put off applying because you don't think you're the kind of person that Cambridge takes. In your application and interviews, the only thing they are looking for in you is a sharp mind and enthusiasm for your course - so if you have those, and fancy an exciting, diverse and challenging university experience, why not apply?
+
