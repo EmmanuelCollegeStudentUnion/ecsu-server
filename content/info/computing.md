@@ -15,7 +15,7 @@ Computers connected to the College Network must be running an operating system a
 If you are likely to have difficulty in meeting the cost of an upgrade, you should contact the [Webmaster](mailto:webmaster@ecsu.org.uk) in confidence, who will be able to help.
 
 |Operating System|Compatible?
-|------
+|------|-----
 |Windows 7|OK
 |Windows XP*|OK
 |**Windows Me**|**Upgrade required**

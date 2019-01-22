@@ -7,7 +7,7 @@ title: Glossary
 Here you'll find a (non-exclusive) list of terms used by students at Cambridge.
 
 |Term|Definition
-|------
+|------|-----
 |Arch 'n' Anth|Short for [Archaelogy and Anthropology](http://www.cam.ac.uk/cambuniv/ugprospectus/courses/archanth.html)
 |The Backs|Big grassy areas behind the colleges on the river
 |Boaties|People who row, and generally seem to have to get up early in the morning to do it

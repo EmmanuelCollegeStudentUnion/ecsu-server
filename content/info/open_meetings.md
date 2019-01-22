@@ -9,5 +9,5 @@ Open Meetings are an opportunity for all members of ECSU to make their views kno
 The Open Meetings are governed by a set of Standing Orders, which are available for download in PDF format.
 
 |File|Size
-|------
+|------|----
 |[Open Meeting Standing Orders](/pdf/open_meetings.pdf)|52.55 KiB

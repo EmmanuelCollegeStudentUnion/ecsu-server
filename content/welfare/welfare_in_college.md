@@ -25,7 +25,7 @@ In this section are links to various services at college, university and nationa
 In addition, we encourage you to download and read the "Bumper Welfare Document', which contains this information all in one place, in a less daunting format.
 
 |File|Size
-|------
+|------|-----
 |[Bumper Welfare Document](/pdf/bumperwelfare.pdf)|153.62 KiB
 
 ## Points of Contact
