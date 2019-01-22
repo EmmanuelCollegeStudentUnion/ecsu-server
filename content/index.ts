@@ -77,5 +77,5 @@ export default async (contentType, contentSlug: string = "") => {
 export async function resolveImage(image, alt) {
 
     if (image == null) return null;
-    return { src: image.replace('/assets/images/').replace('https://nh487.user.srcf.net/image/'), alt };
+    return { src: image.replace('/assets/images/', 'https://nh487.user.srcf.net/image/'), alt };
 }
