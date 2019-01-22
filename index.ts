@@ -184,7 +184,7 @@ const server = new ApolloServer({ typeDefs, resolvers });
 
 const app = express();
 server.applyMiddleware({ app });
-app.get('/image/:folder/*file', (req, res, next) => {
+app.get('/image/:folder/:file(*)', (req, res, next) => {
   res.type('image/png');
   const stream = image(`${req.params.folder}/${req.params.file}`, 0, 0, 0);
   stream.on('error', next).pipe(res);
