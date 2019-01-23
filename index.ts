@@ -13,6 +13,7 @@ const typeDefs = gql`
       alt: String
     }
     type Route{
+      title: String
       url: String
     }
     type NavItem  {
