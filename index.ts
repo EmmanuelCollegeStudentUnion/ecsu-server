@@ -4,6 +4,8 @@ const { ApolloServer, gql } = require('apollo-server-express');
 import content from './content'
 import { resolveImage, navItems, routes } from './content'
 import image from './image';
+import fs from 'fs-extra';
+
 
 const typeDefs = gql`
     type Image{
@@ -128,6 +130,9 @@ const typeDefs = gql`
       roomLocations: [RoomLocation]
       roomLocation(slug:String!): RoomLocation
       room(slug:String!): Room
+    }    
+    type Mutation {
+      roomPhotoUpload(roomSlug:String!, file: Upload!): Image!
     }
   `;
 
@@ -194,6 +199,16 @@ const resolvers = {
     roomLocation: (obj, args) => content("room_locations", args.slug),
     room: (obj, args) => content("rooms", args.slug),
   },
+  Mutation: {
+    async roomPhotoUpload(parent, args) {
+      const { createReadStream, filename, mimetype, encoding } = await args.file;
+      await fs.mkdirp(`./user_uploads`);
+      await fs.mkdirp(`./user_uploads/room_database`);
+      await fs.mkdirp(`./user_uploads/room_database/${args.roomSlug}/`);
+      createReadStream().pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename}`))
+      return {};
+    }
+  }
 };
 
 const server = new ApolloServer({ typeDefs, resolvers });
@@ -202,7 +217,13 @@ const app = express();
 server.applyMiddleware({ app });
 app.get('/image/:folder/:file(*)', (req, res, next) => {
   res.type('image/png');
-  const stream = image(`${req.params.folder}/${req.params.file}`, 0, 0, 0);
+  const stream = image(`./assets/images/${req.params.folder}/${req.params.file}`, 0, 0, 0);
+  stream.on('error', next).pipe(res);
+})
+
+app.get('/user_uploads/room_database/:folder/:file(*)', (req, res, next) => {
+  res.type('image/png');
+  const stream = image(`/user_uploads/room_database/${req.params.folder}/${req.params.file}`, 0, 0, 0);
   stream.on('error', next).pipe(res);
 })
 

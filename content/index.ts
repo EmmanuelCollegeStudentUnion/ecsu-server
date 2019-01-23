@@ -1,8 +1,8 @@
 import compare from './compare'
-const yamlFront = require('yaml-front-matter');
-const glob = require('glob');
-const url = require('url');
-const fs = require('fs')
+import * as yamlFront from 'yaml-front-matter'
+import glob from 'glob';
+import url from 'url';
+import fs from 'fs';
 
 function itemsForContent(contentType) {
     const paths = glob.sync(`./content/${contentType}/*.md`)
