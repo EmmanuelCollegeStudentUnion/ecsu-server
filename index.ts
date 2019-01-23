@@ -53,6 +53,7 @@ const typeDefs = gql`
       image: Image
       body: String
       url:String
+      messagingUrl:String
     }
     type Society{
       title:String
@@ -141,7 +142,8 @@ const resolvers = {
     whatsHere: obj => obj['whats_here'],
   },
   Exec: {
-    image: obj => resolveImage(obj.image, obj.name)
+    image: obj => resolveImage(obj.image, obj.name),
+    messagingUrl: obj => obj['messaging-url']
   },
   Society: {
     image: obj => resolveImage(obj.image, obj.title)
