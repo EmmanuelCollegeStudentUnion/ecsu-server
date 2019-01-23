@@ -72,6 +72,102 @@ export default async (contentType, contentSlug: string = "") => {
     }
 }
 
+export const navItems = [
+    {
+        text: "Home",
+        icon: "home",
+        url: "/",
+        routes: []
+    },
+    {
+        text: "What's On",
+        icon: "today",
+        url: "/whatson",
+        routes: []
+    },
+    {
+        text: "Prospective students",
+        icon: "face",
+        url: "/prospective",
+        routes: itemsForContent("prospective")
+    },
+    {
+        text: "Current students",
+        icon: "account_circle",
+        url: "/members",
+        routes: [
+            {
+                text: "Minutes",
+                url: "/members/minutes",
+                routes: []
+            },
+            {
+                text: "Official Documents",
+                url: "/members/official_documents",
+                routes: []
+            }
+        ]
+    },
+    {
+        text: "Committee",
+        icon: "assignment_ind",
+        url: "/exec",
+        routes: itemsForContent("exec")
+    },
+    {
+        text: "Posts",
+        icon: "assignment",
+        url: "/blogs",
+        routes: itemsForContent("blogs")
+    },
+    {
+        text: "Welfare",
+        icon: "sentiment_very_satisfied",
+        url: "/welfare",
+        routes: [
+            ...itemsForContent("welfare"),
+            {
+                text: "Pregnancy Kit",
+                url: "/welfare/pregnancy_kit",
+                routes: []
+            },
+            {
+                text: "Welfare Request",
+                url: "/welfare/welfare_request",
+                routes: []
+            }
+        ]
+    },
+    {
+        text: "Societies",
+        icon: "rowing",
+        url: "/societies",
+        routes: itemsForContent("societies")
+    },
+    {
+        text: "Room database",
+        icon: "location_city",
+        url: "/room_locations",
+        routes: itemsForContent("room_locations")
+    },
+    {
+        text: "Info",
+        icon: "info",
+        url: "/info",
+        routes: itemsForContent("info")
+    }
+]
+
+const flatMap = (arr, f) => [].concat.apply([], arr.map(f))
+export const routes = flatMap(navItems, (x => [
+    x,
+    ...x.routes
+
+])).concat(
+    itemsForContent("rooms"),
+    itemsForContent("whatson"),
+    itemsForContent("posts"))
+
 export async function resolveImage(image, alt) {
 
     if (image == null) return null;

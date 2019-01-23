@@ -2,7 +2,7 @@
 const express = require('express');
 const { ApolloServer, gql } = require('apollo-server-express');
 import content from './content'
-import { resolveImage } from './content'
+import { resolveImage, navItems, routes } from './content'
 import image from './image';
 
 const typeDefs = gql`
@@ -11,6 +11,15 @@ const typeDefs = gql`
       srcSet: String
       placeholder: String
       alt: String
+    }
+    type Route{
+      url: String
+    }
+    type NavItem  {
+      text: String
+      icon : String
+      url : String
+      routes: [Route]
     }
     type TextCard{
       title: String
@@ -96,6 +105,8 @@ const typeDefs = gql`
       rooms: [Room]
     }
     type Query {
+      routes: [Route]
+      navItems: [NavItem]
       homePage: HomePage
       whatsOn(slug:String!): WhatsOnEvent
       whatsOnEvents: [WhatsOnEvent]
@@ -158,6 +169,8 @@ const resolvers = {
     pubDate: obj => obj.pubdate.toString()
   },
   Query: {
+    routes: obj => routes,
+    navItems: obj => navItems,
     homePage: obj => content("pages", "home"),
     whatsOn: (obj, args) => content("whatson", args.slug),
     whatsOnEvents: obj => content("whatson"),
