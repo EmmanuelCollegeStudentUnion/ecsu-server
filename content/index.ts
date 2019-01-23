@@ -97,12 +97,12 @@ export const navItems = [
         url: "/members",
         routes: [
             {
-                text: "Minutes",
+                title: "Minutes",
                 url: "/members/minutes",
                 routes: []
             },
             {
-                text: "Official Documents",
+                title: "Official Documents",
                 url: "/members/official_documents",
                 routes: []
             }
@@ -127,12 +127,12 @@ export const navItems = [
         routes: [
             ...itemsForContent("welfare"),
             {
-                text: "Pregnancy Kit",
+                title: "Pregnancy Kit",
                 url: "/welfare/pregnancy_kit",
                 routes: []
             },
             {
-                text: "Welfare Request",
+                title: "Welfare Request",
                 url: "/welfare/welfare_request",
                 routes: []
             }
