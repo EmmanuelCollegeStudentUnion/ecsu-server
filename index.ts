@@ -89,6 +89,7 @@ const typeDefs = gql`
       body: String
     }
     type Room{
+      id: String!
       title:String
       grade: Int
       images: [Image]
