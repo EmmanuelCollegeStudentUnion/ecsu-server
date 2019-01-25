@@ -92,6 +92,7 @@ const typeDefs = gql`
       id: String!
       title:String
       grade: Int
+      hasImages: Boolean
       images: [Image]
       network: String
       basin: String
@@ -167,6 +168,7 @@ const resolvers = {
     livingRoom: obj => obj['living_room'],
     comments: obj => content("room_comments").then(result => result.filter(x => x.title == obj.title)),
     images: obj => obj.images.map(x => resolveImage(x, obj.title)),
+    hasImages: obj => obj.images.length > 0,
     location: obj => content("room_locations").then(locations => locations.find(x => x.title == obj.location))
   },
   RoomLocation: {
