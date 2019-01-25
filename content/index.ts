@@ -63,7 +63,7 @@ export default async (contentType, contentSlug: string = "") => {
             type: contentType
         }
     } else {
-        return Object.values(mapping[contentType]).map(content => ({
+        return Object.entries(mapping[contentType]).map(([contentSlug, content]) => ({
             ...content,
             id: contentSlug,
             body: content['__content'],
