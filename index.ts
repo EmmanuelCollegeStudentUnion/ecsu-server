@@ -5,9 +5,16 @@ import content from './content'
 import { resolveImage, navItems, routes } from './content'
 import image from './image';
 import fs from 'fs-extra';
-
+import passport from 'passport'
+import RavenStrategy from 'passport-raven'
+import { Strategy as JWTstrategy, ExtractJwt } from 'passport-jwt'
+import jwt from 'jsonwebtoken';
+import AnonymousStrategy from 'passport-anonymous';
 
 const typeDefs = gql`
+    type User{
+      crsid: String
+    }
     type Image{
       src: String
       srcSet: String
@@ -111,6 +118,7 @@ const typeDefs = gql`
       rooms: [Room]
     }
     type Query {
+      user: User
       routes: [Route]
       navItems: [NavItem]
       homePage: HomePage
@@ -201,6 +209,7 @@ const resolvers = {
     roomLocations: obj => content("room_locations"),
     roomLocation: (obj, args) => content("room_locations", args.slug),
     room: (obj, args) => content("rooms", args.slug),
+    user: (obj, args, context) => context.user
   },
   Mutation: {
     async roomPhotoUpload(parent, args) {
@@ -214,9 +223,52 @@ const resolvers = {
   }
 };
 
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({
+  typeDefs, resolvers,
+  context: ({ req }) => ({
+    user: req.user
+  }),
+});
 
 const app = express();
+
+
+passport.use(new RavenStrategy({
+  desc: 'ECSU',
+  audience: 'https://ecsu.org.uk'
+}, function (crsid, params, callback) {
+  // You can skip this check if you want to support ex students and staff as well
+  if (params.isCurrent) {
+    return callback(null, { id: crsid });
+  } else {
+    return callback(new Error('My Raven application is only for current students and staff'));
+  }
+}));
+passport.use(new AnonymousStrategy());
+passport.use(new JWTstrategy({
+  //secret we used to sign our JWT
+  secretOrKey: 'top_secret',
+  jwtFromRequest: ExtractJwt.fromExtractors([ExtractJwt.fromAuthHeaderAsBearerToken(), ExtractJwt.fromUrlQueryParameter('auth')]
+}, async (token, done) => {
+    try {
+      //Pass the user details to the next middleware
+      return done(null, { crsid: token.crsid });
+    } catch (error) {
+      done(null, {});
+    }
+  }));
+
+app.use(passport.initialize())
+app.use('/graphql', passport.authenticate(['jwt', 'anonymous'], { session: false }))
+app.get('/token',
+  passport.authorize('raven'), (req, res, next) => {
+    const token = jwt.sign({ crsid: req.account.id }, 'top_secret');
+    //Send back the token to the user
+    return res.json({ token });
+  });
+
+
+
 server.applyMiddleware({ app });
 app.get('/image/:folder/:file(*)', (req, res, next) => {
   res.type('image/png');
