@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "prod": "yarn pm2 startOrRestart package.json --env production"
+    "prod": "pm2 startOrRestart package.json --env production"
   },
   "dependencies": {
     "apollo-server-express": "^2.3.1",
