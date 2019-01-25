@@ -169,11 +169,21 @@ export const routes = flatMap(navItems, (x => [
     itemsForContent("whatson"),
     itemsForContent("posts"))
 
+const lqipCache = {}
+function memoizedLqip(filename) {
+    if (!(filename in lqipCache)) {
+        lqipCache[filename] = lqip.base64(filename)
+        return null
+    } else {
+        return lqipCache[filename]
+    }
+}
+
 export async function resolveImage(image: string, alt) {
     if (image == null) return null;
     const asset = image.match(`\/assets\/images\/(.*)\/(.*)`);
     if (asset && asset[1] && asset[2]) {
-        const placeholder: string = await lqip.base64(`./assets/images/${asset[1]}/${asset[2]}`)
+        const placeholder = memoizedLqip(`./assets/images/${asset[1]}/${asset[2]}`)
         return {
             src: image.replace('/assets/images/', 'https://nh487.user.srcf.net/api/image/'),
             placeholder: placeholder,
