@@ -3,6 +3,7 @@ import * as yamlFront from 'yaml-front-matter'
 import glob from 'glob';
 import url from 'url';
 import fs from 'fs';
+import lqip from 'lqip'
 
 function itemsForContent(contentType) {
     const paths = glob.sync(`./content/${contentType}/*.md`)
@@ -168,8 +169,17 @@ export const routes = flatMap(navItems, (x => [
     itemsForContent("whatson"),
     itemsForContent("posts"))
 
-export async function resolveImage(image, alt) {
-
+export async function resolveImage(image: string, alt) {
     if (image == null) return null;
-    return { src: image.replace('/assets/images/', 'https://nh487.user.srcf.net/api/image/'), alt };
+    const asset = image.match(`\/assets\/images\/(.*)\/(.*)`);
+    if (asset && asset[1] && asset[2]) {
+        const placeholder: string = await lqip.base64(`./assets/images/${asset[1]}/${asset[2]}`)
+        return {
+            src: image.replace('/assets/images/', 'https://nh487.user.srcf.net/api/image/'),
+            placeholder: placeholder,
+            alt
+        }
+    } else {
+        return { src: image, alt };
+    }
 }
