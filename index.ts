@@ -248,15 +248,15 @@ passport.use(new AnonymousStrategy());
 passport.use(new JWTstrategy({
   //secret we used to sign our JWT
   secretOrKey: 'top_secret',
-  jwtFromRequest: ExtractJwt.fromExtractors([ExtractJwt.fromAuthHeaderAsBearerToken(), ExtractJwt.fromUrlQueryParameter('auth')]
+  jwtFromRequest: ExtractJwt.fromExtractors([ExtractJwt.fromAuthHeaderAsBearerToken(), ExtractJwt.fromUrlQueryParameter('auth')])
 }, async (token, done) => {
-    try {
-      //Pass the user details to the next middleware
-      return done(null, { crsid: token.crsid });
-    } catch (error) {
-      done(null, {});
-    }
-  }));
+  try {
+    //Pass the user details to the next middleware
+    return done(null, { crsid: token.crsid });
+  } catch (error) {
+    done(null, {});
+  }
+}));
 
 app.use(passport.initialize())
 app.use('/graphql', passport.authenticate(['jwt', 'anonymous'], { session: false }))
