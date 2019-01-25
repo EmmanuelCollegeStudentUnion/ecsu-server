@@ -20,6 +20,7 @@
     "lqip": "^2.1.0",
     "md5": "^2.2.1",
     "passport": "^0.4.0",
+    "passport-anonymous": "^1.0.1",
     "passport-jwt": "^4.0.0",
     "passport-raven": "^1.1.2",
     "yaml-front-matter": "^4.0.0"
