@@ -2,7 +2,7 @@
 const express = require('express');
 import glob from 'glob';
 const { ApolloServer, gql } = require('apollo-server-express');
-import content from './content'
+import content, { roomDatabaseImages } from './content'
 import { resolveImage, navItems, routes } from './content'
 import image from './image';
 import fs from 'fs-extra';
@@ -177,12 +177,8 @@ const resolvers = {
   Room: {
     livingRoom: obj => obj['living_room'],
     comments: obj => content("room_comments").then(result => result.filter(x => x.title == obj.title)),
-    images: obj => {
-      const paths = glob.sync(`./user_uploads/room_database/${obj.id}/*.{jpg,png,jpeg}`)
-      return obj.images.map(x => resolveImage(x, obj.title)).concat(
-        paths.map(src => ({ src: src.replace('./user_uploads', 'https://nh487.user.srcf.net/api/user_uploads'), alt: obj.title })))
-    },
-    hasImages: obj => obj.images.length > 0,
+    images: obj => roomDatabaseImages(obj),
+    hasImages: obj => roomDatabaseImages(obj).length > 0,
     location: obj => content("room_locations").then(locations => locations.find(x => x.title == obj.location))
   },
   RoomLocation: {
@@ -291,7 +287,7 @@ app.get('/image/:folder/:file(*)', (req, res, next) => {
 
 app.get('/user_uploads/room_database/:folder/:file(*)', (req, res, next) => {
   res.type('image/png');
-  const stream = image(`/user_uploads/room_database/${req.params.folder}/${req.params.file}`, 0, 0, 0);
+  const stream = image(`./user_uploads/room_database/${req.params.folder}/${req.params.file}`, 0, 0, 0);
   stream.on('error', next).pipe(res);
 })
 

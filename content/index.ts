@@ -193,3 +193,10 @@ export async function resolveImage(image: string, alt) {
         return { src: image, alt };
     }
 }
+
+
+export function roomDatabaseImages(obj) {
+    const paths = glob.sync(`./user_uploads/room_database/${obj.id}/*.{jpg,png,jpeg}`)
+    return obj.images.map(x => resolveImage(x, obj.title)).concat(
+        paths.map(src => ({ src: src.replace('./user_uploads', 'https://nh487.user.srcf.net/api/user_uploads'), alt: obj.title })))
+}
