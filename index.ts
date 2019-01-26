@@ -1,7 +1,7 @@
 
 const express = require('express');
 import glob from 'glob';
-const { ApolloServer, gql } = require('apollo-server-express');
+import { ApolloServer, gql } from 'apollo-server-express';
 import content, { roomDatabaseImages } from './content'
 import { resolveImage, navItems, routes } from './content'
 import image from './image';
@@ -227,10 +227,14 @@ const resolvers = {
 };
 
 const server = new ApolloServer({
+  uploads: {
+    maxFileSize: 100000000
+  },
   typeDefs, resolvers,
   context: ({ req }) => ({
     user: req.user
   }),
+
 });
 
 const app = express();
