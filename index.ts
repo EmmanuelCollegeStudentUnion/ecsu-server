@@ -228,7 +228,7 @@ const resolvers = {
 
 const server = new ApolloServer({
   uploads: {
-    maxFileSize: 100000000
+    maxFileSize: 100000000000000
   },
   typeDefs, resolvers,
   context: ({ req }) => ({
