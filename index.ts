@@ -1,5 +1,6 @@
 
 const express = require('express');
+import glob from 'glob';
 const { ApolloServer, gql } = require('apollo-server-express');
 import content from './content'
 import { resolveImage, navItems, routes } from './content'
@@ -176,7 +177,11 @@ const resolvers = {
   Room: {
     livingRoom: obj => obj['living_room'],
     comments: obj => content("room_comments").then(result => result.filter(x => x.title == obj.title)),
-    images: obj => obj.images.map(x => resolveImage(x, obj.title)),
+    images: obj => {
+      const paths = glob.sync(`./user_uploads/room_database/${obj.id}/*.{jpg,png,jpeg}`)
+      return obj.images.map(x => resolveImage(x, obj.title)).concat(
+        paths.map(src => ({ src: src.replace('./user_uploads', 'https://nh487.user.srcf.net/api/user_uploads'), alt: obj.title })))
+    },
     hasImages: obj => obj.images.length > 0,
     location: obj => content("room_locations").then(locations => locations.find(x => x.title == obj.location))
   },
@@ -213,12 +218,13 @@ const resolvers = {
     user: (obj, args, context) => context.user
   },
   Mutation: {
-    async roomPhotoUpload(parent, args) {
+    async roomPhotoUpload(parent, args, context) {
       const { createReadStream, filename, mimetype, encoding } = await args.file;
       await fs.mkdirp(`./user_uploads`);
       await fs.mkdirp(`./user_uploads/room_database`);
       await fs.mkdirp(`./user_uploads/room_database/${args.roomSlug}/`);
-      createReadStream().pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename}`))
+      createReadStream().pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}`))
+      await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}.json`, { user: context.user })
       return {};
     }
   }
@@ -234,7 +240,7 @@ const server = new ApolloServer({
 const app = express();
 
 //CORS
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
