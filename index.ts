@@ -99,6 +99,7 @@ const typeDefs = gql`
       id: String!
       title:String
       grade: Int
+      name: String
       hasImages: Boolean
       images: [Image]
       network: String
