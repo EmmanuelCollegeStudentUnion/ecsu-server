@@ -185,7 +185,7 @@ export async function resolveImage(image: string, alt) {
     if (asset && asset[1] && asset[2]) {
         const placeholder = memoizedLqip(`./assets/images/${asset[1]}/${asset[2]}`)
         return {
-            src: image.replace('/assets/images/', 'https://nh487.user.srcf.net/api/image/'),
+            src: image.replace('/assets/images/', 'https://ecsu.org.uk/api/image/'),
             placeholder: placeholder,
             alt
         }
@@ -198,5 +198,5 @@ export async function resolveImage(image: string, alt) {
 export function roomDatabaseImages(obj) {
     const paths = glob.sync(`./user_uploads/room_database/${obj.id}/*.{jpg,png,jpeg}`)
     return obj.images.map(x => resolveImage(x, obj.title)).concat(
-        paths.map(src => ({ src: src.replace('./user_uploads', 'https://nh487.user.srcf.net/api/user_uploads'), alt: obj.title })))
+        paths.map(src => ({ src: src.replace('./user_uploads', 'https://ecsu.org.uk/api/user_uploads'), alt: obj.title })))
 }
