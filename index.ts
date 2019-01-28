@@ -1,5 +1,5 @@
 
-const express = require('express');
+import express from 'express';
 import glob from 'glob';
 import { ApolloServer, gql } from 'apollo-server-express';
 import content, { roomDatabaseImages } from './content'
@@ -11,6 +11,7 @@ import RavenStrategy from 'passport-raven'
 import { Strategy as JWTstrategy, ExtractJwt } from 'passport-jwt'
 import jwt from 'jsonwebtoken';
 import AnonymousStrategy from 'passport-anonymous';
+import rssfeed from './rssfeed';
 
 const typeDefs = gql`
     type User{
@@ -295,6 +296,8 @@ app.get('/user_uploads/room_database/:folder/:file(*)', (req, res, next) => {
   const stream = image(`./user_uploads/room_database/${req.params.folder}/${req.params.file}`, 0, 0, 0);
   stream.on('error', next).pipe(res);
 })
+
+app.get('/whatson.xml', rssfeed)
 
 app.listen({ port: 3254 }, () =>
   console.log(`🚀 Server ready at http://localhost:3254${server.graphqlPath}`)
