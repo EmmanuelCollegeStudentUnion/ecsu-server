@@ -9,7 +9,7 @@ function itemsForContent(contentType) {
     const paths = glob.sync(`./content/${contentType}/*.md`)
     return paths
         .map(filename => {
-            const slug = filename.match(`^./content/${contentType}\/(.*)\.md`);
+            const slug = filename.match(`^./content/${contentType}\/(.*)\.md`)!;
             const urlText = url.resolve(`/${contentType}/`, slug[1]);
             const file = fs.readFileSync(filename, "utf8");
             const content = yamlFront.loadFront(file);
@@ -159,7 +159,7 @@ export const navItems = [
     }
 ]
 
-const flatMap = (arr, f) => [].concat.apply([], arr.map(f))
+const flatMap = (arr: Array<any>, f) => ([] as Array<any>).concat(...arr.map(f))
 export const routes = flatMap(navItems, (x => [
     x,
     ...x.routes
