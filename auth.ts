@@ -7,7 +7,7 @@ import passport from 'passport'
 
 passport.use(new RavenStrategy({
     desc: 'ECSU',
-    audience: 'https://ecsu.org.uk'
+    audience: 'https://ecsu.org.uk/api/protected'
 }, function (crsid, params, callback) {
     // You can skip this check if you want to support ex students and staff as well
     if (params.isCurrent) {
@@ -30,9 +30,19 @@ passport.use(new JWTstrategy({
     }
 }));
 
+function rewriteUrl(url) {
+    return function (req, res, next) {
+
+        next()
+    }
+}
+
 export default function applyAuthMiddleware(app) {
     app.use(passport.initialize())
     app.use('/graphql', passport.authenticate(['jwt', 'anonymous'], { session: false }))
+    app.use('/protected', passport.authenticate(['jwt', 'raven'], {
+        session: false
+    }))
     app.get('/token',
         passport.authorize('raven'), (req, res, next) => {
             const token = jwt.sign({ crsid: req.account.id }, 'top_secret');
