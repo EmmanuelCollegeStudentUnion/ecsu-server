@@ -10,13 +10,13 @@ export async function minutes() {
         const filename = urlPath[2]
         if (fs.pathExistsSync(path + '.json')) {
             return {
-                url: `/${year}/${filename}.pdf`,
+                url: `/api/protected/minutes/${year}/${filename}.pdf`,
                 ...await fs.readJSON(path + '.json')
             }
         }
         else {
             return {
-                url: `/${year}/${filename}.pdf`,
+                url: `/api/protected/minutes/${year}/${filename}.pdf`,
                 year
             }
         }
@@ -25,7 +25,7 @@ export async function minutes() {
 
 
 export default function applyMinutesMiddleware(app) {
-    app.use('/user_uploads/minutes/', express.static('user_uploads/minutes'))
+    app.use('/protected/minutes/', express.static('user_uploads/minutes'))
 }
 
 
