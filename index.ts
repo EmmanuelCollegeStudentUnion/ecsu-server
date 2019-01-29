@@ -12,6 +12,7 @@ import { Strategy as JWTstrategy, ExtractJwt } from 'passport-jwt'
 import jwt from 'jsonwebtoken';
 import AnonymousStrategy from 'passport-anonymous';
 import rssfeed from './rssfeed';
+import applyMinutesMiddleware, { minutes } from './minutes';
 
 const typeDefs = gql`
     type User{
@@ -32,6 +33,13 @@ const typeDefs = gql`
       icon : String
       url : String
       routes: [Route]
+    }
+    type Minutes{
+      url: String
+      type: String
+      number: Int
+      year: Int
+      term: String
     }
     type TextCard{
       title: String
@@ -121,6 +129,7 @@ const typeDefs = gql`
       rooms: [Room]
     }
     type Query {
+      minutes: [Minutes]
       user: User
       routes: [Route]
       navItems: [NavItem]
@@ -193,6 +202,7 @@ const resolvers = {
   Query: {
     routes: obj => routes,
     navItems: obj => navItems,
+    minutes: obj => minutes(),
     homePage: obj => content("pages", "home"),
     whatsOn: (obj, args) => content("whatson", args.slug),
     whatsOnEvents: obj => content("whatson"),
@@ -285,6 +295,7 @@ app.get('/token',
 
 
 server.applyMiddleware({ app });
+applyMinutesMiddleware(app);
 app.get('/image/:folder/:file(*)', (req, res, next) => {
   res.type('image/png');
   const stream = image(`./assets/images/${req.params.folder}/${req.params.file}`, 0, 0, 0);

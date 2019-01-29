@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "@types/fs-extra": "^5.0.4",
+    "@types/glob": "^7.1.1",
     "@types/graphql": "^14.0.5",
     "pm2": "^3.2.9",
     "typescript": "^3.2.4"
