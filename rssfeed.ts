@@ -29,8 +29,12 @@ async function getFeed() {
 
 const feedPromise = getFeed();
 
-export default async function (req: Request, res: Response) {
+async function rssfeed(req: Request, res: Response) {
     const feed = await feedPromise;
     res.type('text/xml');
     res.send(feed.rss2())
+}
+
+export default function applyRssFeedMiddleware(app) {
+    app.get('/whatson.xml', rssfeed)
 }
