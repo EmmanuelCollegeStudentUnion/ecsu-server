@@ -30,13 +30,6 @@ passport.use(new JWTstrategy({
     }
 }));
 
-function rewriteUrl(url) {
-    return function (req, res, next) {
-
-        next()
-    }
-}
-
 export default function applyAuthMiddleware(app) {
     app.use(passport.initialize())
     app.use('/graphql', passport.authenticate(['jwt', 'anonymous'], { session: false }))
