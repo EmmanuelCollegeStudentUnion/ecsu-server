@@ -1,6 +1,5 @@
 import glob from 'glob'
 import fs from 'fs-extra'
-import { Request, Response } from 'express';
 import express from 'express'
 export async function minutes() {
     const paths = glob.sync(`./user_uploads/minutes/**/*.pdf`);
@@ -25,6 +24,10 @@ export async function minutes() {
 
 
 export default function applyMinutesMiddleware(app) {
+    app.use('/protected/minutes/', function (req, res, next) {
+        res.header("Content-Disposition", "attachment");
+        next();
+    });
     app.use('/protected/minutes/', express.static('user_uploads/minutes'))
 }
 
