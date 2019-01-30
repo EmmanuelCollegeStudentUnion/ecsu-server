@@ -8,6 +8,7 @@ import { minutes } from './minutes';
 
 const typeDefs = gql`
 type User{
+  anonymous: Boolean
   crsid: String
 }
 type Image{
@@ -153,95 +154,95 @@ type Mutation {
 // Resolvers define the technique for fetching the types in the
 // schema. 
 const resolvers = {
-    ImageCaptionCard: {
-        image: obj => resolveImage(obj.image, obj.title)
-    },
-    HomePage: {
-        ecsuDoes: obj => obj['ecsu_does'],
-        whatsHere: obj => obj['whats_here'],
-    },
-    Exec: {
-        image: obj => resolveImage(obj.image, obj.name),
-        messagingUrl: obj => obj['messaging-url']
-    },
-    Society: {
-        image: obj => resolveImage(obj.image, obj.title)
-    },
-    InfoPage: {},
-    Post: {
-        image: obj => resolveImage(obj.image, obj.title),
-        blog: obj => content("blogs").then(result => result.find(x => x.title == obj.blog))
-    },
-    Blog: {
-        posts: obj => content("posts").then(result => result.filter(x => x.blog == obj.title))
-    },
-    Comment: {},
-    Room: {
-        livingRoom: obj => obj['living_room'],
-        comments: obj => content("room_comments").then(result => result.filter(x => x.title == obj.title)),
-        images: obj => roomDatabaseImages(obj),
-        hasImages: obj => roomDatabaseImages(obj).length > 0,
-        location: obj => content("room_locations").then(locations => locations.find(x => x.title == obj.location))
-    },
-    RoomLocation: {
-        image: obj => resolveImage(obj.image, obj.title),
-        rooms: obj => content("rooms").then(result => result.filter(x => x.location == obj.title))
-    },
-    WhatsOnEvent: {
-        image: obj => resolveImage(obj.image, obj.title),
-        pubDate: obj => obj.pubdate.toString()
-    },
-    Query: {
-        routes: obj => routes,
-        navItems: obj => navItems,
-        minutes: obj => minutes(),
-        homePage: obj => content("pages", "home"),
-        whatsOn: (obj, args) => content("whatson", args.slug),
-        whatsOnEvents: obj => content("whatson"),
-        exec: (obj, args) => content("exec", args.slug),
-        execs: obj => content("exec"),
-        society: (obj, args) => content("societies", args.slug),
-        societies: obj => content("societies"),
-        welfarePage: (obj, args) => content("welfare", args.slug),
-        welfarePages: obj => content("welfare"),
-        infoPage: (obj, args) => content("info", args.slug),
-        infoPages: obj => content("info"),
-        prospectivePage: (obj, args) => content("prospective", args.slug),
-        prospectivePages: obj => content("prospective"),
-        blog: (obj, args) => content("blogs", args.slug),
-        blogs: obj => content("blogs"),
-        post: (obj, args) => content("posts", args.slug),
-        roomLocations: obj => content("room_locations"),
-        roomLocation: (obj, args) => content("room_locations", args.slug),
-        room: (obj, args) => content("rooms", args.slug),
-        user: (obj, args, context) => context.user
-    },
-    Mutation: {
-        async roomPhotoUpload(parent, args, context) {
-            const { createReadStream, filename, mimetype, encoding } = await args.file;
-            await fs.mkdirp(`./user_uploads`);
-            await fs.mkdirp(`./user_uploads/room_database`);
-            await fs.mkdirp(`./user_uploads/room_database/${args.roomSlug}/`);
-            const stream = createReadStream().pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}`))
-            await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}.json`, { user: context.user })
-            await new Promise(fulfill => stream.on("finish", fulfill));
-            return {};
-        }
+  ImageCaptionCard: {
+    image: obj => resolveImage(obj.image, obj.title)
+  },
+  HomePage: {
+    ecsuDoes: obj => obj['ecsu_does'],
+    whatsHere: obj => obj['whats_here'],
+  },
+  Exec: {
+    image: obj => resolveImage(obj.image, obj.name),
+    messagingUrl: obj => obj['messaging-url']
+  },
+  Society: {
+    image: obj => resolveImage(obj.image, obj.title)
+  },
+  InfoPage: {},
+  Post: {
+    image: obj => resolveImage(obj.image, obj.title),
+    blog: obj => content("blogs").then(result => result.find(x => x.title == obj.blog))
+  },
+  Blog: {
+    posts: obj => content("posts").then(result => result.filter(x => x.blog == obj.title))
+  },
+  Comment: {},
+  Room: {
+    livingRoom: obj => obj['living_room'],
+    comments: obj => content("room_comments").then(result => result.filter(x => x.title == obj.title)),
+    images: obj => roomDatabaseImages(obj),
+    hasImages: obj => roomDatabaseImages(obj).length > 0,
+    location: obj => content("room_locations").then(locations => locations.find(x => x.title == obj.location))
+  },
+  RoomLocation: {
+    image: obj => resolveImage(obj.image, obj.title),
+    rooms: obj => content("rooms").then(result => result.filter(x => x.location == obj.title))
+  },
+  WhatsOnEvent: {
+    image: obj => resolveImage(obj.image, obj.title),
+    pubDate: obj => obj.pubdate.toString()
+  },
+  Query: {
+    routes: obj => routes,
+    navItems: obj => navItems,
+    minutes: obj => minutes(),
+    homePage: obj => content("pages", "home"),
+    whatsOn: (obj, args) => content("whatson", args.slug),
+    whatsOnEvents: obj => content("whatson"),
+    exec: (obj, args) => content("exec", args.slug),
+    execs: obj => content("exec"),
+    society: (obj, args) => content("societies", args.slug),
+    societies: obj => content("societies"),
+    welfarePage: (obj, args) => content("welfare", args.slug),
+    welfarePages: obj => content("welfare"),
+    infoPage: (obj, args) => content("info", args.slug),
+    infoPages: obj => content("info"),
+    prospectivePage: (obj, args) => content("prospective", args.slug),
+    prospectivePages: obj => content("prospective"),
+    blog: (obj, args) => content("blogs", args.slug),
+    blogs: obj => content("blogs"),
+    post: (obj, args) => content("posts", args.slug),
+    roomLocations: obj => content("room_locations"),
+    roomLocation: (obj, args) => content("room_locations", args.slug),
+    room: (obj, args) => content("rooms", args.slug),
+    user: (obj, args, context) => context.user
+  },
+  Mutation: {
+    async roomPhotoUpload(parent, args, context) {
+      const { createReadStream, filename, mimetype, encoding } = await args.file;
+      await fs.mkdirp(`./user_uploads`);
+      await fs.mkdirp(`./user_uploads/room_database`);
+      await fs.mkdirp(`./user_uploads/room_database/${args.roomSlug}/`);
+      const stream = createReadStream().pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}`))
+      await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}.json`, { user: context.user })
+      await new Promise(fulfill => stream.on("finish", fulfill));
+      return {};
     }
+  }
 };
 
 const server = new ApolloServer({
-    uploads: {
-        maxFileSize: 100000000000000
-    },
-    typeDefs, resolvers,
-    context: ({ req }) => ({
-        user: req.user
-    }),
+  uploads: {
+    maxFileSize: 100000000000000
+  },
+  typeDefs, resolvers,
+  context: ({ req }) => ({
+    user: req.user ? { anonymous: false, ...req.user } : { anonymous: true }
+  }),
 
 });
 
 export default function applyGraphqlMiddleware(app) {
 
-    server.applyMiddleware({ app });
+  server.applyMiddleware({ app });
 }
