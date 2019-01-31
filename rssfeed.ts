@@ -1,6 +1,10 @@
 import itemsForContent from './content'
 import { Feed } from 'feed'
 import { Request, Response } from 'express';
+import showdown from 'showdown';
+const converter = new showdown.Converter({
+    simplifiedAutoLink: true
+})
 
 
 async function getFeed() {
@@ -15,13 +19,14 @@ async function getFeed() {
 
     });
     (await itemsForContent("whatson")).forEach(item => {
+        const html = converter.makeHtml(item['__content'])
         feed.addItem({
             title: item.title,
             id: item.url,
             link: `https://ecsu.org.uk${item.url}`,
             date: item.pubDate,
             description: item.description,
-            content: item['__content']
+            content: html
         })
     })
     return feed;
