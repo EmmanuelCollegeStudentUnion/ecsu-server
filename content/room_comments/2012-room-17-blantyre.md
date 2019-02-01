@@ -1,6 +1,0 @@
----
-title: Room 17, Blantyre
-year: '2012'
----
-
-This room is on the first floor in a more modern extension, behind the older houses.  The common-room is just downstairs, which is good, but the doors can easily block out the sound if essays beckon.  The window faces south-west, so for much of the day the sun makes the room light, but also very warm.  In fact, the room heats up very easily in general for a reason which is persistently elusive:  I have had the window open even in winter.  The sink is a point in the room’s favour, despite the hot tap’s frequent seven- or eight- minute long refusals to dispense hot water (a problem in the whole extension).  As has been mentioned, the wall on one side is thin enough to hear coughs, music and reactions to Middlesbrough matches, so some mutual sensitivity is required between neighbours.  There is a sizeable wardrobe.  The internet connection has recently been vastly improved (it is now on the College network).  It is slightly larger than room no. 16 next door, but not as large as no. 15, and has not really enough space to entertain many guests.  The various disadvantages are not catastrophic, however; this room is cosy and economical and I have been happy.
