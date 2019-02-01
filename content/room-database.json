@@ -3170,7 +3170,7 @@
     },
     {
       "Room": "58WS.1",
-      "Title": "1, 58 Warkworth Street",
+      "Title": "Room 1, 58 Warkworth Street",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3201,12 +3201,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "1",
-      "slug": "1-58-warkworth-street"
+      "Name": 1,
+      "slug": "room-1-58-warkworth-street"
     },
     {
       "Room": "58WS.2",
-      "Title": "2, 58 Warkworth Street",
+      "Title": "Room 2, 58 Warkworth Street",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3237,12 +3237,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "2",
-      "slug": "2-58-warkworth-street"
+      "Name": 2,
+      "slug": "room-2-58-warkworth-street"
     },
     {
       "Room": "58WS.3",
-      "Title": "3, 58 Warkworth Street",
+      "Title": "Room 3, 58 Warkworth Street",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3273,12 +3273,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "3",
-      "slug": "3-58-warkworth-street"
+      "Name": 3,
+      "slug": "room-3-58-warkworth-street"
     },
     {
       "Room": "58WS.4",
-      "Title": "4, 58 Warkworth Street",
+      "Title": "Room 4, 58 Warkworth Street",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3309,12 +3309,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "4",
-      "slug": "4-58-warkworth-street"
+      "Name": 4,
+      "slug": "room-4-58-warkworth-street"
     },
     {
       "Room": "58WS.5",
-      "Title": "5, 58 Warkworth Street",
+      "Title": "Room 5, 58 Warkworth Street",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3345,12 +3345,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "5",
-      "slug": "5-58-warkworth-street"
+      "Name": 5,
+      "slug": "room-5-58-warkworth-street"
     },
     {
       "Room": "58WS.6",
-      "Title": "6, 58 Warkworth Street",
+      "Title": "Room 6, 58 Warkworth Street",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3381,12 +3381,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "6",
-      "slug": "6-58-warkworth-street"
+      "Name": 6,
+      "slug": "room-6-58-warkworth-street"
     },
     {
       "Room": "58WS.7",
-      "Title": "7, 58 Warkworth Street",
+      "Title": "Room 7, 58 Warkworth Street",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3417,12 +3417,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "7",
-      "slug": "7-58-warkworth-street"
+      "Name": 7,
+      "slug": "room-7-58-warkworth-street"
     },
     {
       "Room": "58WS.8",
-      "Title": "8, 58 Warkworth Street",
+      "Title": "Room 8, 58 Warkworth Street",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3453,12 +3453,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "8",
-      "slug": "8-58-warkworth-street"
+      "Name": 8,
+      "slug": "room-8-58-warkworth-street"
     },
     {
       "Room": "59WS.1",
-      "Title": "1, 59 Warkworth Street",
+      "Title": "Room 1, 59 Warkworth Street",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3489,12 +3489,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "1",
-      "slug": "1-59-warkworth-street"
+      "Name": 1,
+      "slug": "room-1-59-warkworth-street"
     },
     {
       "Room": "59WS.2",
-      "Title": "2, 59 Warkworth Street",
+      "Title": "Room 2, 59 Warkworth Street",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3525,12 +3525,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "2",
-      "slug": "2-59-warkworth-street"
+      "Name": 2,
+      "slug": "room-2-59-warkworth-street"
     },
     {
       "Room": "59WS.3",
-      "Title": "3, 59 Warkworth Street",
+      "Title": "Room 3, 59 Warkworth Street",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3561,12 +3561,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "3",
-      "slug": "3-59-warkworth-street"
+      "Name": 3,
+      "slug": "room-3-59-warkworth-street"
     },
     {
       "Room": "59WS.4",
-      "Title": "4, 59 Warkworth Street",
+      "Title": "Room 4, 59 Warkworth Street",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3597,12 +3597,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "4",
-      "slug": "4-59-warkworth-street"
+      "Name": 4,
+      "slug": "room-4-59-warkworth-street"
     },
     {
       "Room": "59WS.5",
-      "Title": "5, 59 Warkworth Street",
+      "Title": "Room 5, 59 Warkworth Street",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3633,12 +3633,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "5",
-      "slug": "5-59-warkworth-street"
+      "Name": 5,
+      "slug": "room-5-59-warkworth-street"
     },
     {
       "Room": "59WS.6",
-      "Title": "6, 59 Warkworth Street",
+      "Title": "Room 6, 59 Warkworth Street",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3669,12 +3669,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "6",
-      "slug": "6-59-warkworth-street"
+      "Name": 6,
+      "slug": "room-6-59-warkworth-street"
     },
     {
       "Room": "59WS.7",
-      "Title": "7, 59 Warkworth Street",
+      "Title": "Room 7, 59 Warkworth Street",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3705,8 +3705,8 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "7",
-      "slug": "7-59-warkworth-street"
+      "Name": 7,
+      "slug": "room-7-59-warkworth-street"
     },
     {
       "Room": "59WS.BM",
