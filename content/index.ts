@@ -2,7 +2,7 @@ import compare from './compare'
 import * as yamlFront from 'yaml-front-matter'
 import glob from 'glob';
 import url from 'url';
-import fs from 'fs';
+import fs from 'fs-extra';
 import lqip from 'lqip'
 
 function itemsForContent(contentType) {
@@ -23,6 +23,8 @@ function itemsForContent(contentType) {
         }).sort(compare)
 }
 
+const roomDatabase = fs.readJSONSync('./content/room-database.json')
+
 const content = {
     'blogs': itemsForContent(`blogs`),
     'exec': itemsForContent(`exec`),
@@ -30,12 +32,14 @@ const content = {
     'pages': itemsForContent(`pages`),
     'posts': itemsForContent(`posts`),
     'prospective': itemsForContent(`prospective`),
-    'room_comments': itemsForContent(`room_comments`),
     'room_locations': itemsForContent(`room_locations`),
-    'rooms': itemsForContent(`rooms`),
     'societies': itemsForContent(`societies`),
     'welfare': itemsForContent(`welfare`),
     'whatson': itemsForContent(`whatson`),
+    'rooms': roomDatabase['Rooms'].sort((a, b) => compare({ title: a["Title"] }, { title: b["Title"] })),
+    'room_comments': roomDatabase['Comments'],
+    'room_images': roomDatabase['Images'],
+
 }
 
 function filename(filepath) {
@@ -197,6 +201,6 @@ export async function resolveImage(image: string, alt) {
 
 export function roomDatabaseImages(obj) {
     const paths = glob.sync(`./user_uploads/room_database/${obj.id}/*.{jpg,png,jpeg}`)
-    return obj.images.map(x => resolveImage(x, obj.title)).concat(
-        paths.map(src => ({ src: src.replace('./user_uploads', 'https://ecsu.org.uk/api/user_uploads'), alt: obj.title })))
+    return roomDatabase['Images'].filter(image => image['Room'] == obj['Room']).map(x => resolveImage(x["Image"], obj["Title"])).concat(
+        paths.map(src => ({ src: src.replace('./user_uploads', 'https://ecsu.org.uk/api/user_uploads'), alt: obj["Title"] })))
 }

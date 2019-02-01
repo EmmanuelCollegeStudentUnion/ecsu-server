@@ -142,6 +142,7 @@ type Query {
   blog(slug: String!): Blog
   blogs: [Blog]
   post(slug:String!): Post
+  rooms: [Room]
   roomLocations: [RoomLocation]
   roomLocation(slug:String!): RoomLocation
   room(slug:String!): Room
@@ -176,17 +177,28 @@ const resolvers = {
   Blog: {
     posts: obj => content("posts").then(result => result.filter(x => x.blog == obj.title))
   },
-  Comment: {},
+  Comment: {
+    year: obj => obj["Year"],
+    body: obj => obj["Comment"],
+  },
   Room: {
-    livingRoom: obj => obj['living_room'],
-    comments: obj => content("room_comments").then(result => result.filter(x => x.title == obj.title)),
+    comments: obj => content("room_comments").then(result => result.filter(x => x["Room"] === obj["Room"])),
     images: obj => roomDatabaseImages(obj),
     hasImages: obj => roomDatabaseImages(obj).length > 0,
-    location: obj => content("room_locations").then(locations => locations.find(x => x.title == obj.location))
+    location: obj => content("room_locations").then(locations => locations.find(x => x.title === obj["Location"])),
+    title: obj => obj['Title'],
+    grade: obj => obj['Grade'] || null,
+    name: obj => obj['Name'] || null,
+    network: obj => obj['Network'] || null,
+    basin: obj => obj['Basin'] || null,
+    livingRoom: obj => obj['Living Room?'] || null,
+    cudn: obj => obj['Cudn'] === false ? obj['Cudn'] : obj['Cudn'] || null,
+    floor: obj => obj['Floor'] || null,
+    url: obj => `/rooms/${obj['slug']}`
   },
   RoomLocation: {
     image: obj => resolveImage(obj.image, obj.title),
-    rooms: obj => content("rooms").then(result => result.filter(x => x.location == obj.title))
+    rooms: obj => content("rooms").then(result => result.filter(x => x["Location"] == obj.title))
   },
   WhatsOnEvent: {
     image: obj => resolveImage(obj.image, obj.title),
@@ -213,6 +225,7 @@ const resolvers = {
     blogs: obj => content("blogs"),
     post: (obj, args) => content("posts", args.slug),
     roomLocations: obj => content("room_locations"),
+    rooms: obj => content("rooms"),
     roomLocation: (obj, args) => content("room_locations", args.slug),
     room: (obj, args) => content("rooms", args.slug),
     user: (obj, args, context) => context.user
