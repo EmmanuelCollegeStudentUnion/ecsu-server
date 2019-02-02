@@ -239,13 +239,14 @@ const resolvers = {
         await fs.mkdirp(`./user_uploads/room_database`);
         await fs.mkdirp(`./user_uploads/room_database/${args.roomSlug}/`);
         const stream = createReadStream();
-        stream.pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}`))
-        await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}.json`, { user: context.user })
-        await new Promise(fulfill => {
+        const uploadDone = new Promise(fulfill => {
           stream.on("end", fulfill)
           stream.on("finish", fulfill)
           stream.on("error", fulfill)
         });
+        stream.pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}`))
+        await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}.json`, { user: context.user })
+        await uploadDone;
       } catch (e) {
         console.error(e)
       }
