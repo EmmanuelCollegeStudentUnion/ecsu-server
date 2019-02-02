@@ -234,6 +234,7 @@ const resolvers = {
     async roomPhotoUpload(parent, args, context) {
       const { createReadStream, filename, mimetype, encoding } = await args.file;
       try {
+        console.log("Upload: " + filename)
         await fs.mkdirp(`./user_uploads`);
         await fs.mkdirp(`./user_uploads/room_database`);
         await fs.mkdirp(`./user_uploads/room_database/${args.roomSlug}/`);
@@ -248,6 +249,7 @@ const resolvers = {
       } catch (e) {
         console.error(e)
       }
+      console.log("Upload done:" + filename)
       return {};
     }
   }
