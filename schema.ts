@@ -233,16 +233,21 @@ const resolvers = {
   Mutation: {
     async roomPhotoUpload(parent, args, context) {
       const { createReadStream, filename, mimetype, encoding } = await args.file;
-      await fs.mkdirp(`./user_uploads`);
-      await fs.mkdirp(`./user_uploads/room_database`);
-      await fs.mkdirp(`./user_uploads/room_database/${args.roomSlug}/`);
-      const stream = createReadStream().pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}`))
-      await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}.json`, { user: context.user })
-      await new Promise(fulfill => {
-        stream.on("end", fulfill)
-        stream.on("finish", fulfill)
-        stream.on("error", fulfill)
-      });
+      try {
+        await fs.mkdirp(`./user_uploads`);
+        await fs.mkdirp(`./user_uploads/room_database`);
+        await fs.mkdirp(`./user_uploads/room_database/${args.roomSlug}/`);
+        const stream = createReadStream();
+        stream.pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}`))
+        await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}.json`, { user: context.user })
+        await new Promise(fulfill => {
+          stream.on("end", fulfill)
+          stream.on("finish", fulfill)
+          stream.on("error", fulfill)
+        });
+      } catch (e) {
+        console.error(e)
+      }
       return {};
     }
   }
