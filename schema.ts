@@ -148,7 +148,8 @@ type Query {
   room(slug:String!): Room
 }    
 type Mutation {
-  roomPhotoUpload(roomSlug:String!, file: Upload!): Image!
+  roomPhotoUpload(roomSlug:String!, file: Upload!): Image
+  minutesUpload(year:String!, type:String!, term:String!, number:Int, file: Upload!): Minutes
 }
 `;
 
@@ -246,6 +247,29 @@ const resolvers = {
         });
         stream.pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}`))
         await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}.json`, { user: context.user })
+        await uploadDone;
+      } catch (e) {
+        console.error(e)
+      }
+      console.log("Upload done:" + filename)
+      return {};
+    },
+    async minutesUpload(parent, args, context) {
+      const { year, type, term, number } = args
+      const { createReadStream, filename, mimetype, encoding } = await args.file;
+      try {
+        console.log("Upload: " + filename)
+        await fs.mkdirp(`./user_uploads`);
+        await fs.mkdirp(`./user_uploads/minutes`);
+        await fs.mkdirp(`./user_uploads/room_database/${year}/`);
+        const stream = createReadStream();
+        const uploadDone = new Promise(fulfill => {
+          stream.on("end", fulfill)
+          stream.on("finish", fulfill)
+          stream.on("error", fulfill)
+        });
+        stream.pipe(fs.createWriteStream(`./user_uploads/room_database/${year}/${filename.toLowerCase()}`))
+        await fs.writeJSON(`./user_uploads/room_database/${year}/${filename.toLowerCase()}.json`, { year, type, term, number })
         await uploadDone;
       } catch (e) {
         console.error(e)
