@@ -1262,7 +1262,7 @@
     },
     {
       "Room": "15WS.1",
-      "Title": "1, 15 Warkworth Street",
+      "Title": "Room 1, 15 Warkworth Street",
       "Grade": "5",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS Ground floor",
@@ -1293,12 +1293,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "1",
+      "Name": 1,
       "slug": "room-1-15-warkworth-street"
     },
     {
       "Room": "15WS.2",
-      "Title": "2, 15 Warkworth Street",
+      "Title": "Room 2, 15 Warkworth Street",
       "Grade": "4",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS Ground floor",
@@ -1329,12 +1329,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "2",
+      "Name": 2,
       "slug": "room-2-15-warkworth-street"
     },
     {
       "Room": "15WS.3",
-      "Title": "3, 15 Warkworth Street",
+      "Title": "Room 3, 15 Warkworth Street",
       "Grade": "4",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS First floor",
@@ -1365,12 +1365,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "3",
+      "Name": 3,
       "slug": "room-3-15-warkworth-street"
     },
     {
       "Room": "15WS.4",
-      "Title": "4, 15 Warkworth Street",
+      "Title": "Room 4, 15 Warkworth Street",
       "Grade": "6",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS First floor",
@@ -1401,12 +1401,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "4",
+      "Name": 4,
       "slug": "room-4-15-warkworth-street"
     },
     {
       "Room": "15WS.5",
-      "Title": "5, 15 Warkworth Street",
+      "Title": "Room 5, 15 Warkworth Street",
       "Grade": "4",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS Second floor",
@@ -1437,12 +1437,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "5",
+      "Name": 5,
       "slug": "room-5-15-warkworth-street"
     },
     {
       "Room": "15WS.6",
-      "Title": "6, 15 Warkworth Street",
+      "Title": "Room 6, 15 Warkworth Street",
       "Grade": "4",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS Second floor",
@@ -1473,7 +1473,7 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "6",
+      "Name": 6,
       "slug": "room-6-15-warkworth-street"
     },
     {
