@@ -60,6 +60,7 @@ type WhatsOnEvent{
 }
 type Exec{
   title: String
+  crsid: String
   email: String
   name: String
   image: Image
