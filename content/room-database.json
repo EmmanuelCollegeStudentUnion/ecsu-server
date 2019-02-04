@@ -434,7 +434,7 @@
     },
     {
       "Room": "12ER.1",
-      "Title": "1, 12 Emmanuel Road",
+      "Title": "Room 1, 12 Emmanuel Road",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -465,12 +465,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Emmanuel Road",
-      "Name": "1",
-      "slug": "1-12-emmanuel-road"
+      "Name": 1,
+      "slug": "room-1-12-emmanuel-road"
     },
     {
       "Room": "12ER.2",
-      "Title": "2, 12 Emmanuel Road",
+      "Title": "Room 2, 12 Emmanuel Road",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -501,12 +501,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Emmanuel Road",
-      "Name": "2",
-      "slug": "2-12-emmanuel-road"
+      "Name": 2,
+      "slug": "room-2-12-emmanuel-road"
     },
     {
       "Room": "12ER.3",
-      "Title": "3, 12 Emmanuel Road",
+      "Title": "Room 3, 12 Emmanuel Road",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -537,12 +537,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Emmanuel Road",
-      "Name": "3",
-      "slug": "3-12-emmanuel-road"
+      "Name": 3,
+      "slug": "room-3-12-emmanuel-road"
     },
     {
       "Room": "12ER.4",
-      "Title": "4, 12 Emmanuel Road",
+      "Title": "Room 4, 12 Emmanuel Road",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -573,12 +573,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Emmanuel Road",
-      "Name": "4",
-      "slug": "4-12-emmanuel-road"
+      "Name": 4,
+      "slug": "room-4-12-emmanuel-road"
     },
     {
       "Room": "12ER.5",
-      "Title": "5, 12 Emmanuel Road",
+      "Title": "Room 5, 12 Emmanuel Road",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -609,12 +609,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Emmanuel Road",
-      "Name": "5",
-      "slug": "5-12-emmanuel-road"
+      "Name": 5,
+      "slug": "room-5-12-emmanuel-road"
     },
     {
       "Room": "12ER.6",
-      "Title": "6, 12 Emmanuel Road",
+      "Title": "Room 6, 12 Emmanuel Road",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -645,12 +645,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Emmanuel Road",
-      "Name": "6",
-      "slug": "6-12-emmanuel-road"
+      "Name": 6,
+      "slug": "room-6-12-emmanuel-road"
     },
     {
       "Room": "12ER.7",
-      "Title": "7, 12 Emmanuel Road",
+      "Title": "Room 7, 12 Emmanuel Road",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -681,8 +681,8 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Emmanuel Road",
-      "Name": "7",
-      "slug": "7-12-emmanuel-road"
+      "Name": 7,
+      "slug": "room-7-12-emmanuel-road"
     },
     {
       "Room": "12PT.2",
@@ -1294,7 +1294,7 @@
       "Floor": "",
       "Location": "Warkworth",
       "Name": "1",
-      "slug": "1-15-warkworth-street"
+      "slug": "room-1-15-warkworth-street"
     },
     {
       "Room": "15WS.2",
@@ -1330,7 +1330,7 @@
       "Floor": "",
       "Location": "Warkworth",
       "Name": "2",
-      "slug": "2-15-warkworth-street"
+      "slug": "room-2-15-warkworth-street"
     },
     {
       "Room": "15WS.3",
@@ -1366,7 +1366,7 @@
       "Floor": "",
       "Location": "Warkworth",
       "Name": "3",
-      "slug": "3-15-warkworth-street"
+      "slug": "room-3-15-warkworth-street"
     },
     {
       "Room": "15WS.4",
@@ -1402,7 +1402,7 @@
       "Floor": "",
       "Location": "Warkworth",
       "Name": "4",
-      "slug": "4-15-warkworth-street"
+      "slug": "room-4-15-warkworth-street"
     },
     {
       "Room": "15WS.5",
@@ -1438,7 +1438,7 @@
       "Floor": "",
       "Location": "Warkworth",
       "Name": "5",
-      "slug": "5-15-warkworth-street"
+      "slug": "room-5-15-warkworth-street"
     },
     {
       "Room": "15WS.6",
@@ -1474,7 +1474,7 @@
       "Floor": "",
       "Location": "Warkworth",
       "Name": "6",
-      "slug": "6-15-warkworth-street"
+      "slug": "room-6-15-warkworth-street"
     },
     {
       "Room": "19WS.1",
@@ -1510,7 +1510,7 @@
       "Floor": "Ground",
       "Location": "Warkworth",
       "Name": "1",
-      "slug": "room-1-19-warkworth-street"
+      "slug": "room-room-1-19-warkworth-street"
     },
     {
       "Room": "19WS.2",
@@ -2306,7 +2306,7 @@
     },
     {
       "Room": "2WS.1",
-      "Title": "1, 2 Warkworth Street",
+      "Title": "Room 1, 2 Warkworth Street",
       "Grade": "5",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS Ground floor",
@@ -2337,12 +2337,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "1",
-      "slug": "1-2-warkworth-street"
+      "Name": 1,
+      "slug": "room-1-2-warkworth-street"
     },
     {
       "Room": "2WS.2",
-      "Title": "2, 2 Warkworth Street",
+      "Title": "Room 2, 2 Warkworth Street",
       "Grade": "4",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS Ground floor",
@@ -2373,12 +2373,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "2",
-      "slug": "2-2-warkworth-street"
+      "Name": 2,
+      "slug": "room-2-2-warkworth-street"
     },
     {
       "Room": "2WS.3",
-      "Title": "3, 2 Warkworth Street",
+      "Title": "Room 3, 2 Warkworth Street",
       "Grade": "3",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS First floor",
@@ -2409,12 +2409,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "3",
-      "slug": "3-2-warkworth-street"
+      "Name": 3,
+      "slug": "room-3-2-warkworth-street"
     },
     {
       "Room": "2WS.4",
-      "Title": "4, 2 Warkworth Street",
+      "Title": "Room 4, 2 Warkworth Street",
       "Grade": "6",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS First floor",
@@ -2445,12 +2445,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "4",
-      "slug": "4-2-warkworth-street"
+      "Name": 4,
+      "slug": "room-4-2-warkworth-street"
     },
     {
       "Room": "2WS.5",
-      "Title": "5, 2 Warkworth Street",
+      "Title": "Room 5, 2 Warkworth Street",
       "Grade": "2",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS Second floor",
@@ -2481,12 +2481,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "5",
-      "slug": "5-2-warkworth-street"
+      "Name": 5,
+      "slug": "room-5-2-warkworth-street"
     },
     {
       "Room": "2WS.6",
-      "Title": "6, 2 Warkworth Street",
+      "Title": "Room 6, 2 Warkworth Street",
       "Grade": "4",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS Second floor",
@@ -2517,8 +2517,8 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "6",
-      "slug": "6-2-warkworth-street"
+      "Name": 6,
+      "slug": "room-6-2-warkworth-street"
     },
     {
       "Room": "2WS.BM",
@@ -2558,7 +2558,7 @@
     },
     {
       "Room": "34WS.1",
-      "Title": "1, 34 Warkworth Street",
+      "Title": "Room 1, 34 Warkworth Street",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2589,12 +2589,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "1",
-      "slug": "1-34-warkworth-street"
+      "Name": 1,
+      "slug": "room-1-34-warkworth-street"
     },
     {
       "Room": "34WS.2",
-      "Title": "2, 34 Warkworth Street",
+      "Title": "Room 2, 34 Warkworth Street",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2625,12 +2625,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "2",
-      "slug": "2-34-warkworth-street"
+      "Name": 2,
+      "slug": "room-2-34-warkworth-street"
     },
     {
       "Room": "34WS.3",
-      "Title": "3, 34 Warkworth Street",
+      "Title": "Room 3, 34 Warkworth Street",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2661,12 +2661,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "3",
-      "slug": "3-34-warkworth-street"
+      "Name": 3,
+      "slug": "room-3-34-warkworth-street"
     },
     {
       "Room": "34WS.4",
-      "Title": "4, 34 Warkworth Street",
+      "Title": "Room 4, 34 Warkworth Street",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2697,12 +2697,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "4",
-      "slug": "4-34-warkworth-street"
+      "Name": 4,
+      "slug": "room-4-34-warkworth-street"
     },
     {
       "Room": "34WS.5",
-      "Title": "5, 34 Warkworth Street",
+      "Title": "Room 5, 34 Warkworth Street",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2733,12 +2733,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "5",
-      "slug": "5-34-warkworth-street"
+      "Name": 5,
+      "slug": "room-5-34-warkworth-street"
     },
     {
       "Room": "34WS.6",
-      "Title": "6, 34 Warkworth Street",
+      "Title": "Room 6, 34 Warkworth Street",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2769,12 +2769,12 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "6",
-      "slug": "6-34-warkworth-street"
+      "Name": 6,
+      "slug": "room-6-34-warkworth-street"
     },
     {
       "Room": "34WS.BM",
-      "Title": "7, 34 Warkworth Street",
+      "Title": "Room 7, 34 Warkworth Street",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2805,8 +2805,8 @@
       "Cudn": "",
       "Floor": "",
       "Location": "Warkworth",
-      "Name": "7",
-      "slug": "7-34-warkworth-street"
+      "Name": 7,
+      "slug": "room-7-34-warkworth-street"
     },
     {
       "Room": "3PT.3",
