@@ -1,14 +1,13 @@
 ---
-image: /assets/images/info/aid_ico.png
-subtitle: Welfare Information for Emmanuel College
 title: Welfare in College
+subtitle: Welfare Information for Emmanuel College
+image: /assets/images/info/aid_ico.png
 ---
+# Publications
 
-## Publications
-
--  [Michaelmas 2018 Welfare Timetable](https://docs.google.com/spreadsheets/d/1opg-hyhcIRuzj_qXwufq3q8orcjOfaGdiWIEvUXyrRI/edit#gid=0)
--  [Confidentiality Policy](https://docs.google.com/document/d/1RYgyNXiyxQ35xMOq1CPx5qQaL0qXWZy9RnuzNpn4OQI/edit)
--  [Where to find help in Cambridge](https://docs.google.com/document/d/1xW7WGbrafSBJ3iPO51HIeM3tX8UTuBHm0Sp1YAfFPZ8/edit)
+* [Michaelmas 2018 Welfare Timetable](https://docs.google.com/spreadsheets/d/1opg-hyhcIRuzj_qXwufq3q8orcjOfaGdiWIEvUXyrRI/edit#gid=0)
+* [Confidentiality Policy](https://docs.google.com/document/d/1RYgyNXiyxQ35xMOq1CPx5qQaL0qXWZy9RnuzNpn4OQI/edit)
+* [Where to find help in Cambridge](https://docs.google.com/document/d/1xW7WGbrafSBJ3iPO51HIeM3tX8UTuBHm0Sp1YAfFPZ8/edit)
 
 Student welfare is a top priority for the [Exec](/exec), and there are dedicated [Welfare Officers](/female_welfare) who strive to ensure that students at Emma at Emma are happy and healthy.
 
@@ -24,35 +23,35 @@ In this section are links to various services at college, university and nationa
 
 In addition, we encourage you to download and read the "Bumper Welfare Document', which contains this information all in one place, in a less daunting format.
 
-|File|Size
-|------|-----
-|[Bumper Welfare Document](/pdf/bumperwelfare.pdf)|153.62 KiB
+| File                                              | Size       |
+| ------------------------------------------------- | ---------- |
+| [Bumper Welfare Document](/pdf/bumperwelfare.pdf) | 153.62 KiB |
 
-## Points of Contact
+# Points of Contact
 
 ## ECSU Welfare Team
 
-- [Welfare Officer (Female)](/exec/female_welfare)
-- [Welfare Officer (Male)](/exec/male_welfare)
-- [Women's Officer](/exec/womens_officer)
-- [LGBT+ Officer](/exec/lgbt_officer)
-
-## College Counsellor
+* [Welfare Officer (Female)](/exec/female_welfare)
+* [Welfare Officer (Male)](/exec/male_welfare)
+* [Women's Officer](/exec/womens_officer)
+* [LGBT+ Officer](/exec/lgbt_officer)
+* [International Officer](/exec/international_officer)
+* [Disabilities](/exec/disabilities_officer)
 
 ## College Nurse: Diana Lloyd
 
-- Mondays: 1 - 2 pm, 5.30 - 6.30 pm
-- Tuesdays: 1 - 2 pm, 5 - 6 pm 
-- Wednesdays: 1 - 2 pm, 4 - 5 pm
-- Thursdays: 5 - 7 pm
-- Fridays: 1 - 2 pm, 5.45 - 7.15 pm
-- Saturdays: by appointment
-- Sundays: on call 9.30 - 10 am, 8 - 8.30pm
+* Mondays: 1 - 2 pm, 5.30 - 6.30 pm
+* Tuesdays: 1 - 2 pm, 5 - 6 pm 
+* Wednesdays: 1 - 2 pm, 4 - 5 pm
+* Thursdays: 5 - 7 pm
+* Fridays: 1 - 2 pm, 5.45 - 7.15 pm
+* Saturdays: by appointment
+* Sundays: on call 9.30 - 10 am, 8 - 8.30pm
 
 ## Dean: Jeremy Caddick
 
-## Sources of information
+# Sources of information
 
-<li>ECSU Shop - has leaflets about various topics of interest and a supply of free condoms.
-        </li>- Welfare Officer and College counsellor - both have information about support groups and are here to listen and provide support.
+- ECSU Shop - has leaflets about various topics of interest and a supply of free condoms.
+- Welfare Officer and College counsellor - both have information about support groups and are here to listen and provide support.
 - College Tutors - can provide support and advice regarding financial, academic and other problems that students may face.
