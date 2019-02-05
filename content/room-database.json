@@ -2,7 +2,7 @@
   "Rooms": [
     {
       "Room": "10PT.2",
-      "Title": "Room 2, 10 Park Terrace",
+      "Title": "10PT.2",
       "Grade": "5",
       "Building": "10 Park Terrace",
       "Floor/Stair": "10PT Ground floor",
@@ -38,7 +38,7 @@
     },
     {
       "Room": "10PT.3",
-      "Title": "Room 3, 10 Park Terrace",
+      "Title": "10PT.3",
       "Grade": "3",
       "Building": "10 Park Terrace",
       "Floor/Stair": "10PT Ground floor",
@@ -74,7 +74,7 @@
     },
     {
       "Room": "10PT.5",
-      "Title": "Room 5, 10 Park Terrace",
+      "Title": "10PT.5",
       "Grade": "3",
       "Building": "10 Park Terrace",
       "Floor/Stair": "10PT First floor",
@@ -110,7 +110,7 @@
     },
     {
       "Room": "10PT.7",
-      "Title": "Room 7, 10 Park Terrace",
+      "Title": "10PT.7",
       "Grade": "4",
       "Building": "10 Park Terrace",
       "Floor/Stair": "10PT Attic",
@@ -146,7 +146,7 @@
     },
     {
       "Room": "11PT.1",
-      "Title": "Room 1, 11 Park Terrace",
+      "Title": "11PT.1",
       "Grade": "",
       "Building": "12 Park Terrace",
       "Floor/Stair": "",
@@ -182,7 +182,7 @@
     },
     {
       "Room": "11PT.2",
-      "Title": "Room 2, 11 Park Terrace",
+      "Title": "11PT.2",
       "Grade": "6",
       "Building": "11 Park Terrace",
       "Floor/Stair": "11PT Ground floor",
@@ -218,7 +218,7 @@
     },
     {
       "Room": "11PT.3",
-      "Title": "Room 3, 11 Park Terrace",
+      "Title": "11PT.3",
       "Grade": "5",
       "Building": "11 Park Terrace",
       "Floor/Stair": "11PT Ground floor",
@@ -254,7 +254,7 @@
     },
     {
       "Room": "11PT.4",
-      "Title": "Room 4, 11 Park Terrace",
+      "Title": "11PT.4",
       "Grade": "4",
       "Building": "11 Park Terrace",
       "Floor/Stair": "11PT First floor",
@@ -290,7 +290,7 @@
     },
     {
       "Room": "11PT.6",
-      "Title": "Room 6, 11 Park Terrace",
+      "Title": "11PT.6",
       "Grade": "5",
       "Building": "11 Park Terrace",
       "Floor/Stair": "11PT Second floor",
@@ -326,7 +326,7 @@
     },
     {
       "Room": "11PT.7",
-      "Title": "Room 7, 11 Park Terrace",
+      "Title": "11PT.7",
       "Grade": "5",
       "Building": "11 Park Terrace",
       "Floor/Stair": "11PT Second floor",
@@ -362,7 +362,7 @@
     },
     {
       "Room": "11PT.8",
-      "Title": "Room 8, 11 Park Terrace",
+      "Title": "11PT.8",
       "Grade": "1",
       "Building": "11 Park Terrace",
       "Floor/Stair": "11PT Second floor",
@@ -398,7 +398,7 @@
     },
     {
       "Room": "11PT.9",
-      "Title": "Room 9, 11 Park Terrace",
+      "Title": "11PT.9",
       "Grade": "6",
       "Building": "11 Park Terrace",
       "Floor/Stair": "11PT Attic",
@@ -434,7 +434,7 @@
     },
     {
       "Room": "12ER.1",
-      "Title": "Room 1, 12 Emmanuel Road",
+      "Title": "12ER.1",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -470,7 +470,7 @@
     },
     {
       "Room": "12ER.2",
-      "Title": "Room 2, 12 Emmanuel Road",
+      "Title": "12ER.2",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -506,7 +506,7 @@
     },
     {
       "Room": "12ER.3",
-      "Title": "Room 3, 12 Emmanuel Road",
+      "Title": "12ER.3",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -542,7 +542,7 @@
     },
     {
       "Room": "12ER.4",
-      "Title": "Room 4, 12 Emmanuel Road",
+      "Title": "12ER.4",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -578,7 +578,7 @@
     },
     {
       "Room": "12ER.5",
-      "Title": "Room 5, 12 Emmanuel Road",
+      "Title": "12ER.5",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -614,7 +614,7 @@
     },
     {
       "Room": "12ER.6",
-      "Title": "Room 6, 12 Emmanuel Road",
+      "Title": "12ER.6",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -650,7 +650,7 @@
     },
     {
       "Room": "12ER.7",
-      "Title": "Room 7, 12 Emmanuel Road",
+      "Title": "12ER.7",
       "Grade": "",
       "Building": "12 Emmanuel Road",
       "Floor/Stair": "",
@@ -686,7 +686,7 @@
     },
     {
       "Room": "12PT.2",
-      "Title": "Room 2, 12 Park Terrace",
+      "Title": "12PT.2",
       "Grade": "6",
       "Building": "12 Park Terrace",
       "Floor/Stair": "12PT Ground floor",
@@ -722,7 +722,7 @@
     },
     {
       "Room": "12PT.3",
-      "Title": "Room 3, 12 Park Terrace",
+      "Title": "12PT.3",
       "Grade": "5",
       "Building": "12 Park Terrace",
       "Floor/Stair": "12PT Ground floor",
@@ -758,7 +758,7 @@
     },
     {
       "Room": "12PT.3",
-      "Title": "Room 3, 12 Park Terrace",
+      "Title": "12PT.3",
       "Grade": "5",
       "Building": "12 Park Terrace",
       "Floor/Stair": "12PT Ground floor",
@@ -794,7 +794,7 @@
     },
     {
       "Room": "12PT.4",
-      "Title": "Room 4, 12 Park Terrace",
+      "Title": "12PT.4",
       "Grade": "4",
       "Building": "12 Park Terrace",
       "Floor/Stair": "12PT First floor",
@@ -830,7 +830,7 @@
     },
     {
       "Room": "12PT.7",
-      "Title": "Room 7, 12 Park Terrace",
+      "Title": "12PT.7",
       "Grade": "5",
       "Building": "12 Park Terrace",
       "Floor/Stair": "12PT Attic",
@@ -866,7 +866,7 @@
     },
     {
       "Room": "13PT.4",
-      "Title": "Room 4, 13 Park Terrace",
+      "Title": "13PT.4",
       "Grade": "5",
       "Building": "13 Park Terrace",
       "Floor/Stair": "13PT Second floor",
@@ -902,7 +902,7 @@
     },
     {
       "Room": "13PT.5",
-      "Title": "Room 5, 13 Park Terrace",
+      "Title": "13PT.5",
       "Grade": "5",
       "Building": "13 Park Terrace",
       "Floor/Stair": "13PT Second floor",
@@ -938,7 +938,7 @@
     },
     {
       "Room": "13PT.6",
-      "Title": "Room 6, 13 Park Terrace",
+      "Title": "13PT.6",
       "Grade": "1",
       "Building": "13 Park Terrace",
       "Floor/Stair": "13PT Second floor",
@@ -974,7 +974,7 @@
     },
     {
       "Room": "14PT.1",
-      "Title": "Room 1, 14 Park Terrace",
+      "Title": "14PT.1",
       "Grade": "7",
       "Building": "14 Park Terrace",
       "Floor/Stair": "",
@@ -1010,7 +1010,7 @@
     },
     {
       "Room": "14PT.2",
-      "Title": "Room 2, 14 Park Terrace",
+      "Title": "14PT.2",
       "Grade": "6",
       "Building": "14 Park Terrace",
       "Floor/Stair": "14PT Ground floor",
@@ -1046,7 +1046,7 @@
     },
     {
       "Room": "14PT.3",
-      "Title": "Room 3, 14 Park Terrace",
+      "Title": "14PT.3",
       "Grade": "4",
       "Building": "14 Park Terrace",
       "Floor/Stair": "14PT Ground floor",
@@ -1082,7 +1082,7 @@
     },
     {
       "Room": "14PT.5",
-      "Title": "Room 5, 14 Park Terrace",
+      "Title": "14PT.5",
       "Grade": "4",
       "Building": "14 Park Terrace",
       "Floor/Stair": "14PT Second floor",
@@ -1118,7 +1118,7 @@
     },
     {
       "Room": "14PT.6",
-      "Title": "Room 6, 14 Park Terrace",
+      "Title": "14PT.6",
       "Grade": "4",
       "Building": "14 Park Terrace",
       "Floor/Stair": "14PT Second floor",
@@ -1154,7 +1154,7 @@
     },
     {
       "Room": "14PT.7",
-      "Title": "Room 7, 14 Park Terrace",
+      "Title": "14PT.7",
       "Grade": "2",
       "Building": "14 Park Terrace",
       "Floor/Stair": "14PT Second floor",
@@ -1190,7 +1190,7 @@
     },
     {
       "Room": "14PT.8",
-      "Title": "Room 8, 14 Park Terrace",
+      "Title": "14PT.8",
       "Grade": "6",
       "Building": "14 Park Terrace",
       "Floor/Stair": "14PT Attic",
@@ -1226,7 +1226,7 @@
     },
     {
       "Room": "14PT.BM",
-      "Title": "Basement, 14 Park Terrace",
+      "Title": "14PT.BM",
       "Grade": "7",
       "Building": "14 Park Terrace",
       "Floor/Stair": "14PT Basement",
@@ -1262,7 +1262,7 @@
     },
     {
       "Room": "15WS.1",
-      "Title": "Room 1, 15 Warkworth Street",
+      "Title": "15WS.1",
       "Grade": "5",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS Ground floor",
@@ -1287,18 +1287,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
+      "Network": "Wireless Only",
       "Basin": "",
-      "Living Room?": "",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "Ground",
       "Location": "Warkworth",
       "Name": 1,
       "slug": "room-1-15-warkworth-street"
     },
     {
       "Room": "15WS.2",
-      "Title": "Room 2, 15 Warkworth Street",
+      "Title": "15WS.2",
       "Grade": "4",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS Ground floor",
@@ -1323,18 +1323,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
+      "Network": "Wireless Only ",
       "Basin": "",
-      "Living Room?": "",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "Ground",
       "Location": "Warkworth",
       "Name": 2,
       "slug": "room-2-15-warkworth-street"
     },
     {
       "Room": "15WS.3",
-      "Title": "Room 3, 15 Warkworth Street",
+      "Title": "15WS.3",
       "Grade": "4",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS First floor",
@@ -1359,18 +1359,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
+      "Network": "Wireless Only ",
       "Basin": "",
-      "Living Room?": "",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "First",
       "Location": "Warkworth",
       "Name": 3,
       "slug": "room-3-15-warkworth-street"
     },
     {
       "Room": "15WS.4",
-      "Title": "Room 4, 15 Warkworth Street",
+      "Title": "15WS.4",
       "Grade": "6",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS First floor",
@@ -1395,18 +1395,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
+      "Network": "Wireless Only ",
       "Basin": "",
-      "Living Room?": "",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "First",
       "Location": "Warkworth",
       "Name": 4,
       "slug": "room-4-15-warkworth-street"
     },
     {
       "Room": "15WS.5",
-      "Title": "Room 5, 15 Warkworth Street",
+      "Title": "15WS.5",
       "Grade": "4",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS Second floor",
@@ -1431,18 +1431,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
+      "Network": "Wireless Only ",
       "Basin": "",
-      "Living Room?": "",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "Second",
       "Location": "Warkworth",
       "Name": 5,
       "slug": "room-5-15-warkworth-street"
     },
     {
       "Room": "15WS.6",
-      "Title": "Room 6, 15 Warkworth Street",
+      "Title": "15WS.6",
       "Grade": "4",
       "Building": "15 Warkworth Street",
       "Floor/Stair": "15WS Second floor",
@@ -1467,18 +1467,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
+      "Network": "Wireless Only ",
       "Basin": "",
-      "Living Room?": "",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "Second",
       "Location": "Warkworth",
       "Name": 6,
       "slug": "room-6-15-warkworth-street"
     },
     {
       "Room": "19WS.1",
-      "Title": "Room 1, 19 Warkworth Street",
+      "Title": "19WS.1",
       "Grade": "4",
       "Building": "19 Warkworth Street",
       "Floor/Stair": "19WS Ground floor",
@@ -1514,7 +1514,7 @@
     },
     {
       "Room": "19WS.2",
-      "Title": "Room 2, 19 Warkworth Street",
+      "Title": "19WS.2",
       "Grade": "3",
       "Building": "19 Warkworth Street",
       "Floor/Stair": "19WS Ground floor",
@@ -1550,7 +1550,7 @@
     },
     {
       "Room": "19WS.3",
-      "Title": "Room 3, 19 Warkworth Street",
+      "Title": "19WS.3",
       "Grade": "3",
       "Building": "19 Warkworth Street",
       "Floor/Stair": "19WS First floor",
@@ -1586,7 +1586,7 @@
     },
     {
       "Room": "19WS.4",
-      "Title": "Room 4, 19 Warkworth Street",
+      "Title": "19WS.4",
       "Grade": "6",
       "Building": "19 Warkworth Street",
       "Floor/Stair": "19WS First floor",
@@ -1622,7 +1622,7 @@
     },
     {
       "Room": "19WS.5",
-      "Title": "Room 5, 19 Warkworth Street",
+      "Title": "19WS.5",
       "Grade": "2",
       "Building": "19 Warkworth Street",
       "Floor/Stair": "19WS Second floor",
@@ -1658,7 +1658,7 @@
     },
     {
       "Room": "19WS.6",
-      "Title": "Room 6, 19 Warkworth Street",
+      "Title": "19WS.6",
       "Grade": "3",
       "Building": "19 Warkworth Street",
       "Floor/Stair": "19WS Second floor",
@@ -1694,7 +1694,7 @@
     },
     {
       "Room": "19WS.BM",
-      "Title": "Basement, 19 Warkworth Street",
+      "Title": "19WS.BM",
       "Grade": "5",
       "Building": "19 Warkworth Street",
       "Floor/Stair": "19WS Basement",
@@ -1730,7 +1730,7 @@
     },
     {
       "Room": "1PT.1",
-      "Title": "Room 1, 1 Park Terrace",
+      "Title": "1PT.1",
       "Grade": "5",
       "Building": "7 Park Terrace",
       "Floor/Stair": "",
@@ -1766,7 +1766,7 @@
     },
     {
       "Room": "1PT.2",
-      "Title": "Room 2, 1 Park Terrace",
+      "Title": "1PT.2",
       "Grade": "5",
       "Building": "1 Park Terrace",
       "Floor/Stair": "1PT Ground floor",
@@ -1802,7 +1802,7 @@
     },
     {
       "Room": "1PT.3",
-      "Title": "Room 3, 1 Park Terrace",
+      "Title": "1PT.3",
       "Grade": "4",
       "Building": "2 Park Terrace",
       "Floor/Stair": "1PT Ground floor",
@@ -1838,7 +1838,7 @@
     },
     {
       "Room": "1PT.5",
-      "Title": "Room 5, 1 Park Terrace",
+      "Title": "1PT.5",
       "Grade": "4",
       "Building": "3 Park Terrace",
       "Floor/Stair": "1PT First floor",
@@ -1874,7 +1874,7 @@
     },
     {
       "Room": "1PT.6",
-      "Title": "Room 6, 1 Park Terrace",
+      "Title": "1PT.6",
       "Grade": "4",
       "Building": "4 Park Terrace",
       "Floor/Stair": "1PT Second floor",
@@ -1910,7 +1910,7 @@
     },
     {
       "Room": "1PT.7",
-      "Title": "Room 7, 1 Park Terrace",
+      "Title": "1PT.7",
       "Grade": "",
       "Building": "8 Park Terrace",
       "Floor/Stair": "",
@@ -1946,7 +1946,7 @@
     },
     {
       "Room": "1PT.9",
-      "Title": "Room 9, 1 Park Terrace",
+      "Title": "1PT.9",
       "Grade": "3",
       "Building": "5 Park Terrace",
       "Floor/Stair": "1PT Attic",
@@ -1982,7 +1982,7 @@
     },
     {
       "Room": "1PT.BM",
-      "Title": "Basement, 6 Park Terrace",
+      "Title": "1PT.BM",
       "Grade": "5",
       "Building": "6 Park Terrace",
       "Floor/Stair": "1PT Basement",
@@ -2018,7 +2018,7 @@
     },
     {
       "Room": "20WS.3",
-      "Title": "Room 3, 20 Warkworth Street",
+      "Title": "20WS.3",
       "Grade": "4",
       "Building": "20 Warkworth Street",
       "Floor/Stair": "20WS Ground floor",
@@ -2054,7 +2054,7 @@
     },
     {
       "Room": "20WS.4",
-      "Title": "Room 4, 20 Warkworth Street",
+      "Title": "20WS.4",
       "Grade": "3",
       "Building": "20 Warkworth Street",
       "Floor/Stair": "20WS Ground floor",
@@ -2090,7 +2090,7 @@
     },
     {
       "Room": "20WS.5",
-      "Title": "Room 5, 20 Warkworth Street",
+      "Title": "20WS.5",
       "Grade": "6",
       "Building": "20 Warkworth Street",
       "Floor/Stair": "20WS First floor",
@@ -2126,7 +2126,7 @@
     },
     {
       "Room": "20WS.6",
-      "Title": "Room 6, 20 Warkworth Street",
+      "Title": "20WS.6",
       "Grade": "3",
       "Building": "20 Warkworth Street",
       "Floor/Stair": "20WS First floor",
@@ -2162,7 +2162,7 @@
     },
     {
       "Room": "20WS.7",
-      "Title": "Room 7, 20 Warkworth Street",
+      "Title": "20WS.7",
       "Grade": "3",
       "Building": "20 Warkworth Street",
       "Floor/Stair": "20WS Second floor",
@@ -2198,7 +2198,7 @@
     },
     {
       "Room": "20WS.8",
-      "Title": "Room 8, 20 Warkworth Street",
+      "Title": "20WS.8",
       "Grade": "3",
       "Building": "20 Warkworth Street",
       "Floor/Stair": "20WS Second floor",
@@ -2234,7 +2234,7 @@
     },
     {
       "Room": "20WS.BM1",
-      "Title": "Room 1, 20 Warkworth Street",
+      "Title": "20WS.BM1",
       "Grade": "3",
       "Building": "20 Warkworth Street",
       "Floor/Stair": "20WS Basement",
@@ -2270,7 +2270,7 @@
     },
     {
       "Room": "20WS.BM2",
-      "Title": "Room 2, 20 Warkworth Street",
+      "Title": "20WS.BM2",
       "Grade": "1",
       "Building": "20 Warkworth Street",
       "Floor/Stair": "20WS Basement",
@@ -2306,7 +2306,7 @@
     },
     {
       "Room": "2WS.1",
-      "Title": "Room 1, 2 Warkworth Street",
+      "Title": "2WS.1",
       "Grade": "5",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS Ground floor",
@@ -2331,18 +2331,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
-      "Basin": "",
-      "Living Room?": "",
+      "Network": "Wireless Only",
+      "Basin": "Yes",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "Groumd",
       "Location": "Warkworth",
       "Name": 1,
       "slug": "room-1-2-warkworth-street"
     },
     {
       "Room": "2WS.2",
-      "Title": "Room 2, 2 Warkworth Street",
+      "Title": "2WS.2",
       "Grade": "4",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS Ground floor",
@@ -2367,18 +2367,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
+      "Network": "Wireless Only",
       "Basin": "",
-      "Living Room?": "",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "Ground",
       "Location": "Warkworth",
       "Name": 2,
       "slug": "room-2-2-warkworth-street"
     },
     {
       "Room": "2WS.3",
-      "Title": "Room 3, 2 Warkworth Street",
+      "Title": "2WS.3",
       "Grade": "3",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS First floor",
@@ -2403,18 +2403,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
-      "Basin": "",
-      "Living Room?": "",
+      "Network": "Wireless Only",
+      "Basin": "No",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "First",
       "Location": "Warkworth",
       "Name": 3,
       "slug": "room-3-2-warkworth-street"
     },
     {
       "Room": "2WS.4",
-      "Title": "Room 4, 2 Warkworth Street",
+      "Title": "2WS.4",
       "Grade": "6",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS First floor",
@@ -2439,18 +2439,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
-      "Basin": "",
-      "Living Room?": "",
+      "Network": "Wireless Only",
+      "Basin": "No",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "First",
       "Location": "Warkworth",
       "Name": 4,
       "slug": "room-4-2-warkworth-street"
     },
     {
       "Room": "2WS.5",
-      "Title": "Room 5, 2 Warkworth Street",
+      "Title": "2WS.5",
       "Grade": "2",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS Second floor",
@@ -2475,18 +2475,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
-      "Basin": "",
-      "Living Room?": "",
+      "Network": "Wireless Only",
+      "Basin": "No",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "Secomd",
       "Location": "Warkworth",
       "Name": 5,
       "slug": "room-5-2-warkworth-street"
     },
     {
       "Room": "2WS.6",
-      "Title": "Room 6, 2 Warkworth Street",
+      "Title": "2WS.6",
       "Grade": "4",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS Second floor",
@@ -2511,18 +2511,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
-      "Basin": "",
-      "Living Room?": "",
+      "Network": "Wireless Only",
+      "Basin": "No",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "Second",
       "Location": "Warkworth",
       "Name": 6,
       "slug": "room-6-2-warkworth-street"
     },
     {
       "Room": "2WS.BM",
-      "Title": "Basement, 2 Warkworth Street",
+      "Title": "2WS.BM",
       "Grade": "5",
       "Building": "2 Warkworth Street",
       "Floor/Stair": "2WS Basement",
@@ -2547,18 +2547,18 @@
       "Double glazing": "N",
       "Excessive noise": "N",
       "Refurbishment": "N",
-      "Network": "",
+      "Network": "Wireless Only",
       "Basin": "",
-      "Living Room?": "",
+      "Living Room?": "No",
       "Cudn": "",
-      "Floor": "",
+      "Floor": "Basement",
       "Location": "Warkworth",
       "Name": "Basement",
       "slug": "basement-2-warkworth-street"
     },
     {
       "Room": "34WS.1",
-      "Title": "Room 1, 34 Warkworth Street",
+      "Title": "34WS.1",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2594,7 +2594,7 @@
     },
     {
       "Room": "34WS.2",
-      "Title": "Room 2, 34 Warkworth Street",
+      "Title": "34WS.2",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2630,7 +2630,7 @@
     },
     {
       "Room": "34WS.3",
-      "Title": "Room 3, 34 Warkworth Street",
+      "Title": "34WS.3",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2666,7 +2666,7 @@
     },
     {
       "Room": "34WS.4",
-      "Title": "Room 4, 34 Warkworth Street",
+      "Title": "34WS.4",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2702,7 +2702,7 @@
     },
     {
       "Room": "34WS.5",
-      "Title": "Room 5, 34 Warkworth Street",
+      "Title": "34WS.5",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2738,7 +2738,7 @@
     },
     {
       "Room": "34WS.6",
-      "Title": "Room 6, 34 Warkworth Street",
+      "Title": "34WS.6",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2774,7 +2774,7 @@
     },
     {
       "Room": "34WS.BM",
-      "Title": "Room 7, 34 Warkworth Street",
+      "Title": "34WS.BM",
       "Grade": "",
       "Building": "34 Warkworth Street",
       "Floor/Stair": "",
@@ -2810,7 +2810,7 @@
     },
     {
       "Room": "3PT.3",
-      "Title": "Room 3, 3 Park Terrace",
+      "Title": "3PT.3",
       "Grade": "4",
       "Building": "03 Park Terrace",
       "Floor/Stair": "3PT First floor",
@@ -2846,7 +2846,7 @@
     },
     {
       "Room": "3PT.5",
-      "Title": "Room 5, 3 Park Terrace",
+      "Title": "3PT.5",
       "Grade": "4",
       "Building": "03 Park Terrace",
       "Floor/Stair": "3PT Second floor",
@@ -2882,7 +2882,7 @@
     },
     {
       "Room": "3PT.6",
-      "Title": "Room 6, 3 Park Terrace",
+      "Title": "3PT.6",
       "Grade": "6",
       "Building": "03 Park Terrace",
       "Floor/Stair": "3PT Second floor",
@@ -2918,7 +2918,7 @@
     },
     {
       "Room": "3PT.7",
-      "Title": "Room 7, 3 Park Terrace",
+      "Title": "3PT.7",
       "Grade": "4",
       "Building": "03 Park Terrace",
       "Floor/Stair": "3PT Attic",
@@ -2954,7 +2954,7 @@
     },
     {
       "Room": "4PT.2",
-      "Title": "Room 2, 4 Park Terrace",
+      "Title": "4PT.2",
       "Grade": "5",
       "Building": "04 Park Terrace",
       "Floor/Stair": "4PT Ground floor",
@@ -2990,7 +2990,7 @@
     },
     {
       "Room": "4PT.3",
-      "Title": "Room 3, 4 Park Terrace",
+      "Title": "4PT.3",
       "Grade": "5",
       "Building": "04 Park Terrace",
       "Floor/Stair": "4PT Ground floor",
@@ -3026,7 +3026,7 @@
     },
     {
       "Room": "4PT.4",
-      "Title": "Room 4, 4 Park Terrace",
+      "Title": "4PT.4",
       "Grade": "5",
       "Building": "04 Park Terrace",
       "Floor/Stair": "4PT First floor",
@@ -3062,7 +3062,7 @@
     },
     {
       "Room": "4PT.6",
-      "Title": "Room 6, 4 Park Terrace",
+      "Title": "4PT.6",
       "Grade": "3",
       "Building": "04 Park Terrace",
       "Floor/Stair": "4PT Second floor",
@@ -3098,7 +3098,7 @@
     },
     {
       "Room": "4PT.7",
-      "Title": "Room 7, 4 Park Terrace",
+      "Title": "4PT.7",
       "Grade": "4",
       "Building": "04 Park Terrace",
       "Floor/Stair": "4PT Second floor",
@@ -3134,7 +3134,7 @@
     },
     {
       "Room": "4PT.8",
-      "Title": "Room 8, 4 Park Terrace",
+      "Title": "4PT.8",
       "Grade": "4",
       "Building": "04 Park Terrace",
       "Floor/Stair": "4PT Attic",
@@ -3170,7 +3170,7 @@
     },
     {
       "Room": "58WS.1",
-      "Title": "Room 1, 58 Warkworth Street",
+      "Title": "58WS.1",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3206,7 +3206,7 @@
     },
     {
       "Room": "58WS.2",
-      "Title": "Room 2, 58 Warkworth Street",
+      "Title": "58WS.2",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3242,7 +3242,7 @@
     },
     {
       "Room": "58WS.3",
-      "Title": "Room 3, 58 Warkworth Street",
+      "Title": "58WS.3",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3278,7 +3278,7 @@
     },
     {
       "Room": "58WS.4",
-      "Title": "Room 4, 58 Warkworth Street",
+      "Title": "58WS.4",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3314,7 +3314,7 @@
     },
     {
       "Room": "58WS.5",
-      "Title": "Room 5, 58 Warkworth Street",
+      "Title": "58WS.5",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3350,7 +3350,7 @@
     },
     {
       "Room": "58WS.6",
-      "Title": "Room 6, 58 Warkworth Street",
+      "Title": "58WS.6",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3386,7 +3386,7 @@
     },
     {
       "Room": "58WS.7",
-      "Title": "Room 7, 58 Warkworth Street",
+      "Title": "58WS.7",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3422,7 +3422,7 @@
     },
     {
       "Room": "58WS.8",
-      "Title": "Room 8, 58 Warkworth Street",
+      "Title": "58WS.8",
       "Grade": "",
       "Building": "58 Warkworth Street",
       "Floor/Stair": "",
@@ -3458,7 +3458,7 @@
     },
     {
       "Room": "59WS.1",
-      "Title": "Room 1, 59 Warkworth Street",
+      "Title": "59WS.1",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3494,7 +3494,7 @@
     },
     {
       "Room": "59WS.2",
-      "Title": "Room 2, 59 Warkworth Street",
+      "Title": "59WS.2",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3530,7 +3530,7 @@
     },
     {
       "Room": "59WS.3",
-      "Title": "Room 3, 59 Warkworth Street",
+      "Title": "59WS.3",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3566,7 +3566,7 @@
     },
     {
       "Room": "59WS.4",
-      "Title": "Room 4, 59 Warkworth Street",
+      "Title": "59WS.4",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3602,7 +3602,7 @@
     },
     {
       "Room": "59WS.5",
-      "Title": "Room 5, 59 Warkworth Street",
+      "Title": "59WS.5",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3638,7 +3638,7 @@
     },
     {
       "Room": "59WS.6",
-      "Title": "Room 6, 59 Warkworth Street",
+      "Title": "59WS.6",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3674,7 +3674,7 @@
     },
     {
       "Room": "59WS.7",
-      "Title": "Room 7, 59 Warkworth Street",
+      "Title": "59WS.7",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3710,7 +3710,7 @@
     },
     {
       "Room": "59WS.BM",
-      "Title": "Basement, 59 Warkworth Street",
+      "Title": "59WS.BM",
       "Grade": "",
       "Building": "59 Warkworth Street",
       "Floor/Stair": "",
@@ -3746,7 +3746,7 @@
     },
     {
       "Room": "5PT.2",
-      "Title": "Room 2, 5 Park Terrace",
+      "Title": "5PT.2",
       "Grade": "5",
       "Building": "05 Park Terrace",
       "Floor/Stair": "5PT Ground floor",
@@ -3782,7 +3782,7 @@
     },
     {
       "Room": "5PT.3",
-      "Title": "Room 3, 5 Park Terrace",
+      "Title": "5PT.3",
       "Grade": "5",
       "Building": "05 Park Terrace",
       "Floor/Stair": "5PT Ground floor",
@@ -3818,7 +3818,7 @@
     },
     {
       "Room": "5PT.5",
-      "Title": "Room 5, 5 Park Terrace",
+      "Title": "5PT.5",
       "Grade": "5",
       "Building": "05 Park Terrace",
       "Floor/Stair": "5PT Second floor",
@@ -3854,7 +3854,7 @@
     },
     {
       "Room": "5PT.6",
-      "Title": "Room 6, 5 Park Terrace",
+      "Title": "5PT.6",
       "Grade": "3",
       "Building": "05 Park Terrace",
       "Floor/Stair": "5PT Second floor",
@@ -3890,7 +3890,7 @@
     },
     {
       "Room": "5PT.7",
-      "Title": "Room 7, 5 Park Terrace",
+      "Title": "5PT.7",
       "Grade": "3",
       "Building": "05 Park Terrace",
       "Floor/Stair": "5PT Second floor",
@@ -3926,7 +3926,7 @@
     },
     {
       "Room": "5PT.8",
-      "Title": "Room 8, 5 Park Terrace",
+      "Title": "5PT.8",
       "Grade": "4",
       "Building": "05 Park Terrace",
       "Floor/Stair": "5PT Attic",
@@ -3962,7 +3962,7 @@
     },
     {
       "Room": "6PT.2",
-      "Title": "Room 2, 6 Park Terrace",
+      "Title": "6PT.2",
       "Grade": "6",
       "Building": "06 Park Terrace",
       "Floor/Stair": "6PT Ground floor",
@@ -3998,7 +3998,7 @@
     },
     {
       "Room": "6PT.3",
-      "Title": "Room 3, 6 Park Terrace",
+      "Title": "6PT.3",
       "Grade": "4",
       "Building": "06 Park Terrace",
       "Floor/Stair": "6PT Ground floor",
@@ -4034,7 +4034,7 @@
     },
     {
       "Room": "6PT.4",
-      "Title": "Room 4, 6 Park Terrace",
+      "Title": "6PT.4",
       "Grade": "4",
       "Building": "06 Park Terrace",
       "Floor/Stair": "6PT First floor",
@@ -4070,7 +4070,7 @@
     },
     {
       "Room": "6PT.6",
-      "Title": "Room 6, 6 Park Terrace",
+      "Title": "6PT.6",
       "Grade": "4",
       "Building": "06 Park Terrace",
       "Floor/Stair": "6PT Second floor",
@@ -4106,7 +4106,7 @@
     },
     {
       "Room": "6PT.7",
-      "Title": "Room 7, 6 Park Terrace",
+      "Title": "6PT.7",
       "Grade": "4",
       "Building": "06 Park Terrace",
       "Floor/Stair": "6PT Second floor",
@@ -4142,7 +4142,7 @@
     },
     {
       "Room": "6PT.8",
-      "Title": "Room 8, 6 Park Terrace",
+      "Title": "6PT.8",
       "Grade": "3",
       "Building": "06 Park Terrace",
       "Floor/Stair": "6PT Attic",
@@ -4178,7 +4178,7 @@
     },
     {
       "Room": "A5.1",
-      "Title": "Room 1, A5",
+      "Title": "A5.1",
       "Grade": "3",
       "Building": "Front Court",
       "Floor/Stair": "A Staircase",
@@ -4214,7 +4214,7 @@
     },
     {
       "Room": "A5.2",
-      "Title": "Room 2, A5",
+      "Title": "A5.2",
       "Grade": "3",
       "Building": "Front Court",
       "Floor/Stair": "A Staircase",
@@ -4250,7 +4250,7 @@
     },
     {
       "Room": "A5.3",
-      "Title": "Room 3, A5",
+      "Title": "A5.3",
       "Grade": "3",
       "Building": "Front Court",
       "Floor/Stair": "A Staircase",
@@ -4286,7 +4286,7 @@
     },
     {
       "Room": "A5.4",
-      "Title": "Room 4, A5",
+      "Title": "A5.4",
       "Grade": "3",
       "Building": "Front Court",
       "Floor/Stair": "A Staircase",
@@ -4322,7 +4322,7 @@
     },
     {
       "Room": "BLAN.1",
-      "Title": "Room 1, Blantyre",
+      "Title": "BLAN.1",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4358,7 +4358,7 @@
     },
     {
       "Room": "BLAN.10",
-      "Title": "Room 10, Blantyre",
+      "Title": "BLAN.10",
       "Grade": "3",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4394,7 +4394,7 @@
     },
     {
       "Room": "BLAN.11",
-      "Title": "Room 11, Blantyre",
+      "Title": "BLAN.11",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4430,7 +4430,7 @@
     },
     {
       "Room": "BLAN.12",
-      "Title": "Room 12, Blantyre",
+      "Title": "BLAN.12",
       "Grade": "4",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4466,7 +4466,7 @@
     },
     {
       "Room": "BLAN.13",
-      "Title": "Room 13, Blantyre",
+      "Title": "BLAN.13",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4502,7 +4502,7 @@
     },
     {
       "Room": "BLAN.14",
-      "Title": "Room 14, Blantyre",
+      "Title": "BLAN.14",
       "Grade": "3",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4538,7 +4538,7 @@
     },
     {
       "Room": "BLAN.15",
-      "Title": "Room 15, Blantyre",
+      "Title": "BLAN.15",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4574,7 +4574,7 @@
     },
     {
       "Room": "BLAN.16",
-      "Title": "Room 16, Blantyre",
+      "Title": "BLAN.16",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4610,7 +4610,7 @@
     },
     {
       "Room": "BLAN.17",
-      "Title": "Room 17, Blantyre",
+      "Title": "BLAN.17",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4646,7 +4646,7 @@
     },
     {
       "Room": "BLAN.18",
-      "Title": "Room 18, Blantyre",
+      "Title": "BLAN.18",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4682,7 +4682,7 @@
     },
     {
       "Room": "BLAN.19",
-      "Title": "Room 19, Blantyre",
+      "Title": "BLAN.19",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4718,7 +4718,7 @@
     },
     {
       "Room": "BLAN.2",
-      "Title": "Room 2, Blantyre",
+      "Title": "BLAN.2",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4754,7 +4754,7 @@
     },
     {
       "Room": "BLAN.20",
-      "Title": "Room 20, Blantyre",
+      "Title": "BLAN.20",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4790,7 +4790,7 @@
     },
     {
       "Room": "BLAN.21",
-      "Title": "Room 21, Blantyre",
+      "Title": "BLAN.21",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4826,7 +4826,7 @@
     },
     {
       "Room": "BLAN.22",
-      "Title": "Room 22, Blantyre",
+      "Title": "BLAN.22",
       "Grade": "6",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4862,7 +4862,7 @@
     },
     {
       "Room": "BLAN.23",
-      "Title": "Room 23, Blantyre",
+      "Title": "BLAN.23",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4898,7 +4898,7 @@
     },
     {
       "Room": "BLAN.24",
-      "Title": "Room 24, Blantyre",
+      "Title": "BLAN.24",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4934,7 +4934,7 @@
     },
     {
       "Room": "BLAN.25",
-      "Title": "Room 25, Blantyre",
+      "Title": "BLAN.25",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -4970,7 +4970,7 @@
     },
     {
       "Room": "BLAN.26",
-      "Title": "Room 26, Blantyre",
+      "Title": "BLAN.26",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5006,7 +5006,7 @@
     },
     {
       "Room": "BLAN.27",
-      "Title": "Room 27, Blantyre",
+      "Title": "BLAN.27",
       "Grade": "3",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5042,7 +5042,7 @@
     },
     {
       "Room": "BLAN.28",
-      "Title": "Room 28, Blantyre",
+      "Title": "BLAN.28",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5078,7 +5078,7 @@
     },
     {
       "Room": "BLAN.29",
-      "Title": "Room 29, Blantyre",
+      "Title": "BLAN.29",
       "Grade": "3",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5114,7 +5114,7 @@
     },
     {
       "Room": "BLAN.3",
-      "Title": "Room 3, Blantyre",
+      "Title": "BLAN.3",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5150,7 +5150,7 @@
     },
     {
       "Room": "BLAN.30",
-      "Title": "Room 30, Blantyre",
+      "Title": "BLAN.30",
       "Grade": "2",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5186,7 +5186,7 @@
     },
     {
       "Room": "BLAN.31",
-      "Title": "Room 31, Blantyre",
+      "Title": "BLAN.31",
       "Grade": "4",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5222,7 +5222,7 @@
     },
     {
       "Room": "BLAN.32a",
-      "Title": "Room 32a, Blantyre",
+      "Title": "BLAN.32a",
       "Grade": "4",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5258,7 +5258,7 @@
     },
     {
       "Room": "BLAN.32b",
-      "Title": "Room 32b, Blantyre",
+      "Title": "BLAN.32b",
       "Grade": "5",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5294,7 +5294,7 @@
     },
     {
       "Room": "BLAN.4",
-      "Title": "Room 4, Blantyre",
+      "Title": "BLAN.4",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5330,7 +5330,7 @@
     },
     {
       "Room": "BLAN.5",
-      "Title": "Room 5, Blantyre",
+      "Title": "BLAN.5",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5366,7 +5366,7 @@
     },
     {
       "Room": "BLAN.6",
-      "Title": "Room 6, Blantyre",
+      "Title": "BLAN.6",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5402,7 +5402,7 @@
     },
     {
       "Room": "BLAN.7",
-      "Title": "Room 7, Blantyre",
+      "Title": "BLAN.7",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5438,7 +5438,7 @@
     },
     {
       "Room": "BLAN.8",
-      "Title": "Room 8, Blantyre",
+      "Title": "BLAN.8",
       "Grade": "1",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5474,7 +5474,7 @@
     },
     {
       "Room": "BLAN.9",
-      "Title": "Room 9, Blantyre",
+      "Title": "BLAN.9",
       "Grade": "3",
       "Building": "Blantyre House",
       "Floor/Stair": "",
@@ -5510,7 +5510,7 @@
     },
     {
       "Room": "CL1",
-      "Title": "Room 1, Cloisters",
+      "Title": "CL1",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5546,7 +5546,7 @@
     },
     {
       "Room": "CL10",
-      "Title": "Room 10, Cloisters",
+      "Title": "CL10",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5582,7 +5582,7 @@
     },
     {
       "Room": "CL11",
-      "Title": "Room 11, Cloisters",
+      "Title": "CL11",
       "Grade": "7",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5618,7 +5618,7 @@
     },
     {
       "Room": "CL12",
-      "Title": "Room 12, Cloisters",
+      "Title": "CL12",
       "Grade": "8",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5654,7 +5654,7 @@
     },
     {
       "Room": "CL13",
-      "Title": "Room 13, Cloisters",
+      "Title": "CL13",
       "Grade": "7",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5690,7 +5690,7 @@
     },
     {
       "Room": "CL14",
-      "Title": "Room 14, Cloisters",
+      "Title": "CL14",
       "Grade": "7",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5726,7 +5726,7 @@
     },
     {
       "Room": "CL15",
-      "Title": "Room 15, Cloisters",
+      "Title": "CL15",
       "Grade": "7",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5762,7 +5762,7 @@
     },
     {
       "Room": "CL16",
-      "Title": "Room 16, Cloisters",
+      "Title": "CL16",
       "Grade": "8",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5798,7 +5798,7 @@
     },
     {
       "Room": "CL17",
-      "Title": "Room 17, Cloisters",
+      "Title": "CL17",
       "Grade": "6",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5834,7 +5834,7 @@
     },
     {
       "Room": "CL18",
-      "Title": "Room 18, Cloisters",
+      "Title": "CL18",
       "Grade": "6",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5870,7 +5870,7 @@
     },
     {
       "Room": "CL19",
-      "Title": "Room 19, Cloisters",
+      "Title": "CL19",
       "Grade": "8",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5906,7 +5906,7 @@
     },
     {
       "Room": "CL2",
-      "Title": "Room 2, Cloisters",
+      "Title": "CL2",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5942,7 +5942,7 @@
     },
     {
       "Room": "CL20",
-      "Title": "Room 20, Cloisters",
+      "Title": "CL20",
       "Grade": "7",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -5978,7 +5978,7 @@
     },
     {
       "Room": "CL21",
-      "Title": "Room 21, Cloisters",
+      "Title": "CL21",
       "Grade": "8",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6014,7 +6014,7 @@
     },
     {
       "Room": "CL22",
-      "Title": "Room 22, Cloisters",
+      "Title": "CL22",
       "Grade": "7",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6050,7 +6050,7 @@
     },
     {
       "Room": "CL23",
-      "Title": "Room 23, Cloisters",
+      "Title": "CL23",
       "Grade": "8",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6086,7 +6086,7 @@
     },
     {
       "Room": "CL24",
-      "Title": "Room 24, Cloisters",
+      "Title": "CL24",
       "Grade": "6",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6122,7 +6122,7 @@
     },
     {
       "Room": "CL3",
-      "Title": "Room 3, Cloisters",
+      "Title": "CL3",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6158,7 +6158,7 @@
     },
     {
       "Room": "CL4",
-      "Title": "Room 4, Cloisters",
+      "Title": "CL4",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6194,7 +6194,7 @@
     },
     {
       "Room": "CL5",
-      "Title": "Room 5, Cloisters",
+      "Title": "CL5",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6230,7 +6230,7 @@
     },
     {
       "Room": "CL6",
-      "Title": "Room 6, Cloisters",
+      "Title": "CL6",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6266,7 +6266,7 @@
     },
     {
       "Room": "CL7",
-      "Title": "Room 7, Cloisters",
+      "Title": "CL7",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6302,7 +6302,7 @@
     },
     {
       "Room": "CL8",
-      "Title": "Room 8, Cloisters",
+      "Title": "CL8",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6338,7 +6338,7 @@
     },
     {
       "Room": "CL9",
-      "Title": "Room 9, Cloisters",
+      "Title": "CL9",
       "Grade": "",
       "Building": "North Court",
       "Floor/Stair": "Cloisters",
@@ -6374,7 +6374,7 @@
     },
     {
       "Room": "EC1",
-      "Title": "Room 1, East Court",
+      "Title": "EC1",
       "Grade": "2",
       "Building": "East Court",
       "Floor/Stair": "EC Basement",
@@ -6410,7 +6410,7 @@
     },
     {
       "Room": "EC10",
-      "Title": "Room 10, East Court",
+      "Title": "EC10",
       "Grade": "3",
       "Building": "East Court",
       "Floor/Stair": "EC Third floor",
@@ -6446,7 +6446,7 @@
     },
     {
       "Room": "EC11",
-      "Title": "Room 11, East Court",
+      "Title": "EC11",
       "Grade": "5",
       "Building": "East Court",
       "Floor/Stair": "EC Basement",
@@ -6482,7 +6482,7 @@
     },
     {
       "Room": "EC12",
-      "Title": "Room 12, East Court",
+      "Title": "EC12",
       "Grade": "3",
       "Building": "East Court",
       "Floor/Stair": "EC Ground floor",
@@ -6518,7 +6518,7 @@
     },
     {
       "Room": "EC13",
-      "Title": "Room 13, East Court",
+      "Title": "EC13",
       "Grade": "3",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -6554,7 +6554,7 @@
     },
     {
       "Room": "EC14",
-      "Title": "Room 14, East Court",
+      "Title": "EC14",
       "Grade": "2",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -6590,7 +6590,7 @@
     },
     {
       "Room": "EC15",
-      "Title": "Room 15, East Court",
+      "Title": "EC15",
       "Grade": "3",
       "Building": "East Court",
       "Floor/Stair": "EC Third floor",
@@ -6626,7 +6626,7 @@
     },
     {
       "Room": "EC16",
-      "Title": "Room 16, East Court",
+      "Title": "EC16",
       "Grade": "5",
       "Building": "East Court",
       "Floor/Stair": "EC Ground floor",
@@ -6662,7 +6662,7 @@
     },
     {
       "Room": "EC17",
-      "Title": "Room 17, East Court",
+      "Title": "EC17",
       "Grade": "5",
       "Building": "East Court",
       "Floor/Stair": "EC Ground floor",
@@ -6698,7 +6698,7 @@
     },
     {
       "Room": "EC18",
-      "Title": "Room 18, East Court",
+      "Title": "EC18",
       "Grade": "5",
       "Building": "East Court",
       "Floor/Stair": "EC Ground floor",
@@ -6734,7 +6734,7 @@
     },
     {
       "Room": "EC19",
-      "Title": "Room 19, East Court",
+      "Title": "EC19",
       "Grade": "3",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -6770,7 +6770,7 @@
     },
     {
       "Room": "EC2",
-      "Title": "Room 2, East Court",
+      "Title": "EC2",
       "Grade": "2",
       "Building": "East Court",
       "Floor/Stair": "EC Ground floor",
@@ -6806,7 +6806,7 @@
     },
     {
       "Room": "EC20",
-      "Title": "Room 20, East Court",
+      "Title": "EC20",
       "Grade": "4",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -6842,7 +6842,7 @@
     },
     {
       "Room": "EC21",
-      "Title": "Room 21, East Court",
+      "Title": "EC21",
       "Grade": "4",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -6878,7 +6878,7 @@
     },
     {
       "Room": "EC22",
-      "Title": "Room 22, East Court",
+      "Title": "EC22",
       "Grade": "5",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -6914,7 +6914,7 @@
     },
     {
       "Room": "EC23",
-      "Title": "Room 23, East Court",
+      "Title": "EC23",
       "Grade": "4",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -6950,7 +6950,7 @@
     },
     {
       "Room": "EC3",
-      "Title": "Room 3, East Court",
+      "Title": "EC3",
       "Grade": "3",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -6986,7 +6986,7 @@
     },
     {
       "Room": "EC4",
-      "Title": "Room 4, East Court",
+      "Title": "EC4",
       "Grade": "2",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -7022,7 +7022,7 @@
     },
     {
       "Room": "EC5",
-      "Title": "Room 5, East Court",
+      "Title": "EC5",
       "Grade": "3",
       "Building": "East Court",
       "Floor/Stair": "EC Third floor",
@@ -7058,7 +7058,7 @@
     },
     {
       "Room": "EC6",
-      "Title": "Room 6, East Court",
+      "Title": "EC6",
       "Grade": "2",
       "Building": "East Court",
       "Floor/Stair": "EC Basement",
@@ -7094,7 +7094,7 @@
     },
     {
       "Room": "EC7",
-      "Title": "Room 7, East Court",
+      "Title": "EC7",
       "Grade": "2",
       "Building": "East Court",
       "Floor/Stair": "EC Ground floor",
@@ -7130,7 +7130,7 @@
     },
     {
       "Room": "EC8",
-      "Title": "Room 8, East Court",
+      "Title": "EC8",
       "Grade": "2",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -7166,7 +7166,7 @@
     },
     {
       "Room": "EC9",
-      "Title": "Room 9, East Court",
+      "Title": "EC9",
       "Grade": "2",
       "Building": "East Court",
       "Floor/Stair": "EC First floor",
@@ -10478,7 +10478,7 @@
     },
     {
       "Room": "M3 - 1",
-      "Title": "M3-1",
+      "Title": "M3 - 1",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10514,7 +10514,7 @@
     },
     {
       "Room": "M3 - 10",
-      "Title": "M3-10",
+      "Title": "M3 - 10",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10550,7 +10550,7 @@
     },
     {
       "Room": "M3 - 11",
-      "Title": "M3-11",
+      "Title": "M3 - 11",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10586,7 +10586,7 @@
     },
     {
       "Room": "M3 - 2",
-      "Title": "M3-2",
+      "Title": "M3 - 2",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10622,7 +10622,7 @@
     },
     {
       "Room": "M3 - 3",
-      "Title": "M3-3",
+      "Title": "M3 - 3",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10658,7 +10658,7 @@
     },
     {
       "Room": "M3 - 4",
-      "Title": "M3-4",
+      "Title": "M3 - 4",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10694,7 +10694,7 @@
     },
     {
       "Room": "M3 - 5",
-      "Title": "M3-5",
+      "Title": "M3 - 5",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10730,7 +10730,7 @@
     },
     {
       "Room": "M3 - 6",
-      "Title": "M3-6",
+      "Title": "M3 - 6",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10766,7 +10766,7 @@
     },
     {
       "Room": "M3 - 7",
-      "Title": "M3-7",
+      "Title": "M3 - 7",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10802,7 +10802,7 @@
     },
     {
       "Room": "M3 - 8",
-      "Title": "M3-8",
+      "Title": "M3 - 8",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10838,7 +10838,7 @@
     },
     {
       "Room": "M3 - 9",
-      "Title": "M3-9",
+      "Title": "M3 - 9",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10910,7 +10910,7 @@
     },
     {
       "Room": "M4 -1",
-      "Title": "M4-1",
+      "Title": "M4 -1",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10946,7 +10946,7 @@
     },
     {
       "Room": "M4 -10",
-      "Title": "M4-10",
+      "Title": "M4 -10",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -10982,7 +10982,7 @@
     },
     {
       "Room": "M4 -11",
-      "Title": "M4-11",
+      "Title": "M4 -11",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11018,7 +11018,7 @@
     },
     {
       "Room": "M4 -12",
-      "Title": "M4-12",
+      "Title": "M4 -12",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11054,7 +11054,7 @@
     },
     {
       "Room": "M4 -2",
-      "Title": "M4-2",
+      "Title": "M4 -2",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11090,7 +11090,7 @@
     },
     {
       "Room": "M4 -3",
-      "Title": "M4-3",
+      "Title": "M4 -3",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11126,7 +11126,7 @@
     },
     {
       "Room": "M4 -4",
-      "Title": "M4-4",
+      "Title": "M4 -4",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11162,7 +11162,7 @@
     },
     {
       "Room": "M4 -5",
-      "Title": "M4-5",
+      "Title": "M4 -5",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11198,7 +11198,7 @@
     },
     {
       "Room": "M4 -6",
-      "Title": "M4-6",
+      "Title": "M4 -6",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11234,7 +11234,7 @@
     },
     {
       "Room": "M4 -7",
-      "Title": "M4-7",
+      "Title": "M4 -7",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11270,7 +11270,7 @@
     },
     {
       "Room": "M4 -8",
-      "Title": "M4-8",
+      "Title": "M4 -8",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11306,7 +11306,7 @@
     },
     {
       "Room": "M4 -9",
-      "Title": "M4-9",
+      "Title": "M4 -9",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11378,7 +11378,7 @@
     },
     {
       "Room": "M5 -1",
-      "Title": "M5-1",
+      "Title": "M5 -1",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11414,7 +11414,7 @@
     },
     {
       "Room": "M5 -2",
-      "Title": "M5-2",
+      "Title": "M5 -2",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11450,7 +11450,7 @@
     },
     {
       "Room": "M5 -3",
-      "Title": "M5-3",
+      "Title": "M5 -3",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11486,7 +11486,7 @@
     },
     {
       "Room": "M5 -4",
-      "Title": "M5-4",
+      "Title": "M5 -4",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11522,7 +11522,7 @@
     },
     {
       "Room": "M5 -5",
-      "Title": "M5-5",
+      "Title": "M5 -5",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11558,7 +11558,7 @@
     },
     {
       "Room": "M5 -6",
-      "Title": "M5-6",
+      "Title": "M5 -6",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11594,7 +11594,7 @@
     },
     {
       "Room": "M5 -7",
-      "Title": "M5-7",
+      "Title": "M5 -7",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11630,7 +11630,7 @@
     },
     {
       "Room": "M5 -8",
-      "Title": "M5-8",
+      "Title": "M5 -8",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
@@ -11666,7 +11666,7 @@
     },
     {
       "Room": "M5 -9",
-      "Title": "M5-9",
+      "Title": "M5 -9",
       "Grade": "",
       "Building": "New South Court",
       "Floor/Stair": "",
