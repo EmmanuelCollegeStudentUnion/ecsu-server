@@ -5,6 +5,7 @@ import content, { roomDatabaseImages } from './content'
 import { resolveImage, navItems, routes } from './content'
 import fs from 'fs-extra';
 import { minutes } from './minutes';
+import path from 'path'
 
 const typeDefs = gql`
 type User{
@@ -235,6 +236,7 @@ const resolvers = {
   Mutation: {
     async roomPhotoUpload(parent, args, context) {
       const { createReadStream, filename, mimetype, encoding } = await args.file;
+      const outputFilename = path.basename(filename, path.extname(filename)) + String(Number(new Date())) + path.extname(filename);
       try {
         console.log("Upload: " + filename)
         await fs.mkdirp(`./user_uploads`);
@@ -246,13 +248,13 @@ const resolvers = {
           stream.on("finish", fulfill)
           stream.on("error", fulfill)
         });
-        stream.pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}`))
-        await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${filename.toLowerCase()}.json`, { user: context.user })
+        stream.pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${outputFilename.toLowerCase()}`))
+        await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${outputFilename.toLowerCase()}.json`, { user: context.user })
         await uploadDone;
       } catch (e) {
         console.error(e)
       }
-      console.log("Upload done:" + filename)
+      console.log("Upload done:" + outputFilename)
       return {};
     },
     async minutesUpload(parent, args, context) {
