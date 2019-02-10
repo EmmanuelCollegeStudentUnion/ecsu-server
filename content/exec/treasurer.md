@@ -1,6 +1,6 @@
 ---
 email: treasurer@ecsu.org.uk
-image: /assets/images/exec/Treasurer.jpg
+image: /assets/images/exec/Treasurer.jpeg
 name: Will Styles
 title: Treasurer
 ---

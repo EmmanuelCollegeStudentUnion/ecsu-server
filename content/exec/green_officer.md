@@ -1,6 +1,6 @@
 ---
 email: green@ecsu.org.uk
-image: /assets/images/exec/Green.png
+image: /assets/images/exec/Green.jpeg
 name: Lucy Mahony	
 title: Green & Ethical Officer
 ---

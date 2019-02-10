@@ -1,6 +1,6 @@
 ---
 email: internationalsofficer@ecsu.org.uk
-image: /assets/images/exec/International.jpg
+image: /assets/images/exec/International.jpeg
 name: Gábor Csontos
 title: International Officer
 ---

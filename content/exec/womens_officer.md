@@ -1,6 +1,6 @@
 ---
 email: womens@ecsu.org.uk
-image: /assets/images/exec/Womens.jpg
+image: /assets/images/exec/Womens.jpeg
 name: Emily Claytor
 title: Women's Officer
 ---

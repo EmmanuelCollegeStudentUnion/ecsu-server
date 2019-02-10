@@ -1,6 +1,6 @@
 ---
 email: president@ecsu.org.uk
-image: /assets/images/exec/matilda_vp.jpg
+image: /assets/images/exec/President.jpeg
 name: Matilda Schwefel
 title: President
 ordering: 2

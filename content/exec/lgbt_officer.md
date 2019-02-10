@@ -1,6 +1,6 @@
 ---
 email: lgbt-rep@ecsu.org.uk
-image: /assets/images/exec/LGBT.jpg
+image: /assets/images/exec/LGBT.jpeg
 name: Edan Simpson	
 title: LGBT+ Officer
 ---

@@ -1,6 +1,6 @@
 ---
 email: charities@ecsu.org.uk
-image: /assets/images/exec/Charities.jpg
+image: /assets/images/exec/Charities.jpeg
 name: Sophia Rodrigues 
 title: Charities Officer
 ---

@@ -1,6 +1,6 @@
 ---
 email: secretary@ecsu.org.uk
-image: /assets/images/exec/Secretary.png
+image: /assets/images/exec/Secretary.jpeg
 name: Robyn Topper
 title: Secretary
 crsid: rt480

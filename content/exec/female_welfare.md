@@ -1,6 +1,6 @@
 ---
 email: welfare-female@ecsu.org.uk
-image: /assets/images/exec/Female.jpg
+image: /assets/images/exec/Female.jpeg
 name: Poppy Boyd-Taylor
 title: Female Welfare Officer
 ---

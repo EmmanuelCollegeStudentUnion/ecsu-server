@@ -1,6 +1,6 @@
 ---
 email: ents@ecsu.org.uk
-image: /assets/images/exec/Ents.jpg
+image: /assets/images/exec/Ents.jpeg
 name: George English and Seb Dunne
 title: Ents Coordinators
 ---

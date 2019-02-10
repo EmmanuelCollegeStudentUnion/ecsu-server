@@ -1,6 +1,6 @@
 ---
 email: disabilities@ecsu.org.uk
-image: /assets/images/exec/Disabilities.png
+image: /assets/images/exec/Disabilities.jpeg
 name: Meg Webb
 title: Disabilities Officer
 ---

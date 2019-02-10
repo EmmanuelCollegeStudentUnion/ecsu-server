@@ -1,6 +1,6 @@
 ---
 email: buildingsandservices@ecsu.org.uk
-image: /assets/images/exec/Buildings.jpg
+image: /assets/images/exec/Buildings.jpeg
 name: Harvey Hughes
 title: Buildings & Services Officer
 ---

@@ -1,6 +1,6 @@
 ---
 email: vicepresident@ecsu.org.uk
-image: /assets/images/exec/Vice.jpg
+image: /assets/images/exec/Vice.jpeg
 name: Colin Kaljee
 title: Vice President
 ordering: 1
