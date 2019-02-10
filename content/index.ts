@@ -176,7 +176,11 @@ export const routes = flatMap(navItems, (x => [
 const lqipCache = {}
 function memoizedLqip(filename) {
     if (!(filename in lqipCache)) {
-        lqipCache[filename] = lqip.base64(filename)
+        try {
+            lqipCache[filename] = lqip.base64(filename)
+        } catch (e) {
+            console.error(e)
+        }
         return null
     } else {
         return lqipCache[filename]
