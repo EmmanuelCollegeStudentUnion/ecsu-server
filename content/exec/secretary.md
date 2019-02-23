@@ -3,7 +3,6 @@ title: Secretary
 email: secretary@ecsu.org.uk
 image: /assets/images/exec/Secretary.jpeg
 name: Robyn Topper
-title: Secretary
 crsid: rt480
 ---
 Hi everyone! I'm **Robyn** and I'm reading **Geography** in my penultimate year here at Emma.
