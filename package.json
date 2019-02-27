@@ -3,8 +3,8 @@
     {
       "name": "ecsu-web",
       "script": "dist/index.js",
-      "instances"  : 1,
-      "exec_mode"  : "cluster"
+      "instances": 1,
+      "exec_mode": "cluster"
     }
   ],
   "scripts": {
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "apollo-server-express": "^2.3.1",
+    "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "feed": "^2.0.2",
     "fs-extra": "^7.0.1",

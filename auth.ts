@@ -19,7 +19,7 @@ passport.use(new RavenStrategy({
 passport.use(new AnonymousStrategy());
 passport.use(new JWTstrategy({
     //secret we used to sign our JWT
-    secretOrKey: 'top_secret',
+    secretOrKey: process.env.SECRET,
     jwtFromRequest: ExtractJwt.fromExtractors([ExtractJwt.fromAuthHeaderAsBearerToken(), ExtractJwt.fromUrlQueryParameter('auth')])
 }, async (token, done) => {
     try {
@@ -38,7 +38,7 @@ export default function applyAuthMiddleware(app) {
     }))
     app.get('/token',
         passport.authorize('raven'), (req, res, next) => {
-            const token = jwt.sign({ crsid: req.account.id }, 'top_secret');
+            const token = jwt.sign({ crsid: req.account.id }, process.env.SECRET);
             //Send back the token to the user
             return res.json({ token });
         });

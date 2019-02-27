@@ -1,4 +1,5 @@
 
+require('dotenv').config()
 import express from 'express';
 import image from './image';
 import applyMinutesMiddleware, { minutes } from './minutes';
@@ -36,6 +37,6 @@ app.get('/user_uploads/room_database/:folder/:file(*)', (req, res, next) => {
 })
 
 
-app.listen({ port: 3254 }, () =>
+app.listen({ port: process.env.PORT }, () =>
   console.log(`🚀 Server ready at http://localhost:3254`)
 );
