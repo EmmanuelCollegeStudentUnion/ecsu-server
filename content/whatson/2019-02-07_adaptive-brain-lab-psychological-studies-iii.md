@@ -1,6 +1,6 @@
 ---
 title: Adaptive Brain Lab Psychological Studies (III)
-category: Paid opportunity
+category: Paid Opportunity
 pubdate: 2019-02-07T09:31:47.984Z
 datetime: Apply ASAP
 image: 'https://ucarecdn.com/b17193f5-a097-4331-a379-41f519c6e3a0/'
