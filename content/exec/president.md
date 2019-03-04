@@ -3,6 +3,7 @@ title: President
 email: president@ecsu.org.uk
 name: Matilda Schwefel
 image: /assets/images/exec/President.jpeg
+ordering: 2
 ---
 I'm Matilda (she/her), a second Classicist. 
 
