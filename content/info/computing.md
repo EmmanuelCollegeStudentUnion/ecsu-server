@@ -1,7 +1,7 @@
 ---
-image: /assets/images/info/computer.png
-subtitle: Information Regarding IT services in Emmanuel
 title: Computing
+subtitle: Information regarding IT services at Emma
+image: /assets/images/info/computer.png
 ---
 
 All rooms should have a network connection available to them. All rooms in college (with the exception of Old Court) have both Wired and Wireless connections. Most rooms outside of college only have Wireless connections ([a list is available here](https://www.emma.cam.ac.uk/teaching/computing/connect/outside/)).
