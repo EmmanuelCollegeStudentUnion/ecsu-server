@@ -1,5 +1,5 @@
 ---
 title: Access Blog
-description: 'See the lives of ordinary students at Emmanuel College, Cambridge'
+description: What's it like to be a student at Emmanuel?
 ---
 

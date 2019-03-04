@@ -1,5 +1,5 @@
 ---
-title: Latest News
-description: 'The Latest News and Events from Emmanuel'
+title: ECSU Reports
+description: Termly Reports on the Achievements of ECSU Executive
 ---
 

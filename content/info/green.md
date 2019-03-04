@@ -1,7 +1,7 @@
 ---
+title: Green and Ethical Affairs
+subtitle: Information regarding Emmanuel College's Environment Credentials
 image: /assets/images/info/green.png
-subtitle: Information Regarding Emmanuel College Environment Credentials
-title: Green
 ---
 
 Emma is increasingly known for being a green-minded college. It has various environmental initiatives and systems within place - this page is intended to help you know what they are! For any questions or suggestions, please contact the green officer at [green@ecsu.org.uk](mailto:green@ecsu.org.uk).
