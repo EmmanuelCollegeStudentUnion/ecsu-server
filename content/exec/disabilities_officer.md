@@ -14,9 +14,7 @@ As your DSO, my priorities for this year will be:
 
 **3)** make 2019 Freshers week as accessible and manageable for students with disabilities as possible
 
-If you'd like to discuss support available within college (anything from emotional to financial), manage supervision and exam allowances, or just need a listening ear and a cup of tea then please do email me at:
-
-disabilities@ecsu.org.uk
+If you'd like to discuss support available within college (anything from emotional to financial), manage supervision and exam allowances, or just need a listening ear and a cup of tea then please do email me.
 
 Much, much love, 
 
