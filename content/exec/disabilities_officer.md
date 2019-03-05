@@ -8,7 +8,7 @@ image: /assets/images/exec/Disabilities.jpeg
 
 As your DSO, my priorities for this year will be:
 
-**1) **continuing discussions with the college to improve and ensure accessibility both in current buildings and the New Development
+**1)** continuing discussions with the college to improve and ensure accessibility both in current buildings and the New Development
 
 **2)** provide support for those with disabilities going through the ballot system, exam season, and intermitting process
 
