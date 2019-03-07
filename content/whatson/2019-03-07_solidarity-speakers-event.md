@@ -1,5 +1,5 @@
 ---
-title: Solidarity Speakers Event
+title: Solidaritee Speakers Event
 category: Academic Talk
 pubdate: 2019-03-08T17:43:30.170Z
 datetime: 17th Mar
