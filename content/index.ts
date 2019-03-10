@@ -4,6 +4,7 @@ import glob from 'glob';
 import url from 'url';
 import fs from 'fs-extra';
 import lqip from 'lqip'
+import { ApolloError } from 'apollo-server-core';
 
 function itemsForContent(contentType) {
     const paths = glob.sync(`./content/${contentType}/*.md`)
@@ -56,9 +57,9 @@ Object.keys(content).forEach(collection => {
 
 
 export default async (contentType, contentSlug: string = "") => {
-    if (!(contentType in mapping)) throw new Error(`Content folder ${contentType} not found`);
+    if (!(contentType in mapping)) throw new ApolloError(`Content folder ${contentType} not found`, 'NOT_FOUND');
     if (contentSlug) {
-        if (!(contentSlug in mapping[contentType])) throw new Error(`Content ${contentSlug} not found in ${contentType}`);
+        if (!(contentSlug in mapping[contentType])) throw new ApolloError(`Content ${contentSlug} not found in ${contentType}`, 'NOT_FOUND');
         const content = mapping[contentType][contentSlug]
         return {
             ...content,
