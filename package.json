@@ -2,9 +2,7 @@
   "apps": [
     {
       "name": "ecsu-web",
-      "script": "dist/index.js",
-      "instances": 1,
-      "exec_mode": "cluster"
+      "script": "dist/index.js"
     }
   ],
   "scripts": {
