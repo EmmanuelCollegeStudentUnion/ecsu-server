@@ -3,7 +3,7 @@ require 'json'
 namespace :pm2 do
 
   def app_status
-    within current_path do
+    within File.expand_path("..", current_path) do
       # Dry run to prevent spawn log being sent to stdout
       execute :npx, :pm2, :list, fetch(:app_command) 
       # Get json from stdout
@@ -18,13 +18,13 @@ namespace :pm2 do
   end
 
   def restart_app
-    within current_path do
+    within File.expand_path("..", current_path) do
       execute :npx, :pm2, :restart, fetch(:app_command)
     end
   end
   
   def start_app
-    within current_path do
+    within File.expand_path("..", current_path) do
       execute :npx, :pm2, :start, fetch(:app_command)
     end
   end

@@ -35,7 +35,7 @@ set :keep_releases, 1
 # Uncomment the following to require manually verifying the host key before first deploy.
 # set :ssh_options, verify_host_key: :secure
 
-set :app_command, "ecosystem.config.js"
+set :app_command, "current/ecosystem.config.js"
 
 namespace :deploy do
 
