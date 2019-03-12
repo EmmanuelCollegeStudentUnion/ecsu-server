@@ -207,5 +207,5 @@ export async function resolveImage(image: string, alt) {
 export function roomDatabaseImages(obj) {
     const paths = glob.sync(`./user_uploads/room_database/${obj.id}/*.{jpg,png,jpeg}`)
     return roomDatabase['Images'].filter(image => image['Room'] == obj['Room']).map(x => resolveImage(x["Image"], obj["Title"])).concat(
-        paths.map(src => ({ src: src.replace('./user_uploads', 'https://ecsu.org.uk/api/user_uploads'), alt: obj["Title"] })))
+        paths.map(src => ({ src: src.replace('./user_uploads', 'https://ecsu.org.uk/api/user_uploads'), alt: obj["Title"] }))).reverse()
 }
