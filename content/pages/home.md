@@ -42,11 +42,5 @@ whats_here:
     image: /assets/images/pages/home/careers.jpeg
     title: Emma Careers
     url: /info/careers
-  - description: >-
-      Find out what's on the menu for lunchtime and dinner today in Emmanuel,
-      including information about food allergens and vegetarian options.
-    image: /assets/images/pages/home/hall.jpg
-    title: Emmanuel Hall Menu
-    url: /hall_menu
 ---
 
