@@ -4,7 +4,7 @@ description: >-
   A second year Computer Scientist at Emmanuel College compares the best
   Cambridge Colleges for computer science and which he might choose if he had to
   pick again. This post is part of the Emmanuel College Student Union's blog
-  where students answer the most search questions about Cambridge by prospective
+  where students answer the most searched questions about Cambridge by prospective
   applicants.
 title: Which Cambridge college is best for Computer Science?
 subtitle: >-
