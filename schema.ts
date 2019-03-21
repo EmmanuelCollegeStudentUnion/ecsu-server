@@ -9,7 +9,7 @@ import path from 'path'
 
 const typeDefs = gql`
 type User{
-  anonymous: Boolean
+anonymous: Boolean
   crsid: String
 }
 type Image{
@@ -86,6 +86,7 @@ type Post{
   title: String
   subtitle: String
   image: Image
+  description: String
   body: String
   url: String
   blog: Blog
@@ -264,15 +265,15 @@ const resolvers = {
         console.log("Upload: " + filename)
         await fs.mkdirp(`./user_uploads`);
         await fs.mkdirp(`./user_uploads/minutes`);
-        await fs.mkdirp(`./user_uploads/room_database/${year}/`);
+        await fs.mkdirp(`./user_uploads/minutes/${year}/`);
         const stream = createReadStream();
         const uploadDone = new Promise(fulfill => {
           stream.on("end", fulfill)
           stream.on("finish", fulfill)
           stream.on("error", fulfill)
         });
-        stream.pipe(fs.createWriteStream(`./user_uploads/room_database/${year}/${filename.toLowerCase()}`))
-        await fs.writeJSON(`./user_uploads/room_database/${year}/${filename.toLowerCase()}.json`, { year, type, term, number })
+        stream.pipe(fs.createWriteStream(`./user_uploads/minutes/${year}/${filename.toLowerCase()}`))
+        await fs.writeJSON(`./user_uploads/minutes/${year}/${filename.toLowerCase()}.json`, { year, type, term, number })
         await uploadDone;
       } catch (e) {
         console.error(e)
