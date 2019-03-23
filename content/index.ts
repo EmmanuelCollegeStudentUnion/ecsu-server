@@ -11,7 +11,7 @@ function itemsForContent(contentType) {
     return paths
         .map(filename => {
             const slug = filename.match(`^./content/${contentType}\/(.*)\.md`)!;
-            const urlText = url.resolve(`/${contentType}/`, slug[1]);
+            const urlText = url.resolve(`/${contentType}/`, slug[1]) + '/';
             const file = fs.readFileSync(filename, "utf8");
             const content = yamlFront.loadFront(file);
             return {
@@ -88,19 +88,19 @@ export const navItems = [
     {
         text: "What's On",
         icon: "today",
-        url: "/whatson",
+        url: "/whatson/",
         routes: []
     },
     {
         text: "Prospective students",
         icon: "face",
-        url: "/prospective",
+        url: "/prospective/",
         routes: itemsForContent("prospective")
     },
     {
         text: "Current students",
         icon: "account_circle",
-        url: "/members",
+        url: "/members/",
         routes: [
             {
                 title: "Minutes",
@@ -117,19 +117,19 @@ export const navItems = [
     {
         text: "Committee",
         icon: "assignment_ind",
-        url: "/exec",
+        url: "/exec/",
         routes: itemsForContent("exec")
     },
     {
         text: "Posts",
         icon: "assignment",
-        url: "/blogs",
+        url: "/blogs/",
         routes: itemsForContent("blogs")
     },
     {
         text: "Welfare",
         icon: "sentiment_very_satisfied",
-        url: "/welfare",
+        url: "/welfare/",
         routes: [
             ...itemsForContent("welfare"),
             {
@@ -147,19 +147,19 @@ export const navItems = [
     {
         text: "Societies",
         icon: "rowing",
-        url: "/societies",
+        url: "/societies/",
         routes: itemsForContent("societies")
     },
     {
         text: "Room database",
         icon: "location_city",
-        url: "/room_locations",
+        url: "/room_locations/",
         routes: itemsForContent("room_locations")
     },
     {
         text: "Info",
         icon: "info",
-        url: "/info",
+        url: "/info/",
         routes: itemsForContent("info")
     }
 ]
