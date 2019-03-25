@@ -8,10 +8,6 @@ title: Which Cambridge college is best for Computer Science?
 subtitle: >-
   Emmanuel College students answer the most searched questions about Cambridge
   by prospective applicants
-description: >-
-  A second year Computer Scientist at Emmanuel College compares the best
-  Cambridge Colleges for computer science and which he might choose if he had to
-  pick again.
 ---
 Hi, I’m Nathan a second year Computer Scientist at Emmanuel. First of all, which college is right for you and which subject you do are mostly unrelated. Also, I don’t know what it is like to study Computer Science at all of the 31 Cambridge colleges. Nevertheless, I can talk a bit in general about a few colleges I might choose if I had to pick again.
 
