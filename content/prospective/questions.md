@@ -1,6 +1,6 @@
 ---
 title: Questions
-subtitle: 'Who to contact about coming to Cambridge? '
+subtitle: 'Who shall I contact about coming to Emma? '
 ---
 If you have any questions about admissions to Emmanuel College or Cambridge in general there are a number of people you can contact: 
 
