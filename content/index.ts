@@ -10,16 +10,22 @@ function itemsForContent(contentType) {
     const paths = glob.sync(`./content/${contentType}/*.md`)
     return paths
         .map(filename => {
-            const slug = filename.match(`^./content/${contentType}\/(.*)\.md`)!;
-            const urlText = url.resolve(`/${contentType}/`, slug[1]) + '/';
-            const file = fs.readFileSync(filename, "utf8");
-            const content = yamlFront.loadFront(file);
-            return {
-                title: content.title,
-                slug: slug[1],
-                items: [],
-                url: urlText,
-                ...content
+            try {
+                const slug = filename.match(`^./content/${contentType}\/(.*)\.md`)!;
+                const urlText = url.resolve(`/${contentType}/`, slug[1]) + '/';
+                const file = fs.readFileSync(filename, "utf8");
+                const content = yamlFront.loadFront(file);
+                return {
+                    title: content.title,
+                    slug: slug[1],
+                    items: [],
+                    url: urlText,
+                    ...content
+                }
+            } catch (e) {
+                console.error('Could not load ' + filename)
+                console.error(e)
+                return {}
             }
         }).sort(compare)
 }
