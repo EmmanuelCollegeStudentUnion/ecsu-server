@@ -28,7 +28,7 @@ set :default_env, { path: "/home/nh487/.local/bin:$PATH" }
 
 
 # Default value for copy_files is []
-set :copy_files, 'node_modules'
+set :copy_files, ['node_modules']
 
 # Default value for local_user is ENV['USER']
 # set :local_user, -> { `git config user.name`.chomp }
