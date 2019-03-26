@@ -15,7 +15,7 @@ Emma is increasingly known for being a green-minded college. It has various envi
 
 * Pumps, WD40, bike oil, a puncture repair kit and tyre levers can be borrowed from the plodge for bike repairs. 
 * There are covered bike storage sheds in Chapman\u2019s Garden, and otherwise bike racks throughout college to lock your bike securely.
-* The CUSU shop offers the cheapest legal bike lights and advise on cycle safety in Cambridge, in particular [here](http://www.studentadvice.cam.ac.uk/welfare/cycling/). It also tells you which bike shops have student deals and discounts.
+* The CUSU shop offers the cheapest legal bike lights and advise on cycle safety in Cambridge, in particular [here](http://www.studentadvice.cam.ac.uk/welfare/cycling/). It also tells you which bike shops have student deals and discounts. The ECSU shop also sells bike lights, visit the shop or email <mailto:shop@ecsu.org.uk> to find out if/when they will be in stock 
 * You should register your bike with college (ask the porters) when arriving, and note down the reference code stamped into the frame in case it is stolen.
 
 ## Post
