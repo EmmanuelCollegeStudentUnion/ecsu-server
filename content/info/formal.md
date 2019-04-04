@@ -1,7 +1,7 @@
 ---
-image: /assets/images/info/formal.jpg
-subtitle: Information Regarding the Formal Hall System in Emmanuel College
 title: Formal Hall
+subtitle: Information Regarding the Formal Hall System in Emmanuel College
+image: /assets/images/info/formal.jpg
 ---
 
 ## Menu
@@ -26,5 +26,5 @@ Booking for formal hall is quite simple:
 - People should not wander round the hall unnecessarily, as this affects the catering staff.
 - Throwing food is strictly prohibited.  Drinking races or drinking games are not allowed at any time.
 - Formal Halls are not an occasion for flashlight photography but it is permitted after the Fellows have left the hall or after coffee has been served.
-- While the Fellows are in the hall there should be no toasting or singing.  These activities are permitted, however, after the Fellows have left the hall as long as no inconvenience is caused to the staff.
+- While the Fellows are in the hall there should be no toasting or singing.  These activities are permitted. However, after the Fellows have left the hall as long as no inconvenience is caused to the staff.
 - **Pennying** and other drinking games are **strictly forbidden**. Anyone found breaking this rule will be asked to leave. Continued breaking of this rule could result in the loss of College's alcohol license.
