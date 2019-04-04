@@ -13,4 +13,4 @@ Hey I'm Harvey and I'm the Buildings & Services officer. My role responsibility 
 * Anything relating to the state of student accommodation.
 * Bike maintenance equipment in the p'lodge.
 
-You can contact me at buildingsandservices@ecsu.org.uk with any problems relating to the above, I'd be happy to pass on your query, answer your questions or fix it myself.
+You can contact me at the email address below with any problems relating to the above, I'd be happy to pass on your query, answer your questions or fix it myself.
