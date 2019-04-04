@@ -3,9 +3,6 @@ title: Formal Hall
 subtitle: Information Regarding the Formal Hall System in Emmanuel College
 image: /assets/images/info/formal.jpg
 ---
-
-## Menu
-
 ## Booking
 
 Booking for formal hall is quite simple:
@@ -13,9 +10,7 @@ Booking for formal hall is quite simple:
 1. Go to [www.emma.cam.ac.uk](http://www.emma.cam.ac.uk)
 1. Click the Login button at the top right-hand corner of the page
 1. Click Raven Login.
-1. Log in to Raven. You will then be returned to the Emmanuel home page.
-<li>Click the fork and knife symbol in the top right-hand corner of the page, just below the Logout button.
-	    OR click the 'Book Formal Hall Online' link a bit further down the right-hand side of the page.)</li>
+1. Log in to Raven. You will then be returned to the Emmanuel home page. Click the fork and knife symbol in the top right-hand corner of the page, just below the Logout button OR click the 'Book Formal Hall Online' link a bit further down the right-hand side of the page.)
 1. You should now be at the Formal Hall booking web page. Book away!
 
 ## Guidance For Behaviour At Formal Hall
