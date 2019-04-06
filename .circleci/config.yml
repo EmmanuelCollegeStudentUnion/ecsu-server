@@ -11,6 +11,10 @@ jobs:
           name: Bundle Install
           command: bundle check || bundle install
       - run:
+        name: Cleanup old releases
+        command: bundle exec cap production deploy:cleanup
+        
+      - run:
           name: Deploy
           command: bundle exec cap production deploy
 
