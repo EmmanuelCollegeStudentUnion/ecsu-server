@@ -6,6 +6,8 @@ import fs from 'fs-extra';
 import lqip from 'lqip'
 import { ApolloError } from 'apollo-server-core';
 
+export const contentErrors : any[] = [];
+
 function itemsForContent(contentType) {
     const paths = glob.sync(`./content/${contentType}/*.md`)
     return paths
@@ -23,8 +25,12 @@ function itemsForContent(contentType) {
                     ...content
                 }
             } catch (e) {
-                console.error('Could not load ' + filename)
-                console.error(e)
+                const error = {
+                    'filename': filename,
+                    'exception': e
+                };
+                console.error(error)
+                contentErrors.push(error)
                 return {}
             }
         }).sort(compare)
@@ -101,7 +107,7 @@ export const navItems = [
         text: "Prospective students",
         icon: "face",
         url: "/prospective/",
-        routes: itemsForContent("prospective")
+        routes: content["prospective"]
     },
     {
         text: "Current students",
@@ -124,20 +130,20 @@ export const navItems = [
         text: "Committee",
         icon: "assignment_ind",
         url: "/exec/",
-        routes: itemsForContent("exec")
+        routes: content["exec"]
     },
     {
         text: "Posts",
         icon: "assignment",
         url: "/blogs/",
-        routes: itemsForContent("blogs")
+        routes: content["blogs"]
     },
     {
         text: "Welfare",
         icon: "sentiment_very_satisfied",
         url: "/welfare/",
         routes: [
-            ...itemsForContent("welfare"),
+            ...content["welfare"],
             {
                 title: "Pregnancy Kit",
                 url: "/welfare/pregnancy_kit",
@@ -154,19 +160,19 @@ export const navItems = [
         text: "Societies",
         icon: "rowing",
         url: "/societies/",
-        routes: itemsForContent("societies")
+        routes: content["societies"]
     },
     {
         text: "Room database",
         icon: "location_city",
         url: "/room_locations/",
-        routes: itemsForContent("room_locations")
+        routes: content["room_locations"]
     },
     {
         text: "Info",
         icon: "info",
         url: "/info/",
-        routes: itemsForContent("info")
+        routes: content["info"]
     }
 ]
 
@@ -214,4 +220,4 @@ export function roomDatabaseImages(obj) {
     const paths = glob.sync(`./user_uploads/room_database/${obj.id}/*.{jpg,png,jpeg}`)
     return roomDatabase['Images'].filter(image => image['Room'] == obj['Room']).map(x => resolveImage(x["Image"], obj["Title"])).concat(
         paths.map(src => ({ src: src.replace('./user_uploads', 'https://api.ecsu.org.uk/user_uploads'), alt: obj["Title"] }))).reverse()
-}
+};

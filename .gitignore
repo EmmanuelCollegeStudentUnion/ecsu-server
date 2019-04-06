@@ -5,3 +5,4 @@ yarn-error.log
 user_uploads
 log
 .env
+test-results
