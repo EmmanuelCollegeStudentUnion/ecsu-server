@@ -14,7 +14,7 @@ jobs:
           name: Deploy
           command: bundle exec cap production deploy
 
-test:
+  test:
       docker:
       # specify the version you desire here
       - image: circleci/node:10.14
