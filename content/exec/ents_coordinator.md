@@ -1,10 +1,10 @@
 ---
-title: Ents Coordinators
+title: Ents Officers
 email: ents@ecsu.org.uk
 name: George English and Seb Dunne
 image: /assets/images/exec/Ents.jpeg
 ---
-Hi! We're Seb and George your 2018-2019 Ents officers,
+Hi! We're Seb and George your 2018-2019 Ents Officers,
 
 We're both 2nd year medical students and it's our job to organise and run college wide social events for the Emma undergraduates. This is quite a broad job and events range from plays and pub quizzes to whole college parties (sometimes even intercollege ones), also called Ents or Bops. We also work with the other officers on ECSU to set up any events that they might want to put on. 
 
