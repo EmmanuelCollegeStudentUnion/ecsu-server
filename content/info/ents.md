@@ -8,3 +8,5 @@ Emma Ents has been helping undergrads at Emma meet and socialise across subjects
 In the past Emma Ents has hosted the Hip Hop society for an exhibition society, done a super ent with three other colleges and much, much more.
 
 Emma Ents tries to cater to everyone with its wide variety of events, however if you feel like the Ents Officers could do something better or have any other ideas please drop them an email on: ents@ecsu.org.uk
+
+Make sure to like the Emma Ents facebook page for regular updates!
