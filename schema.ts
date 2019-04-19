@@ -152,7 +152,7 @@ type Query {
 }    
 type Mutation {
   roomPhotoUpload(roomSlug:String!, file: Upload!): Image
-  minutesUpload(year:String!, type:String!, term:String!, number:Int, file: Upload!): Minutes
+  minutesUpload(year:Int!, type:String!, term:String!, number:Int, file: Upload!): Minutes
 }
 `;
 
