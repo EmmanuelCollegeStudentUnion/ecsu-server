@@ -5,6 +5,7 @@ import applyMinutesMiddleware, { minutes } from './minutes';
 import applyGraphqlMiddleware from './schema';
 import applyRssFeedMiddleware from './rssfeed';
 import applyAuthMiddleware from './auth';
+import applyUploadMiddleware from './upload';
 
 
 const app = express();
@@ -22,6 +23,7 @@ applyAuthMiddleware(app);
 applyMinutesMiddleware(app);
 applyGraphqlMiddleware(app)
 applyRssFeedMiddleware(app);
+applyUploadMiddleware(app);
 
 app.get('/image/:folder/:file(*)', (req, res, next) => {
     res.type('image/png');

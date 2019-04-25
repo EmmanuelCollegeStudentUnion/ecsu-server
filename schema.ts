@@ -235,29 +235,6 @@ const resolvers = {
     user: (obj, args, context) => context.user
   },
   Mutation: {
-    async roomPhotoUpload(parent, args, context) {
-      const { createReadStream, filename, mimetype, encoding } = await args.file;
-      const outputFilename = path.basename(filename, path.extname(filename)) + String(Number(new Date())) + path.extname(filename);
-      try {
-        console.log("Upload: " + filename)
-        await fs.mkdirp(`./user_uploads`);
-        await fs.mkdirp(`./user_uploads/room_database`);
-        await fs.mkdirp(`./user_uploads/room_database/${args.roomSlug}/`);
-        const stream = createReadStream();
-        const uploadDone = new Promise(fulfill => {
-          stream.on("end", fulfill)
-          stream.on("finish", fulfill)
-          stream.on("error", fulfill)
-        });
-        stream.pipe(fs.createWriteStream(`./user_uploads/room_database/${args.roomSlug}/${outputFilename.toLowerCase()}`))
-        await fs.writeJSON(`./user_uploads/room_database/${args.roomSlug}/${outputFilename.toLowerCase()}.json`, { user: context.user })
-        await uploadDone;
-      } catch (e) {
-        console.error(e)
-      }
-      console.log("Upload done:" + outputFilename)
-      return {};
-    },
     async minutesUpload(parent, args, context) {
       const { year, type, term, number } = args
       const { createReadStream, filename, mimetype, encoding } = await args.file;
