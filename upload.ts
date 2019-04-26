@@ -35,6 +35,29 @@ async function roomDatabaseUpload(file, metadata, user) {
     }
 }
 
+async function minutesUpload(file, metadata, user) {
+    try {
+        fs.mkdirpSync(`./user_uploads`);
+        fs.mkdirpSync(`./user_uploads/room_database`);
+        fs.mkdirpSync(`./user_uploads/room_database/${metadata.roomSlug}/`);
+        const extension = metadata.extension.replace(/\W/g, '')
+        const roomSlug = metadata.roomSlug.replace(/[^a-zA-Z\d_-]/g, '')
+        const src = `./user_uploads/${file.id}`;
+        const dest = `./user_uploads/room_database/${roomSlug}/${file.id}.${extension}`
+        fs.moveSync(src, dest)
+        fs.writeJSON(dest + '.json', {
+            type: metadata.type,
+            year: metadata.year,
+            term: metadata.term,
+            number: metadata.number,
+            user: user
+        })
+        fs.symlinkSync(dest, src, "file")
+    } catch (e) {
+        console.error(e)
+    }
+}
+
 const express = require('express');
 const uploadApp = express();
 uploadApp.use(function (req, res, next) {
@@ -53,6 +76,7 @@ server.on(EVENTS.EVENT_UPLOAD_COMPLETE, (event) => {
         console.log(`Upload complete for file ${event.file.id}`);
         switch (metadata.upload) {
             case "ROOM_DATABASE": roomDatabaseUpload(event.file, metadata, user)
+            case "MINUTES": minutesUpload(event.file, metadata, user)
 
         }
     } catch (e) {
