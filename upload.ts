@@ -4,7 +4,8 @@ import fs from 'fs-extra';
 const EVENTS = tus.EVENTS;
 const server = new tus.Server();
 server.datastore = new tus.FileStore({
-    path: '/user_uploads'
+    path: '/user_uploads',
+    relativeLocation: true
 });
 
 
