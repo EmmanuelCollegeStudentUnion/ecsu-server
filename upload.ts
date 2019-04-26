@@ -37,13 +37,13 @@ async function roomDatabaseUpload(file, metadata, user) {
 
 async function minutesUpload(file, metadata, user) {
     try {
+        const year = metadata.year.replace(/\W/g, '')
         fs.mkdirpSync(`./user_uploads`);
-        fs.mkdirpSync(`./user_uploads/room_database`);
-        fs.mkdirpSync(`./user_uploads/room_database/${metadata.roomSlug}/`);
+        fs.mkdirpSync(`./user_uploads/minutes`);
+        fs.mkdirpSync(`./user_uploads/minutes/${metadata.year}/`);
         const extension = metadata.extension.replace(/\W/g, '')
-        const roomSlug = metadata.roomSlug.replace(/[^a-zA-Z\d_-]/g, '')
         const src = `./user_uploads/${file.id}`;
-        const dest = `./user_uploads/room_database/${roomSlug}/${file.id}.${extension}`
+        const dest = `./user_uploads/minutes/${metadata.year}/${file.id}.${extension}`
         fs.moveSync(src, dest)
         fs.writeJSON(dest + '.json', {
             type: metadata.type,
