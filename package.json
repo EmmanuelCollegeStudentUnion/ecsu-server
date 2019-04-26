@@ -25,7 +25,7 @@
     "passport-raven": "^1.1.2",
     "pm2": "^3.2.9",
     "showdown": "^1.9.0",
-    "tus-node-server": "^0.3.2",
+    "tus-node-server": "git://github.com/tus/tus-node-server.git",
     "typescript": "^3.2.4",
     "yaml-front-matter": "^4.0.0"
   },
