@@ -36,6 +36,11 @@ async function roomDatabaseUpload(file, metadata, user) {
 
 const express = require('express');
 const uploadApp = express();
+uploadApp.use(function (req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
 uploadApp.all('*', server.handle.bind(server));
 server.on(EVENTS.EVENT_UPLOAD_COMPLETE, (event) => {
     try {
