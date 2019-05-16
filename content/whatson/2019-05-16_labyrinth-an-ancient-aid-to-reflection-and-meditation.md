@@ -10,5 +10,3 @@ Labyrinth facilitator Kay Barrett will bring her cloth labyrinth for mindful wal
 Walking a labyrinth can help you let go of the thoughts of the busymind and open yourself to a sense of calm and an awareness that, fundamentally, everything is ok.
 
 Kay will give a short introduction at 1.15, but you are welcome to come and go at any time between 1 and 4. Suggested latest arrival time 3.30 to allow enough time for walking.
-
-This event will be held in the Old Library.
