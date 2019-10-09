@@ -1,6 +1,6 @@
 ---
 title: Call for Malaysian linguistic study participants
-category: Summer Volunteering
+category: Volunteering
 pubdate: 2019-10-10T08:28:12.415Z
 image: 'https://ucarecdn.com/41517e4d-a113-4ac6-95f3-f881b74fa967/'
 ---

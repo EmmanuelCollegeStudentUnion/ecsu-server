@@ -1,6 +1,6 @@
 ---
 title: Cambridge Palestine Trek 2019
-category: Summer Volunteering
+category: Volunteering
 pubdate: 2019-02-21T12:51:57.802Z
 datetime: Summer 2019
 image: 'https://ucarecdn.com/064b8037-a9c8-4199-92ba-fb0c66eb9551/'

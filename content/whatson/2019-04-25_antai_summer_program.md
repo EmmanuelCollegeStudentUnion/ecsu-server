@@ -1,6 +1,6 @@
 ---
 title: Antai Global Summer Program 2019
-category: Summer Volunteering
+category: Volunteering
 pubdate: 2019-04-25T19:09:03.038Z
 datetime: Apply ASAP
 image: 'https://ucarecdn.com/e0de985b-9906-4042-a5d3-4bc2ef04db66/'

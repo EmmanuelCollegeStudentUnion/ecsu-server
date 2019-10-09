@@ -1,6 +1,6 @@
 ---
 title: 'Gotoco: Summer in China'
-category: Summer Volunteering
+category: Volunteering
 pubdate: 2019-02-09T09:47:09.497Z
 datetime: Apply ASAP
 image: 'https://ucarecdn.com/32da081c-4dd6-4a04-bf0b-64fd74945767/'

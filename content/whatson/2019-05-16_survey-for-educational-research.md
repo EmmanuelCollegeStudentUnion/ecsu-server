@@ -1,6 +1,6 @@
 ---
 title: Survey for educational research
-category: Summer Volunteering
+category: Volunteering
 pubdate: 2019-05-16T08:28:07.389Z
 image: 'https://ucarecdn.com/c46fba5f-46c4-48ae-aa71-ff115a66ab9c/'
 ---

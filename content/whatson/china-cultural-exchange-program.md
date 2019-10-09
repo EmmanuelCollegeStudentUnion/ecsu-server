@@ -1,6 +1,6 @@
 ---
 title: China Cultural Exchange Program
-category: Summer Volunteering
+category: Volunteering
 pubdate: 2019-01-19T15:39:32.952Z
 datetime: Apply ASAP
 image: 'https://ucarecdn.com/d9139317-8203-4891-a6dd-4973997a3b70/'

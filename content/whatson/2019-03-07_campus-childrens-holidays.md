@@ -1,6 +1,6 @@
 ---
 title: Campus Children's Holidays
-category: Summer Volunteering
+category: Volunteering
 pubdate: 2019-03-08T17:40:59.956Z
 datetime: 18th Mar
 image: 'https://ucarecdn.com/94d46fc5-13ba-4939-8cda-19e4600c21ac/'
