@@ -8,8 +8,6 @@ Sustainable Development: Leveraging the Small for Big Impact
 
 'What can a small NGO do to generate sustainable impact in the development world?'
 
-
-
 The Cambridge Development Initiative (CDI - www.cambridgedevelopment.org) are a student-run charity doing community-based development work in Tanzania. They are hosting an event so you can find out more about what they do, followed by a panel discussion on the topic of 'leveraging the small for big impact'.
 
 Their diverse panel consists of both a mixture of development practitioners and development researchers. We hope their combined experience in the practice and theory behind international development will make for stimulating discussion on this topic and development practices in general.
@@ -29,10 +27,6 @@ Taskeen Adam is a Cambridge-Africa Scholar pursuing a Ph.D. on 'The role of Afri
 **Mike Noyes**
 
 Head of Policy & Programmes at ActionAid and previous Head of Humanitarian Responses at ActionAid. He has worked and written widely on humanitarian crises, dealing in conjunction with the UN and a variety of national and international humanitarian and international development organisations.'
-
-**Tom Nott **
-
-Tom Nott is a 3rd year geographer at Cambridge, looking to pursue a career path which will tackle global issues such as climate change, inequality and extreme poverty. Tom has been a project worker and logistics officer with EPAfrica, and is currently undertaking consultancy training with ShARE Cambridge.
 
 **Nafisa Waziri**
 
