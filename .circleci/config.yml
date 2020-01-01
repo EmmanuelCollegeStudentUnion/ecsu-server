@@ -42,6 +42,8 @@ jobs:
           - run: |
               git lfs install --force
               git lfs pull
+              git submodule init
+              git submodule update --remote --recursive
 
 
           # Download and cache dependencies
