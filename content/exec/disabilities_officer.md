@@ -1,21 +1,10 @@
 ---
-title: Disabilities Officer
+title: Disabilities and Mental Health (DMH) Officer
 email: disabilities@ecsu.org.uk
-name: Meg Webb
-image: /assets/images/exec/Disabilities.jpeg
+name: Anya Brown
+image: /assets/images/exec/Disabilities.png
+crsid: ab2651
 ---
-**Hi, I'm Meg and I'm your 2018-19 Disabilities Officer.** I'm a second year music undergraduate with a love for obscure medieval manuscripts, knitwear, and assorted teas. 
+Hi, my name is Anya Brown. I am a first year Law student at Emmanuel from Sheffield. I have many years of experience with long-term health conditions and am looking to use that experience to improve the lives of students at Emmanuel. During my time serving on ECSU I hope to engage with and listen carefully to students, ascertaining the ways in which their experience of the College could be improved.
 
-As your DSO, my priorities for this year will be:
-
-**1)** continuing discussions with the college to improve and ensure accessibility both in current buildings and the New Development
-
-**2)** provide support for those with disabilities going through the ballot system, exam season, and intermitting process
-
-**3)** make 2019 Freshers week as accessible and manageable for students with disabilities as possible
-
-If you'd like to discuss support available within college (anything from emotional to financial), manage supervision and exam allowances, or just need a listening ear and a cup of tea then please do email me.
-
-Much, much love, 
-
-Meg x
+I aim to work on a one-to-one basis with students to help in liaising with College and highlighting appropriate routes of medical and pastoral support. I intend to work with the Welfare team to raise awareness as to the importance of taking care of your mental health, as well as working with past officers to continue to ensure the college is as physically accessible as possible.

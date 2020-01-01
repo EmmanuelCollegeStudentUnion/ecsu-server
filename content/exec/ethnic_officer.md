@@ -1,11 +1,8 @@
 ---
 title: BME Officer
 email: minorities@ecsu.org.uk
-name: Chun Hao Zhe
-image: /assets/images/exec/BME.jpeg
+name: Rio Dow
+image: /assets/images/exec/BME.png
+crsid: rd586
 ---
-Hello all! My name is Hao Zhe (he/him), and I am a Materials Scientist in my third year (as of 2018/19 academic year).
-
-As your BME Officer I seek to provide support and representation in ECSU policy making and raising any concerns BME individuals have. 
-
-Please contact me at minorities@ecsu.org.uk for any concerns, criticisms and ideas or if you just want in to the super secret Emma EM page, where many exciting events are advertised!
+Hi! I'm Rio, a second-year Geography Student and I am excited to be your new Minorities officer! The main thing I want to achieve as part of my role is to improve the social events in Emma for minorities individuals alongside increasing links with other colleges. I'm also here to improve religious provisions and ensure that all minority individuals feel welcome by being approachable and voicing any concerns people have.

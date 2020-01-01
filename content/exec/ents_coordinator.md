@@ -1,23 +1,16 @@
 ---
 title: Ents Officers
 email: ents@ecsu.org.uk
-name: George English and Seb Dunne
-image: /assets/images/exec/Ents.jpeg
+name: Eimear Rogers and Sam Corbett
+image: /assets/images/exec/Ents.png
 ---
-Hi! We're Seb and George your 2018-2019 Ents Officers,
+Hi we’re Eimear (2nd year studying history) and Sam (2nd year studying English), Emma’s 2019-20 Ents officers! We’re really looking forward to putting on some great events for everyone and keeping the social calendar busy. During our term/reign in ECSU we want to…
 
-We're both 2nd year medical students and it's our job to organise and run college wide social events for the Emma undergraduates. This is quite a broad job and our events range from plays and pub quizzes to whole college parties (sometimes even intercollege ones), also called Ents or Bops. We also work with the other officers on ECSU to set up any events that they might want to put on. 
-
-Our day-to-day work mostly involves liasing with societies, musicians etc. and getting them to come and perform in Emma. We also set up all the speakers and microphones for these along with any other events that might be happening in college.
-
-This year we're trying to acheive three main things: 
-
-* Host some more relaxed events such as pub quizzes
-* Do more ents with other colleges
-* Get a karaoke machine for college
-
-If you have any suggestions or would like us to help you put on your own event (even if you just want to play some of your music in the bar one evening) don't hesitate to get in touch with us!
+* Finally kickstart karaoke nights in Emma 
+* Draw more music events to the bar (not forgetting DJ of the Week)
+* Work with other colleges on more collaborative Super-ENTs
+With Eimear’s networking prowess and Sam’s basic understanding of AUX cables there should be some good nights coming up. Let us know if there’s anything you want to see more of or even if you want to collaborate on an event and we’ll see what we can do! 
 
 Ents love,
 
-George and Seb xx
+Eimear and Sam XX

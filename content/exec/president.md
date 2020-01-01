@@ -1,20 +1,16 @@
 ---
 title: President
 email: president@ecsu.org.uk
-name: Matilda Schwefel
-image: /assets/images/exec/President.jpeg
+name: Harriet Hards
+image: /assets/images/exec/President.png
 ordering: 2
+crsid: heh38
 ---
-I'm Matilda (she/her), a second Classicist. 
-
-My responsibilities as President including chairing the weekly meetings of the ECSU Executive, sitting on various committees (all the way from Governing Body to Library Committee) in college, and representing ECSU in forums like CUSU PresCon and Council. 
-
-My priorities for this year are to:
-
-- fight for the right of every Emma student to feel happy, healthy and safe at college
-
-- foster an environment of collaboration between the ECSU executive and its members, as well as between the executive and other unions across Cambridge.
-
-- work to modernise and revitalise ECSU's digital output
-
-I am a point of contact for all students, so please if you have any concerns email me.
+Hi, I’m Harriet (she/her) and I’m a second year HSPS student from Gloucestershire. This year I’m very excited to be taking on the role of ECSU President and representing the lovely students of Emma within college, the university and beyond. 
+ 
+My role involves making sure that the committee runs smoothly and effectively, representing student views and concerns to senior members of the college and generally endeavouring to make Emma a place where all students feel welcome and heard. 
+ 
+This year, my three main aims are to:
+* Support the welfare and liberation officers in running their events and make welfare and liberation issues a key part of all conversations with college
+* Revamp the Alternative Prospectus and create new student videos for the Emma website, to boost pre-admissions Access efforts
+* Continue a process of constitutional reform, proposing the idea of an additional Access Officer
