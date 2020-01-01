@@ -1,8 +1,8 @@
 ---
 title: ROAR Editor
 email: roar@ecsu.org.uk
-name: Yoseph Kilfie
-image: /assets/images/exec/Roar.jpeg
+name: Colin Kaljee and James Combe
+image: /assets/images/exec/Roar.png
 ---
 ## James
 
