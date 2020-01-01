@@ -7,7 +7,7 @@ namespace :git do
       on roles(:all) do
         with fetch(:git_environmental_variables) do
           within repo_path do
-            execute :git, :submodule, :init
+            execute "cd #{release_path}; git submodule init; git submodule update --remote --recursive"
           end
         end
       end
