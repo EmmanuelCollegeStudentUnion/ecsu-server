@@ -12,3 +12,6 @@ gem "capistrano", "~> 3.11"
 
 # Added at 2019-04-04 20:45:43 +0100 by nathan:
 gem "capistrano-copy-files", "~> 0.0.1"
+
+# Added at 2020-01-01 20:20:20 +0000 by btfs2
+gem 'capistrano-git-with-submodules', '~> 2.0'
