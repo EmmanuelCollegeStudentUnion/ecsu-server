@@ -3,7 +3,7 @@ title: Access Officer
 email: access@ecsu.org.uk
 name: Cara Malcolm
 image: /assets/images/exec/Access.png
-crsid: cm968
+crsid: [cm968]
 ---
 Hi, I’m Cara, a second year engineering student and Emma’s Access Officer!
 

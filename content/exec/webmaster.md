@@ -3,7 +3,7 @@ title: Webmaster
 email: webmaster@ecsu.org.uk
 name: Ben Shute
 image: /assets/images/exec/Webmaster.png
-crsid: btfs2
+crsid: [btfs2]
 ---
 
 Hi I'm Ben and I'm either the "Webmaster" or the "Communications and Publicity Officer" depending on whether you want the role to sound cool or be technically correct. My main job is running this website but I also guilt people into taking photos of their room and uploading them to the room database to help next year's balloters. With the communication part of the role I admin:

@@ -3,7 +3,7 @@ email: lgbt-rep@ecsu.org.uk
 image: /assets/images/exec/LGBT.png
 name: Louis Dexter
 title: LGBT+ Officer
-crsid: ld557
+crsid: [ld557]
 ---
 Hey, I'm Louis (he/him), I'm a second year studying HSPS, and I'm the LGBT+ officer! 
 

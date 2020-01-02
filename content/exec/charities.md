@@ -3,7 +3,7 @@ email: charities@ecsu.org.uk
 image: /assets/images/exec/Charities.png
 name: Victoria Kyriacou
 title: Charities Officer
-crsid: vk350
+crsid: [vk350]
 ---
 I'm Victoria. I am a second year Law student.
 

@@ -4,7 +4,7 @@ email: president@ecsu.org.uk
 name: Harriet Hards
 image: /assets/images/exec/President.png
 ordering: 2
-crsid: heh38
+crsid: [heh38]
 ---
 Hi, I’m Harriet (she/her) and I’m a second year HSPS student from Gloucestershire. This year I’m very excited to be taking on the role of ECSU President and representing the lovely students of Emma within college, the university and beyond. 
  

@@ -3,7 +3,7 @@ title: International Officer
 email: internationalsofficer@ecsu.org.uk
 name: Olivia Lavigne
 image: /assets/images/exec/International.png
-crsid: orfl2
+crsid: [orfl2]
 ---
 Hi! I’m Olivia Lavigne (she/her), a 2nd year HSPS student.
 

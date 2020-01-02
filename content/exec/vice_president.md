@@ -4,7 +4,7 @@ email: vicepresident@ecsu.org.uk
 name: Jerry Chen
 image: /assets/images/exec/Vice.png
 ordering: 1
-crsid: jc2068
+crsid: [jc2068]
 ---
 I’m a third year medic (he/him) currently doing an intercalated year in Archaeology. The role of Vice President is multi-faceted and involves a number of duties including oversight over Freshers’ Week and Freshers’ Reps, coordination of events such as the 1584 Dinner (halfway hall), acting as Returning Officer in elections, representing Emmanuel as External Officer at things like CUSU Council, attending college meetings and deputising for Harriet. 
 

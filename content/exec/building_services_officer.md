@@ -3,7 +3,7 @@ title: Buildings & Services Officer
 email: buildingsandservices@ecsu.org.uk
 name: Eliza Tewson
 image: /assets/images/exec/Buildings.png
-crsid: et431
+crsid: [et431]
 ---
 Hi! I’m Eliza (she/her), a Second Year English student.
 
