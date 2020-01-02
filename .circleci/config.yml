@@ -1,4 +1,6 @@
-version: 2
+version: 2.1
+orbs:
+  queue: eddiewebb/queue@1.4.0
 jobs:
   #  build and test jobs go here
   deploy-job:
