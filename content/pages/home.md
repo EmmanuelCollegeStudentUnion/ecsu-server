@@ -13,22 +13,22 @@ ecsu_does:
     icon: question_answer
     title: Answers Your Questions
   - description: >-
-      Via Facebook, Twitter or ECSU Online, we are here to provide you with the
+      Through Ents, Societies, Welfare initiatives, Sports, the JCR and surprises throughout the
+      term, ECSU promotes a fun and friendly atmosphere.
+    icon: sentiment_very_satisfied
+    title: Keeps You Smiling
+  - description: >-
+      Via Email, Facebook or the ECSU Website, we are here to provide you with the
       latest information about events, term dates and pretty much anything else
       run by the college.
     icon: notifications
     title: Keeps You Informed
-  - description: >-
-      Through Ents, Societies, Sports, the JCR and surprises throughout the
-      term, ECSU promotes a fun and friendly atmosphere.
-    icon: sentiment_very_satisfied
-    title: Keeps You Smiling
 whats_here:
   - description: >-
-      Find out about ECSU's newest Executive Committee for 2019 - who they are,
+      Find out about ECSU's newest Executive Committee for 2020 - who they are,
       what they do and how to get in touch.
     image: /assets/images/pages/home/slide01.jpg
-    title: Meet the 2018-19 ECSU Exec
+    title: Meet the 2020 ECSU Exec
     url: /exec
   - description: >-
       Access the Emmanuel Room Database, to help inform your decision when
