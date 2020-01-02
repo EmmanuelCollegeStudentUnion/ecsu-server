@@ -9,6 +9,9 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
+      # Queue after clone so stuff works
+      - queue/until_front_of_line:
+          time: '10'
       - run:
           name: Bundle Install
           command: bundle check || bundle install
