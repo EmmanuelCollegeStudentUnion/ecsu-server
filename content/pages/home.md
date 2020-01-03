@@ -9,7 +9,7 @@ ecsu_does:
       ECSU represents the rights and interests of undergraduate students at
       Emmanuel at college and university level.
     icon: face
-    title: Representing You
+    title: Represents You
   - description: >-
       Through welfare initiatives, ents, societies, campaigns and surprises
       throughout term, ECSU looks after the wellbeing of the student body.
