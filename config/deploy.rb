@@ -3,7 +3,9 @@ lock "~> 3.11.0"
 
 set :application, "ecsu-server"
 set :repo_url, "git@github.com:101hawn/ecsu-server.git"
-set :git_shallow_clone 2 # Avoid full clone to save disk space
+
+# Avoid full clone to save disk space
+set :git_shallow_clone 2 
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
