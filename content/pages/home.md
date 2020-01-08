@@ -1,34 +1,32 @@
 ---
 ecsu_does:
   - description: >-
-      ECSU is the primary medium through which the student can interact with the
-      college at Emmanuel; be that for building requests or suggestions for
-      improvement.
+      ECSU is the primary medium through which Emmanuel students interact with
+      college; be that via building requests or suggestions for improvement.
     icon: account_balance
     title: Liaises on Your Behalf
   - description: >-
-      ECSU is here to make sure you feel supported across your academic,
-      extra-curricular and personal life, through a dedicated team specialising
-      in specific issues.
-    icon: question_answer
-    title: Answers Your Questions
+      ECSU represents the rights and interests of undergraduate students at
+      Emmanuel at college and university level.
+    icon: face
+    title: Represents You
   - description: >-
-      Through Ents, Societies, Welfare initiatives, Sports, the JCR and surprises throughout the
-      term, ECSU promotes a fun and friendly atmosphere.
+      Through welfare initiatives, ents, societies, campaigns and surprises
+      throughout term, ECSU looks after the wellbeing of the student body.
     icon: sentiment_very_satisfied
     title: Keeps You Smiling
   - description: >-
-      Via Email, Facebook or the ECSU Website, we are here to provide you with the
-      latest information about events, term dates and pretty much anything else
-      run by the college.
+      Via email, calendar, website and social media, we are here to provide you
+      with useful information about our events, term dates, and general college
+      matters.
     icon: notifications
     title: Keeps You Informed
 whats_here:
   - description: >-
-      Find out about ECSU's newest Executive Committee for 2020 - who they are,
-      what they do and how to get in touch.
+      Find out about the 2020 ECSU Committee - who we are, what we do and how to
+      get in touch.
     image: /assets/images/pages/home/slide01.jpg
-    title: Meet the 2020 ECSU Exec
+    title: Meet the 2020 ECSU Committee
     url: /exec
   - description: >-
       Access the Emmanuel Room Database, to help inform your decision when
