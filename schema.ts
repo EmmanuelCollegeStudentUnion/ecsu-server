@@ -52,8 +52,8 @@ type HomePage {
 }
 type WhatsOnEvent{
   title: String
-  datetime: String
-  pubDate: String
+  datetime: DateTime
+  pubDate: DateTime
   category: String
   image: Image
   body: String
