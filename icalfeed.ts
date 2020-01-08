@@ -22,7 +22,7 @@ async function getFeed(category ?: Array<string>) {
         timezone: "Europe/London"
     });
     (await itemsForContent("whatson")).forEach(item => {
-        if (category == undefined || item.category in category) {
+        if (category == undefined || category.includes(item.category)) {
             const html = converter.makeHtml(item['__content'])
             const event = feed.createEvent({
                 summary: item.title,
@@ -44,18 +44,20 @@ const feedPromise = getFeed();
 var baseFeedGened = false;
 
 async function rssfeed(req: Request, res: Response) {
-    var cats: Array<string> = [];
+    var out;
     if (req.query.category) {
+        var cats: Array<string> = [];
         if (Array.isArray(req.query.category)) {
             cats = req.query.category;
         } else {
             cats.push(req.query.category);
         }
+        out = await getFeed(cats)
+    } else {
+        out = await feedPromise;
     }
-    //const feed = await feedPromise;
-    const feed = await getFeed()
     res.type('text/calendar');
-    res.send(feed.toString());
+    res.send(out.toString());
 }
 
 export default function applyICalFeedMiddleware(app) {
