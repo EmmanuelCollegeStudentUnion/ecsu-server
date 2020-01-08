@@ -59,7 +59,9 @@ type HomePage {
 type WhatsOnEvent{
   title: String
   datetime: DateTime
+  dtend: DateTime
   pubDate: DateTime
+  allDay: Boolean
   category: String
   image: Image
   body: String
