@@ -5,7 +5,7 @@ set :application, "ecsu-server"
 set :repo_url, "git@github.com:101hawn/ecsu-server.git"
 
 # Avoid full clone to save disk space
-set :git_shallow_clone 2 
+set :git_shallow_clone, 2 
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
