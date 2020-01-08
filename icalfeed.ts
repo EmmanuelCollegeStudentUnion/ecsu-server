@@ -7,7 +7,10 @@ const converter = new showdown.Converter({
 })
 
 
-async function getFeed() {
+async function getFeed(category ?: Array<string>) {
+    if (category == undefined && baseFeedGened) {
+        return await feedPromise;
+    }
     const feed = new ical({
         name: "ECSU What's On",
         //feedLinks: {
@@ -19,30 +22,42 @@ async function getFeed() {
         timezone: "Europe/London"
     });
     (await itemsForContent("whatson")).forEach(item => {
-        const html = converter.makeHtml(item['__content'])
-        const event = feed.createEvent({
-            summary: item.title,
-            uid: item.url,
-            url: `https://ecsu.org.uk${item.url}`,
-            start: item.datetime,
-            end: item.dtend,
-            allDay: item.allDay,
-            description: item.description,
-            content: html
-        })
-        event.createCategory({name: item.category});
+        if (category == undefined || item.category in category) {
+            const html = converter.makeHtml(item['__content'])
+            const event = feed.createEvent({
+                summary: item.title,
+                uid: item.url,
+                url: `https://ecsu.org.uk${item.url}`,
+                start: item.datetime,
+                end: item.dtend,
+                allDay: item.allDay,
+                description: item.description,
+                content: html
+            })
+            event.createCategory({name: item.category});
+        }
     })
     return feed;
 }
 
 const feedPromise = getFeed();
+var baseFeedGened = false;
 
 async function rssfeed(req: Request, res: Response) {
-    const feed = await feedPromise;
+    var cats: Array<string> = [];
+    if (req.query.category) {
+        if (Array.isArray(req.query.category)) {
+            cats = req.query.category;
+        } else {
+            cats.push(req.query.category);
+        }
+    }
+    //const feed = await feedPromise;
+    const feed = await getFeed()
     res.type('text/calendar');
     res.send(feed.toString());
 }
 
 export default function applyICalFeedMiddleware(app) {
-    app.get('/calendar.ical', rssfeed)
+    app.get('/calendar.ics', rssfeed)
 }

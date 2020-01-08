@@ -4,6 +4,7 @@ import image from './image';
 import applyMinutesMiddleware, { minutes } from './minutes';
 import applyGraphqlMiddleware from './schema';
 import applyRssFeedMiddleware from './rssfeed';
+import applyICalFeedMiddleware from './icalfeed';
 import applyAuthMiddleware from './auth';
 import applyUploadMiddleware from './upload';
 
@@ -23,6 +24,7 @@ applyAuthMiddleware(app);
 applyMinutesMiddleware(app);
 applyGraphqlMiddleware(app)
 applyRssFeedMiddleware(app);
+applyICalFeedMiddleware(app);
 applyUploadMiddleware(app);
 
 app.get('/image/:folder/:file(*)', (req, res, next) => {

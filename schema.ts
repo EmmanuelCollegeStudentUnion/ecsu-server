@@ -6,8 +6,14 @@ import { resolveImage, navItems, routes } from './content'
 import fs from 'fs-extra';
 import { minutes } from './minutes';
 import path from 'path'
+import {
+  GraphQLDate,
+  GraphQLTime,
+  GraphQLDateTime
+} from 'graphql-iso-date';
 
 const typeDefs = gql`
+scalar DateTime
 type User{
 anonymous: Boolean
   crsid: String
@@ -159,6 +165,7 @@ type Mutation {
 // Resolvers define the technique for fetching the types in the
 // schema. 
 const resolvers = {
+  DateTime: GraphQLDateTime,
   ImageCaptionCard: {
     image: obj => resolveImage(obj.image, obj.title)
   },

@@ -16,6 +16,8 @@
     "fs-extra": "^7.0.1",
     "glob": "^7.1.3",
     "graphql": "^14.1.1",
+    "graphql-iso-date": "^3.6.1",
+    "ical-generator": "^1.9.2",
     "jsonwebtoken": "^8.4.0",
     "lqip": "^2.1.0",
     "md5": "^2.2.1",
