@@ -1,6 +1,6 @@
 ---
 email: shop@ecsu.org.uk
-image: /assets/images/exec/Shop.png
+image: /assets/images/exec/Shop.jpg
 name: Cecilia Yearsley
 title: Shop Manager
 crsid: [cy312]

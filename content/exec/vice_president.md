@@ -3,6 +3,7 @@ title: Vice President
 email: vicepresident@ecsu.org.uk
 name: Jerry Chen
 image: /assets/images/exec/Vice.png
+ordering: 1
 crsid:
   - jc2068
 ---

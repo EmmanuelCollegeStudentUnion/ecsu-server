@@ -2,7 +2,7 @@
 title: ROAR Editor
 email: roar@ecsu.org.uk
 name: Colin Kaljee and James Combe
-image: /assets/images/exec/Roar.png
+image: /assets/images/exec/Roar.jpg
 crsid: [jacc2, ck538]
 ---
 ## James

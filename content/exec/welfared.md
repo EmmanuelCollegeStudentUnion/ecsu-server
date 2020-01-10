@@ -1,6 +1,6 @@
 ---
 email: welfaredamola@ecsu.org.uk
-image: /assets/images/exec/WelfareD.png
+image: /assets/images/exec/WelfareD.jpeg
 name: Damola Odeyemi
 title: Welfare Officer (Damola)
 crsid: [aao31]

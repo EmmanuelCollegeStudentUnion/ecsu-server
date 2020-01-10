@@ -1,6 +1,6 @@
 ---
 email: charities@ecsu.org.uk
-image: /assets/images/exec/Charities.png
+image: /assets/images/exec/Charities.jpg
 name: Victoria Kyriacou
 title: Charities Officer
 crsid: [vk350]

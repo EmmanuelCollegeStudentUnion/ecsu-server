@@ -1,6 +1,6 @@
 ---
 email: lgbt-rep@ecsu.org.uk
-image: /assets/images/exec/LGBT.png
+image: /assets/images/exec/LGBT.jpg
 name: Louis Dexter
 title: LGBT+ Officer
 crsid: [ld557]

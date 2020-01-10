@@ -1,6 +1,6 @@
 ---
 email: treasurer@ecsu.org.uk
-image: /assets/images/exec/Treasurer.png
+image: /assets/images/exec/Treasurer.jpg
 name: Bill Bishop
 title: Treasurer
 crsid: [wb291]
