@@ -31,8 +31,8 @@ async function getFeed(category ?: Array<string>) {
                 start: item.datetime,
                 end: item.dtend,
                 allDay: item.allDay,
-                description: item.description,
-                content: html
+                description: item['__content'],
+                htmlDescription: html
             })
             event.createCategory({name: item.category});
         }

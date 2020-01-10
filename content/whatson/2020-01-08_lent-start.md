@@ -7,6 +7,6 @@ allDay: true
 # dtend: # End of event
 # repeat: 
 # rrule: 
-image: 'https://ucarecdn.com/7fe81f7c-b30c-4cdb-8680-c3a9ad0768e4/'
+image: 'https://ucarecdn.com/f70e55f2-7fc9-4df8-b536-4e42e1cb31b0/'
 ---
 Cambridge term starts

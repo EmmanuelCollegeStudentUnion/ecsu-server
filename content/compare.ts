@@ -15,6 +15,9 @@ function dateTime(x) {
 export default function compare(x, y) {
     if (ordering(y) !== ordering(x)) {
         return ordering(y) - ordering(x)
+    } else if (dateTime(x).getTime() !== dateTime(y).getTime()) {
+        // First minus flips so earliest event is first
+        return -(+(dateTime(x) < dateTime(y)) - +(dateTime(y) < dateTime(x)));
     } else if (pubDate(x).getTime() !== pubDate(y).getTime()) {
         return +(pubDate(x) < pubDate(y)) - +(pubDate(y) < pubDate(x));
     } else {
