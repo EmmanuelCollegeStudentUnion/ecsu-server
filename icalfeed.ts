@@ -29,7 +29,7 @@ async function getFeed(category ?: Array<string>) {
                 uid: item.url,
                 url: `https://ecsu.org.uk${item.url}`,
                 start: item.datetime,
-                end: item.dtend,
+                end: item.dtend != "" ? item.dtend : undefined,
                 allDay: item.allDay,
                 description: item['__content'],
                 htmlDescription: html
