@@ -1,4 +1,5 @@
 import itemsForContent from './content'
+import compare from './content/compare'
 import { Feed } from 'feed'
 import { Request, Response } from 'express';
 import showdown from 'showdown';
@@ -18,7 +19,7 @@ async function getFeed() {
         copyright: "Copyright ECSU",
 
     });
-    (await itemsForContent("whatson")).forEach(item => {
+    [...(await itemsForContent("whatson")), ...(await itemsForContent("opportunities"))].sort(compare).forEach(item => {
         const html = converter.makeHtml(item['__content'])
         feed.addItem({
             title: item.title,
@@ -29,6 +30,19 @@ async function getFeed() {
             content: html
         })
     })
+    /*
+    .forEach(item => {
+        const html = converter.makeHtml(item['__content'])
+        feed.addItem({
+            title: item.title,
+            id: item.url,
+            link: `https://ecsu.org.uk${item.url}`,
+            date: item.pubDate,
+            description: item.description,
+            content: html
+        })
+    })
+    */
     return feed;
 }
 

@@ -49,6 +49,7 @@ const content = {
     'societies': itemsForContent(`societies`),
     'welfare': itemsForContent(`welfare`),
     'whatson': itemsForContent(`whatson`),
+    'opportunities': itemsForContent(`opportunities`),
     'rooms': roomDatabase['Rooms'].sort((a, b) => compare({ title: a["Title"] }, { title: b["Title"] })),
     'room_comments': roomDatabase['Comments'],
     'room_images': roomDatabase['Images'],
@@ -98,9 +99,15 @@ export const navItems = [
         routes: []
     },
     {
-        text: "What's On",
+        text: "Calendar",
         icon: "today",
         url: "/whatson/",
+        routes: []
+    },
+    {
+        text: "Opportunities",
+        icon: "assignment",
+        url: "/opportunities/",
         routes: []
     },
     {
@@ -184,6 +191,7 @@ export const routes = flatMap(navItems, (x => [
 ])).concat(
     itemsForContent("rooms"),
     itemsForContent("whatson"),
+    itemsForContent("opportunities"),
     itemsForContent("posts"))
 
 const lqipCache = {}

@@ -67,6 +67,16 @@ type WhatsOnEvent{
   body: String
   url:String
 }
+type WhatsOnOpportunity{
+  title: String
+  datetime: String
+  pubDate: DateTime
+  allDay: Boolean
+  category: String
+  image: Image
+  body: String
+  url:String
+}
 type Exec{
   title: String
   crsid: [String]
@@ -140,6 +150,8 @@ type Query {
   homePage: HomePage
   whatsOn(slug:String!): WhatsOnEvent
   whatsOnEvents: [WhatsOnEvent]
+  opportunities(slug:String!): WhatsOnOpportunity
+  whatsOnOpportunities: [WhatsOnOpportunity]
   exec(slug:String!): Exec
   execs: [Exec]
   society(slug:String!): Society
@@ -215,7 +227,11 @@ const resolvers = {
   },
   WhatsOnEvent: {
     image: obj => resolveImage(obj.image, obj.title),
-    pubDate: obj => obj.pubdate.toString()
+    pubDate: obj => obj.pubdate
+  },
+  WhatsOnOpportunity: {
+    image: obj => resolveImage(obj.image, obj.title),
+    pubDate: obj => obj.pubdate
   },
   Query: {
     routes: obj => routes,
@@ -224,6 +240,8 @@ const resolvers = {
     homePage: obj => content("pages", "home"),
     whatsOn: (obj, args) => content("whatson", args.slug),
     whatsOnEvents: obj => content("whatson"),
+    opportunities: (obj, args) => content("opportunities", args.slug),
+    whatsOnOpportunities: obj => content("opportunities"),
     exec: (obj, args) => content("exec", args.slug),
     execs: obj => content("exec"),
     society: (obj, args) => content("societies", args.slug),

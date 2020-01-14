@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon dist/index.js",
+    "dev": "PORT=3254 SECRET=iamdev nodemon --watch '*.ts' --exec 'ts-node' index.ts",
     "start": "node dist/index.js",
     "prod": "pm2 startOrRestart package.json --env production",
     "test": "jest"
@@ -36,7 +36,7 @@
     "@types/glob": "^7.1.1",
     "jest": "^24.7.1",
     "jest-junit": "^6.3.0",
-    "nodemon": "^1.18.9",
+    "nodemon": "^2.0.2",
     "prettier": "^1.16.4",
     "supertest": "^4.0.2",
     "ts-jest": "^24.0.2"

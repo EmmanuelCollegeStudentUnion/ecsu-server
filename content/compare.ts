@@ -10,7 +10,7 @@ function pubDate(x) {
     return x.pubdate ? new Date(x.pubdate) : new Date(0)
 }
 function dateTime(x) {
-    return x.datetime ? new Date(x.datetime) : new Date(0)
+    return x.datetime? new Date(x.datetime) : new Date(0)
 }
 export default function compare(x, y) {
     if (ordering(y) !== ordering(x)) {
@@ -18,7 +18,9 @@ export default function compare(x, y) {
     } else if (dateTime(x).getTime() !== dateTime(y).getTime()) {
         // First minus flips so earliest event is first
         return -(+(dateTime(x) < dateTime(y)) - +(dateTime(y) < dateTime(x)));
-    } else if (pubDate(x).getTime() !== pubDate(y).getTime()) {
+    } else if (pubDate(x).getTime() !== pubDate(y).getTime() 
+                && !isNaN(pubDate(x).getTime()) 
+                && !isNaN(pubDate(y).getTime())) {
         return +(pubDate(x) < pubDate(y)) - +(pubDate(y) < pubDate(x));
     } else {
         return collator.compare(x.title, y.title)
