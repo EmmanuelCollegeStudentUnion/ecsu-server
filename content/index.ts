@@ -106,7 +106,7 @@ export const navItems = [
     },
     {
         text: "Opportunities",
-        icon: "assignment",
+        icon: "announcement",
         url: "/opportunities/",
         routes: []
     },
