@@ -1,6 +1,7 @@
 
 import glob from 'glob';
 import { ApolloServer, gql } from 'apollo-server-express';
+import { ApolloError, AuthenticationError } from 'apollo-server-core';
 import content, { roomDatabaseImages } from './content'
 import { resolveImage, navItems, routes } from './content'
 import fs from 'fs-extra';
@@ -11,6 +12,8 @@ import {
   GraphQLTime,
   GraphQLDateTime
 } from 'graphql-iso-date';
+
+const uuidv4 = require('uuid/v4');
 
 const typeDefs = gql`
 scalar DateTime
@@ -118,6 +121,7 @@ type Blog{
 type Comment{
   year: String
   body: String
+  crsid: String
 }
 type Room{
   id: String!
@@ -173,6 +177,7 @@ type Query {
 type Mutation {
   roomPhotoUpload(roomSlug:String!, file: Upload!): Image
   minutesUpload(year:Int!, type:String!, term:String!, number:Int, file: Upload!): Minutes
+  roomComment(roomSlug:String!, comment: String!, year: Int!): Comment
 }
 `;
 
@@ -284,6 +289,23 @@ const resolvers = {
       }
       console.log("Upload done:" + filename)
       return {};
+    },
+    async roomComment(parent, args, context) {
+      const { roomSlug, comment, year } = args
+      var user = context.user;
+      if (!(user.crsid)) throw new AuthenticationError(`Only authorised users allowed`);
+      var message = {slug: roomSlug, Comment: comment, Year: year, crsid: user.crsid, uid: uuidv4()}
+      try {
+        await fs.mkdirp(`./user_uploads`);
+        await fs.mkdirp(`./user_uploads/room_comments`);
+        var os = fs.createWriteStream('./user_uploads/room_comments/toMod.csv', {flags:'a'});
+        await os.write(JSON.stringify(message) + ",\n")
+        os.close();
+      } catch (e) {
+        console.error(e)
+        return null;
+      }
+      return message;
     }
   }
 };
