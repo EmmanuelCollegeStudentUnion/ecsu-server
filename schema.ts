@@ -1,4 +1,3 @@
-
 import glob from 'glob';
 import { ApolloServer, gql } from 'apollo-server-express';
 import { ApolloError, AuthenticationError } from 'apollo-server-core';
@@ -291,11 +290,11 @@ const resolvers = {
       return {};
     },
     async roomComment(parent, args, context) {
-      const { room, comment, year } = args
+      const { roomSlug, comment, year } = args
       var user = context.user;
       if (!(user.crsid)) throw new AuthenticationError(`Only authorised users allowed`);
-      var slug = room+"-"+year;
-      var message = {slug: slug, Room: room, Comment: comment, Year: year, crsid: user.crsid, uid: uuidv4()}
+      var slug = roomSlug+"-"+year;
+      var message = {slug: slug, Room: roomSlug, Comment: comment, Year: year, crsid: user.crsid, uid: uuidv4()}
       try {
         await fs.mkdirp(`./user_uploads`);
         await fs.mkdirp(`./user_uploads/room_comments`);
