@@ -291,10 +291,12 @@ const resolvers = {
     },
     async roomComment(parent, args, context) {
       const { roomSlug, comment, year } = args
+      var room = await content("rooms", roomSlug);
+      var roomID = room.Room;
       var user = context.user;
       if (!(user.crsid)) throw new AuthenticationError(`Only authorised users allowed`);
-      var slug = roomSlug+"-"+year;
-      var message = {slug: slug, Room: roomSlug, Comment: comment, Year: year, crsid: user.crsid, uid: uuidv4()}
+      var slug = roomID+"-"+year;
+      var message = {slug: slug, Room: roomID, Comment: comment, Year: year, crsid: user.crsid, uid: uuidv4()}
       try {
         await fs.mkdirp(`./user_uploads`);
         await fs.mkdirp(`./user_uploads/room_comments`);
