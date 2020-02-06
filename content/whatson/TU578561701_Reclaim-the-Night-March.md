@@ -5,7 +5,7 @@ dtend: 2020-03-11T17:30:00+00:00
 image: https://ucarecdn.com/f70e55f2-7fc9-4df8-b536-4e42e1cb31b0/
 location: 'Location has not been confirmed but will most likely begin on Parkers Piece
   (as in previous years) and will leave in groups from plodge'
-pubdate: 2020-01-25T17:17:54.117043
+pubdate: 2020-02-06T20:19:55.912312
 title: 'Reclaim the Night March'
 ---
 Location: Location has not been confirmed but will most likely begin on Parkers Piece (as in previous years) and will leave in groups from plodge

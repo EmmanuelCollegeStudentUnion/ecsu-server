@@ -1,13 +1,13 @@
 ---
-category: ECSU
-datetime: 2020-02-05T20:30:00+00:00
-dtend: 2020-02-05T23:00:00+00:00
+category: Ents
+datetime: 2020-01-31T21:00:00+00:00
+dtend: 2020-01-31T23:30:00+00:00
 image: https://ucarecdn.com/f70e55f2-7fc9-4df8-b536-4e42e1cb31b0/
 location: 'Emma Bar'
 pubdate: 2020-02-06T20:19:55.912312
-title: 'June Event Launch'
+title: 'DJOTW (DJ TBC)'
 ---
 Location: Emma Bar
 
-Officer: June Event Committee
+Officer: Eimear and Sam (Ents)
 

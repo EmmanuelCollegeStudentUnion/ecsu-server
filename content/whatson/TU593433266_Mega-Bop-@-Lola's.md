@@ -1,9 +1,9 @@
 ---
 category: Ents
-datetime: 2020-02-21T21:30:00+00:00
-dtend: 2020-02-21T23:59:00+00:00
+datetime: 2020-03-05T20:00:00+00:00
+dtend: 2020-03-05T21:00:00+00:00
 image: https://ucarecdn.com/f70e55f2-7fc9-4df8-b536-4e42e1cb31b0/
 pubdate: 2020-02-06T20:19:55.912312
-title: 'Fresher DJ of the Week'
+title: 'Mega Bop @ Lola''s'
 ---
-Fresher DJ of the Week
+Mega Bop @ Lola's
