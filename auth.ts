@@ -4,6 +4,7 @@ import { Strategy as JWTstrategy, ExtractJwt } from 'passport-jwt'
 import jwt from 'jsonwebtoken';
 import AnonymousStrategy from 'passport-anonymous';
 import passport from 'passport'
+import { isExec } from './acl';
 
 passport.use(new RavenStrategy({
     desc: 'ECSU',
@@ -11,9 +12,9 @@ passport.use(new RavenStrategy({
 }, function (crsid, params, callback) {
     // You can skip this check if you want to support ex students and staff as well
     if (params.isCurrent) {
-        return callback(null, { id: crsid });
+        return callback(null, { id: crsid, current: true });
     } else {
-        return callback(new Error('My Raven application is only for current students and staff'));
+        return callback(null, { id: crsid, current: false });
     }
 }));
 passport.use(new AnonymousStrategy());
@@ -24,7 +25,7 @@ passport.use(new JWTstrategy({
 }, async (token, done) => {
     try {
         //Pass the user details to the next middleware
-        return done(null, { crsid: token.crsid });
+        return done(null, { crsid: token.crsid, exec: token.exec, current: token.current});
     } catch (error) {
         done(null, {});
     }
@@ -37,8 +38,8 @@ export default function applyAuthMiddleware(app) {
         session: false
     }))
     app.get('/token',
-        passport.authorize('raven'), (req, res, next) => {
-            const token = jwt.sign({ crsid: req.account.id }, process.env.SECRET);
+        passport.authorize('raven'), async (req, res, next) => {
+            const token = jwt.sign({ crsid: req.account.id, exec: await isExec(req.account.id), current: req.account.current }, process.env.SECRET);
             //Send back the token to the user
             return res.json({ token });
         });

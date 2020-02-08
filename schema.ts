@@ -17,8 +17,10 @@ const uuidv4 = require('uuid/v4');
 const typeDefs = gql`
 scalar DateTime
 type User{
-anonymous: Boolean
+  anonymous: Boolean
+  current: Boolean
   crsid: String
+  exec: Boolean
 }
 type Image{
   src: String
