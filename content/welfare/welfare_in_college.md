@@ -5,9 +5,8 @@ image: /assets/images/info/aid_ico.png
 ---
 # Publications
 
-* [Michaelmas 2018 Welfare Timetable](https://docs.google.com/spreadsheets/d/1opg-hyhcIRuzj_qXwufq3q8orcjOfaGdiWIEvUXyrRI/edit#gid=0)
 * [Confidentiality Policy](https://docs.google.com/document/d/1RYgyNXiyxQ35xMOq1CPx5qQaL0qXWZy9RnuzNpn4OQI/edit)
-* [Where to find help in Cambridge](https://docs.google.com/document/d/1xW7WGbrafSBJ3iPO51HIeM3tX8UTuBHm0Sp1YAfFPZ8/edit)
+* [Where to find help in Cambridge](https://drive.google.com/open?id=1OsxXQEyyVVSP7PDmX333_MqBGLdi_7uG)
 
 Student welfare is a top priority for the [Exec](/exec), and there are dedicated [Welfare Officers](/female_welfare) who strive to ensure that students at Emma at Emma are happy and healthy.
 

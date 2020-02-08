@@ -1,5 +1,5 @@
-import itemsForContent from './content'
-import compare from './content/compare'
+import itemsForContent from './loaders'
+import compare from './loaders/compare'
 import { Feed } from 'feed'
 import { Request, Response } from 'express';
 import showdown from 'showdown';

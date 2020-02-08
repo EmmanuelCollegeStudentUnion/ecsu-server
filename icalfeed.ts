@@ -1,4 +1,4 @@
-import itemsForContent from './content'
+import itemsForContent from './loaders'
 const ical = require('ical-generator');
 import { Request, Response } from 'express';
 import showdown from 'showdown';

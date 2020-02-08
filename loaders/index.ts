@@ -37,6 +37,7 @@ function itemsForContent(contentType) {
 }
 
 const roomDatabase = fs.readJSONSync('./content/room-database.json')
+const roomComments = fs.readJSONSync('./content/room-comments.json')
 
 const content = {
     'blogs': itemsForContent(`blogs`),
@@ -51,7 +52,7 @@ const content = {
     'whatson': itemsForContent(`whatson`),
     'opportunities': itemsForContent(`opportunities`),
     'rooms': roomDatabase['Rooms'].sort((a, b) => compare({ title: a["Title"] }, { title: b["Title"] })),
-    'room_comments': roomDatabase['Comments'],
+    'room_comments': roomComments,
     'room_images': roomDatabase['Images'],
 
 }

@@ -1,6 +1,6 @@
 const request = require("supertest");
 import app from "./app";
-import { contentErrors } from "./content";
+import { contentErrors } from "./loaders";
 
 describe("Test the root path", () => {
   it("should respond with 200 to the GET method", async () => {

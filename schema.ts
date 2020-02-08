@@ -1,8 +1,8 @@
 import glob from 'glob';
 import { ApolloServer, gql } from 'apollo-server-express';
 import { ApolloError, AuthenticationError } from 'apollo-server-core';
-import content, { roomDatabaseImages } from './content'
-import { resolveImage, navItems, routes } from './content'
+import content, { roomDatabaseImages } from './loaders'
+import { resolveImage, navItems, routes } from './loaders'
 import fs from 'fs-extra';
 import { minutes } from './minutes';
 import path from 'path'
