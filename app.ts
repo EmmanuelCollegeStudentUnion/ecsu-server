@@ -5,7 +5,7 @@ import applyMinutesMiddleware, { minutes } from './minutes';
 import applyGraphqlMiddleware from './schema';
 import applyRssFeedMiddleware from './rssfeed';
 import applyICalFeedMiddleware from './icalfeed';
-import applyAuthMiddleware from './auth';
+import { applyAuthMiddleware, applyAuthTestMiddleware } from './auth';
 import applyUploadMiddleware from './upload';
 
 
@@ -26,6 +26,10 @@ applyGraphqlMiddleware(app)
 applyRssFeedMiddleware(app);
 applyICalFeedMiddleware(app);
 applyUploadMiddleware(app);
+
+if (process.env.DEVELOP) {
+    applyAuthTestMiddleware(app);
+}
 
 app.get('/image/:folder/:file(*)', (req, res, next) => {
     res.type('image/png');

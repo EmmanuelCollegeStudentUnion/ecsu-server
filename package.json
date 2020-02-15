@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "tsc",
-    "dev": "PORT=3254 SECRET=iamdev nodemon --watch '*.ts' --exec 'ts-node' index.ts",
+    "dev": "DEVELOP=true PORT=3254 SECRET=iamdev nodemon --watch '*.ts' --exec 'ts-node' index.ts",
     "start": "node dist/index.js",
     "prod": "pm2 startOrRestart package.json --env production",
     "test": "jest"

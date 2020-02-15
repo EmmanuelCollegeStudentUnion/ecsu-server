@@ -4,7 +4,9 @@ import { Strategy as JWTstrategy, ExtractJwt } from 'passport-jwt'
 import jwt from 'jsonwebtoken';
 import AnonymousStrategy from 'passport-anonymous';
 import passport from 'passport'
-import { isExec } from './acl';
+import { getExec, isExec } from './acl';
+import express from 'express';
+
 
 passport.use(new RavenStrategy({
     desc: 'ECSU',
@@ -31,7 +33,7 @@ passport.use(new JWTstrategy({
     }
 }));
 
-export default function applyAuthMiddleware(app) {
+export function applyAuthMiddleware(app) {
     app.use(passport.initialize())
     app.use('/graphql', passport.authenticate(['jwt', 'anonymous'], { session: false }))
     app.use('/protected', passport.authenticate(['jwt', 'raven'], {
@@ -44,4 +46,13 @@ export default function applyAuthMiddleware(app) {
             return res.json({ token });
         });
 
+}
+
+export function applyAuthTestMiddleware(app) {
+    app.get('/acl/exec', async function (req, res) {
+        res.send(await getExec());
+    });
+    app.get('/acl/exec/:crsid', async function (req, res) {
+        res.send(await isExec(req.params.crsid));
+    });
 }
