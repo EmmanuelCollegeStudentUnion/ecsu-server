@@ -10,6 +10,8 @@ GEM
       sshkit (>= 1.9.0)
     capistrano-copy-files (0.0.1)
       capistrano (>= 3.0.0)
+    capistrano-git-with-submodules (2.0.3)
+      capistrano (~> 3.7)
     capistrano-yarn (2.0.2)
       capistrano (~> 3.0)
     concurrent-ruby (1.1.4)
@@ -18,7 +20,7 @@ GEM
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (5.1.0)
-    rake (12.3.2)
+    rake (13.0.1)
     sshkit (1.18.2)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
@@ -29,6 +31,7 @@ PLATFORMS
 DEPENDENCIES
   capistrano (~> 3.11)
   capistrano-copy-files (~> 0.0.1)
+  capistrano-git-with-submodules (~> 2.0)
   capistrano-yarn (~> 2.0)
 
 BUNDLED WITH
