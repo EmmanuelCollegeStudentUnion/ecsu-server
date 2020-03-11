@@ -1,15 +1,19 @@
 ---
 ecsu_does:
   - description: >-
-      ECSU represents the rights and interests of undergraduate students at
-      Emmanuel at college and university level.
+      We represent student perspectives and views on college committees,
+      speaking up for undergraduates at every level of decision-making and
+      governance. We sit on Cambridge SU councils and forums, ensuring that
+      Emmanuel students are heard on broader issues affecting the University. 
     icon: people
     title: Representation
   - description: >-
       We produce a comprehensive timetable of welfare provisions each term, from
-      confidential drop-in sessions to pub quizzes in the bar. 
+      drop-in signposting sessions to pub quizzes in the bar. We recognise that
+      liberation and welfare go hand in hand, always working with
+      intersectionality in mind.
     icon: sentiment_very_satisfied
-    title: Welfare
+    title: Welfare & Liberation
   - description: >-
       We work on access initiatives, dispelling myths about Cambridge and
       ensuring that the brightest students apply regardless of socioeconomic
@@ -18,8 +22,8 @@ ecsu_does:
     title: Access
   - description: >-
       We fundraise for charities, campaign for ethical and environmentally
-      sustainable practices, and recognise that liberation and welfare go hand
-      in hand to ensure Emmanuel is a safe and welcoming community.
+      sustainable practices, and fight for a college and university that is
+      truly equal for all.
     icon: favorite
     title: Campaigning
 whats_here:
