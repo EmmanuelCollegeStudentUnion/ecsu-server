@@ -2,21 +2,23 @@
 title: About ECSU
 image: 'https://ucarecdn.com/ba7b2d43-6c3a-4f6a-b810-241b4958b9ee/'
 ---
-Emmanuel College Students' Union, or ECSU, is the representative body for undergraduate students at Emmanuel College, Cambridge. The daily business of ECSU is managed by the Committee, whose members have specific responsibilities and are elected on a yearly basis at the end of Michaelmas Term.
+Emmanuel College Students' Union, or ECSU, is the representative body for undergraduate students at Emmanuel College, Cambridge. The daily business of ECSU is managed by the Committee, whose members have specific responsibilities and are elected on a yearly basis at the end of Michaelmas Term
 
-> We represent student perspectives and views on college committees, speaking up for undergraduates at every level of the decision-making processes. 
->
-> We produce a comprehensive timetable of welfare provisions each term, from drop-in sessions to pub quizzes in the bar. 
->
-> We sit on Cambridge SU councils and forums, ensuring that Emmanuel students are heard on broader issues affecting the University. 
->
-> We work on access initiatives, dispelling myths about Cambridge and ensuring that the brightest students apply regardless of socioeconomic status or background. 
->
-> We provide financial support to clubs and societies, and fundraise for local, national, and international charities chosen by the student body. 
->
-> We campaign for more ethical and environmentally sustainable practices in college, so that Emmanuel can lead the way in dealing with the climate crisis.
->
-> We are proud to recognise that liberation and welfare go hand in hand, and work accordingly - with intersectionality in mind in everything we do - to ensure that Emmanuel is a community that everyone can feel safe and welcome in, regardless of race, nationality, gender, sexuality, or disability.
+
+
+We represent student perspectives and views on college committees, speaking up for undergraduates at every level of decision-making and governance. 
+
+We produce a comprehensive timetable of welfare provisions each term, from drop-in sessions to pub quizzes in the bar. \
+\
+We sit on Cambridge SU councils and forums, ensuring that Emmanuel students are heard on broader issues affecting the University. \
+\
+We work on access initiatives, dispelling myths about Cambridge and ensuring that the brightest students apply regardless of socioeconomic status or background. \
+\
+We provide financial support to clubs and societies, and fundraise for local, national, and international charities chosen by the student body. \
+\
+We campaign for more ethical and environmentally sustainable practices in college, so that Emmanuel can lead the way in dealing with the climate crisis.
+
+We are proud to recognise that liberation and welfare go hand in hand, and work accordingly - with intersectionality in mind in everything we do - to ensure that Emmanuel is a community that everyone can feel safe and welcome in, regardless of race, nationality, gender, sexuality, or disability.
 
 
 
