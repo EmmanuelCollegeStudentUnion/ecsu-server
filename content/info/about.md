@@ -2,9 +2,17 @@
 title: About ECSU
 image: /assets/images/info/emmanuel_logo.png
 ---
-Emmanuel College Students' Union, or ECSU for short, is the representative body for students at Emmanuel College, Cambridge. The daily business of ECSU is managed by the Committee, whose members have specific responsibilities and are elected on a yearly basis at the end of Michaelmas Term.
+Emmanuel College Students' Union, or ECSU, is the representative body for undergraduate students at Emmanuel College, Cambridge. The daily business of ECSU is managed by the Committee, whose members have specific responsibilities and are elected on a yearly basis at the end of Michaelmas Term.
 
-## Record of Presidents & Vice Presidents (since 2004)
+* We represent student perspectives and views on college committees, speaking up for undergraduates at every level of the decision-making processes. 
+* We produce a comprehensive timetable of welfare provisions each term, from drop-in sessions to pub quizzes in the bar. 
+* We sit on Cambridge SU councils and forums, ensuring that Emmanuel students are heard on broader issues affecting the University. 
+* We work on access initiatives, dispelling myths about Cambridge and ensuring that the brightest students apply regardless of socioeconomic status or background. 
+* We provide financial support to clubs and societies, and fundraise for local, national, and international charities chosen by the student body. 
+* We campaign for more ethical and environmentally sustainable practices in college, so that Emmanuel can lead the way in dealing with the climate crisis.
+* We are proud to recognise that liberation and welfare go hand in hand, and work accordingly - with intersectionality in mind in everything we do - to ensure that Emmanuel is a community that everyone can feel safe and welcome in, regardless of race, nationality, gender, sexuality, or disability. 
+
+## ECSU Presidents & Vice Presidents (since 2004)
 
 **2004**\
 Sophie Adelman (President)\
@@ -88,6 +96,6 @@ The University of Cambridge is one of the larger universities in the UK, and is 
 
 ## Credits
 
-ECSU logo redesigned by Jerry Chen (Vice President - 2020) based on original drawings and designs by Matilda Schwefel (Vice President - Michaelmas 2018; President - 2019). 
+ECSU graphics redesigned by Jerry Chen (Vice President - 2020) based on original drawings and designs by Matilda Schwefel (Vice President - Michaelmas 2018; President - 2019). 
 
 Current website developed by Nathan Hawkes (Webmaster - 2019) and maintained by Ben Shute (Webmaster - 2020).
