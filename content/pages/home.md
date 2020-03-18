@@ -1,29 +1,27 @@
 ---
 ecsu_does:
   - description: >-
-      We represent student perspectives and views on college committees,
-      speaking up for undergraduates at every level of decision-making and
-      governance. We sit on Cambridge SU councils and forums, ensuring that
-      Emmanuel students are heard on broader issues affecting the University. 
+      We sit on college committees at every level of decision-making,
+      representing student perspectives. At Cambridge SU councils & forums, we
+      provide a voice for Emma students on issues affecting the University. 
     icon: people
     title: Representation
   - description: >-
-      We produce a comprehensive timetable of welfare provisions each term, from
-      drop-in signposting sessions to pub quizzes in the bar. We recognise that
-      liberation and welfare go hand in hand, always working with
-      intersectionality in mind.
+      As well as being an initial port-of-call, we produce a comprehensive
+      timetable of welfare events each term. Our liberation officers play a key
+      role in welfare, helping us to truly address intersectionality.
     icon: sentiment_very_satisfied
-    title: Welfare & Liberation
+    title: Welfare
   - description: >-
-      We work on access initiatives, dispelling myths about Cambridge and
-      ensuring that the brightest students apply regardless of socioeconomic
-      status or background. 
+      We run initiatives such as Access Bus, encouraging the brightest students
+      to apply regardless of background, and work on post-admissions access,
+      tackling elitism & privilege experienced by current students.
     icon: local_library
     title: Access
   - description: >-
       We fundraise for charities, campaign for ethical and environmentally
-      sustainable practices, and fight for a college and university that is
-      truly equal for all.
+      sustainable practices, and advocate on behalf of marginalised students,
+      fighting for a college and university that is more equal for all.
     icon: favorite
     title: Campaigning
 whats_here:
