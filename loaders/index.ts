@@ -45,6 +45,7 @@ const content = {
     'info': itemsForContent(`info`),
     'pages': itemsForContent(`pages`),
     'posts': itemsForContent(`posts`),
+    'covid': itemsForContent(`covid`),
     'prospective': itemsForContent(`prospective`),
     'room_locations': itemsForContent(`room_locations`),
     'societies': itemsForContent(`societies`),

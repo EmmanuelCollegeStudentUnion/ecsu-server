@@ -174,6 +174,7 @@ type Query {
   roomLocations: [RoomLocation]
   roomLocation(slug:String!): RoomLocation
   room(slug:String!): Room
+  covid: [Post]
 }    
 type Mutation {
   roomPhotoUpload(roomSlug:String!, file: Upload!): Image
@@ -241,7 +242,22 @@ const resolvers = {
   },
   Query: {
     routes: obj => routes,
-    navItems: obj => navItems,
+    navItems: (obj, args, context) => {
+      var user = context.user;
+      if (!(user.crsid)) {
+        return navItems;
+      } else {
+        //COVID hack
+        var out = [...navItems];
+        out.splice(1, 0, {
+          text: "Coronavirus",
+          icon: "local_hospital",
+          url: "/coronavirus/",
+          routes: []
+        });
+        return out;
+      }
+    },
     minutes: obj => minutes(),
     homePage: obj => content("pages", "home"),
     whatsOn: (obj, args) => content("whatson", args.slug),
@@ -265,6 +281,7 @@ const resolvers = {
     rooms: obj => content("rooms"),
     roomLocation: (obj, args) => content("room_locations", args.slug),
     room: (obj, args) => content("rooms", args.slug),
+    covid: obj => content("covid"),
     user: (obj, args, context) => context.user
   },
   Mutation: {
