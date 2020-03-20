@@ -1,32 +1,35 @@
 ---
 ecsu_does:
   - description: >-
-      ECSU is the primary medium through which Emmanuel students interact with
-      college; be that via building requests or suggestions for improvement.
-    icon: account_balance
-    title: Liaises on Your Behalf
+      We sit on college committees at every level of decision-making,
+      representing student perspectives. At Cambridge SU councils & forums, we
+      provide a voice for Emma students on issues affecting the University. 
+    icon: people
+    title: Representation
   - description: >-
-      ECSU represents the rights and interests of undergraduate students at
-      Emmanuel at college and university level.
-    icon: face
-    title: Represents You
-  - description: >-
-      Through welfare initiatives, ents, societies, campaigns and surprises
-      throughout term, ECSU looks after the wellbeing of the student body.
+      As well as being an initial port-of-call, we produce a comprehensive
+      timetable of welfare events each term. Our liberation officers play a key
+      role in welfare, helping us to truly address intersectionality.
     icon: sentiment_very_satisfied
-    title: Keeps You Smiling
+    title: Welfare
   - description: >-
-      Via email, calendar, website and social media, we are here to provide you
-      with useful information about our events, term dates, and general college
-      matters.
-    icon: notifications
-    title: Keeps You Informed
+      We run initiatives such as Access Bus, encouraging the brightest students
+      to apply regardless of background, and work on post-admissions access,
+      tackling elitism & privilege experienced by current students.
+    icon: local_library
+    title: Access
+  - description: >-
+      We fundraise for charities, campaign for ethical and environmentally
+      sustainable practices, and advocate on behalf of marginalised students,
+      fighting for a college and university that is more equal for all.
+    icon: favorite
+    title: Campaigning
 whats_here:
   - description: >-
       Find out about the 2020 ECSU Committee - who we are, what we do and how to
       get in touch.
     image: /assets/images/pages/home/slide01.jpg
-    title: Meet the 2020 ECSU Committee
+    title: Meet the 2020 Committee
     url: /exec
   - description: >-
       Access the Emmanuel Room Database, to help inform your decision when
@@ -36,7 +39,7 @@ whats_here:
     url: /room_locations
   - description: >-
       Whether you're a grad looking for a job or a first year wanting to hear
-      more about LinkedIn, this is the workshop for you.
+      more about LinkedIn, this is the place for you.
     image: /assets/images/pages/home/careers.jpeg
     title: Emma Careers
     url: /info/careers
