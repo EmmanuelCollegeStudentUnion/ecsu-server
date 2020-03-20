@@ -11,13 +11,13 @@ a new, continuous cough – this means coughing a lot for more than an hour, or 
 Do not go to a GP surgery, pharmacy or hospital. Use the 111 online coronavirus service at https://111.nhs.uk/covid-19/ to find out what to do. Staying at home advice is available at https://www.nhs.uk/conditions/coronavirus-covid-19/self-isolation-advice/.
  
 We have a collective responsibility to prevent the spread of the virus, particularly to those most vulnerable. Protect yourself from novel coronavirus by:
-washing your hands with soap and water often for at least 20 seconds
-using hand sanitiser gel if soap and water are not available
-avoiding close contact with people who have symptoms of coronavirus
-only travelling on public transport if you need to
-working from home, if you can
-avoiding social activities, such as going to pubs, restaurants, theatres and cinemas
-avoiding events with large groups of people
+* washing your hands with soap and water often for at least 20 seconds
+* using hand sanitiser gel if soap and water are not available
+* avoiding close contact with people who have symptoms of coronavirus
+* only travelling on public transport if you need to
+* working from home, if you can
+* avoiding social activities, such as going to pubs, restaurants, theatres and cinemas
+* avoiding events with large groups of people
  
 The NHS will contact you from Monday 23 March if you are at particularly high risk of getting seriously ill with coronavirus. You'll be given specific advice about what to do.
  
