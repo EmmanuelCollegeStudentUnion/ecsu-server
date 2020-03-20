@@ -4,6 +4,10 @@ pubdate: 2020-03-20T21:59:59.898Z
 ---
 Unfortunately, there will be no face-to-face teaching or exams in Cambridge in Easter Term. All teaching will move online, and the University will communicate with all students about alternative assessment arrangements by **Tuesday, 31st March**. 
 
+What we know as of 20 March is that in many subjects and papers for which there will be assessment, the likely approach will be for online assessment via Moodle. The main assessment period remains scheduled to take place in Easter Term. 
+
+There are legitimate reasons why this is not possible for some students, such as illness, caring responsibilities or technical difficulties. Therefore, for those students whose preparation or assessment is significantly disrupted in Easter Term, a further opportunity to take the assessment will be available once the University is fully operational again. It is, at this stage, difficult to predict when this might be. 
+
 As a students’ union, we will campaign for fairer arrangements that do not disadvantage disabled and international students, or those students experiencing difficult home environments, variable access to work tools and spaces, and demands placed upon them by the pandemic.
 
 ## Concerns about assessment
@@ -19,7 +23,7 @@ We will all be facing challenges when preparing for assessment, especially now s
 * A number of **subject specific** note-sharing drives, provided by Emma college parents, can be found here: https://drive.google.com/open?id=1yk4FnQnRvB2WNNJuddUM-c84ArtHPe7P. 
   * Your Subject parents will, hopefully, have already sent you these.
 
-__
+
 
 ## Study skills and other useful links
 
