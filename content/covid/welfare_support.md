@@ -2,10 +2,11 @@
 title: Welfare and support
 pubdate: 2020-03-20T21:56:10.995Z
 ---
-The Welfare Officers, Leoni and Damola, have created this incredible drive with a plethora of resources to keep you smiling over the coming months - https://drive.google.com/open?id=1-mP7l5f-9xVLYi0cpDet21zojOXA8b86
+The Welfare Officers, Leoni and Damola, have created this incredible drive with a plethora of resources to keep you smiling over the coming months: https://drive.google.com/open?id=1-mP7l5f-9xVLYi0cpDet21zojOXA8b86
 
+Your wellbeing is of great importance over the next few months, so we will try our best to provide light-hearted fun as well as sincere support when it is appropriate. Suggestions on how we can best improve the Google Drive are welcome too! If we all come together to support one another, then the Emma community spirit will continue to be strong, despite the physical distance between us. 
 
-Your wellbeing is of great importance over the next few months, so we will try our best to provide light-hearted fun as well as sincere support when it is appropriate. Suggestions on how we can best improve the Google Drive are welcome too! If we all come together to support one another, then the Emma community spirit will still be strong, despite the physical distance between us. 
+## Additional welfare and support resources
 
 * The Students' Unions' Advice Service is now running phone drop-in sessions every day from 12-2pm for support on a variety of issues, such as accommodation, communicating with college, exams and welfare. You can call 01223 746 999, also email questions or for an appointment via phone, Skype or Zoom on advice@studentadvice.cam.ac.uk.
 * The DRC, UCS, and Careers Service are currently still running appointments via Skype or phone call.
