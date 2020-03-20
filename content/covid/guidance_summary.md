@@ -6,8 +6,9 @@ ordering: 5
 ### Health advice
  
 Stay at home if you have either:
-a high temperature – this means you feel hot to touch on your chest or back (you do not need to measure your temperature)
-a new, continuous cough – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual)
+* a high temperature – this means you feel hot to touch on your chest or back (you do not need to measure your temperature)
+* a new, continuous cough – this means coughing a lot for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual)
+
 Do not go to a GP surgery, pharmacy or hospital. Use the 111 online coronavirus service at https://111.nhs.uk/covid-19/ to find out what to do. Staying at home advice is available at https://www.nhs.uk/conditions/coronavirus-covid-19/self-isolation-advice/.
  
 We have a collective responsibility to prevent the spread of the virus, particularly to those most vulnerable. Protect yourself from novel coronavirus by:
