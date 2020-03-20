@@ -174,7 +174,7 @@ type Query {
   roomLocations: [RoomLocation]
   roomLocation(slug:String!): RoomLocation
   room(slug:String!): Room
-  covid: [Post]
+  covid: [WhatsOnOpportunity]
 }    
 type Mutation {
   roomPhotoUpload(roomSlug:String!, file: Upload!): Image
