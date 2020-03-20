@@ -4,7 +4,7 @@ pubdate: 2020-03-20T22:04:02.453Z
 ---
 Hope you’re all doing well in these most stressful of times. Please take care of yourselves.
 
-For those of you who are in quarantine, have not been able to go home, or are staying in college, have a look at the welfare and supportresources put together by Leoni and Damola (which you can find above). There’s also this document which was made by CUSU LGBT+ and contains loads of things to do, watch, bake etc… https://docs.google.com/document/d/1TBee8JjeliCHep5jCsvrYdsedfKsGKKD7MuKCstb5Xc/edit
+For those of you who are in quarantine, have not been able to go home, or are staying in college, have a look at the welfare and support resources put together by Leoni and Damola (which you can find above). There’s also this document which was made by CUSU LGBT+ and contains loads of things to do, watch, bake etc… https://docs.google.com/document/d/1TBee8JjeliCHep5jCsvrYdsedfKsGKKD7MuKCstb5Xc/edit
 
 Also, remember that tutors remain available if you have any concerns. If you do not feel comfortable talking to your own tutor, you can contact any and all of them. 
 
