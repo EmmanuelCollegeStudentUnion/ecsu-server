@@ -1,6 +1,7 @@
 ---
 title: Staying in college
 pubdate: 2020-03-20T22:03:01.360Z
+ordering: 7
 ---
 * Please join our **Staying in Emma Facebook group** at https://facebook.com/groups/stayinginemma for peer support and advice
 * Join the **university-wide group** for those staying over the coming period (run by CUSU) at https://www.facebook.com/groups/781638182243385/.
