@@ -1,7 +1,7 @@
 ---
 title: International students
 pubdate: 2020-03-20T22:04:02.453Z
-ordering: 6
+ordering: 2
 ---
 Hope you’re all doing well in these most stressful of times. Please take care of yourselves.
 

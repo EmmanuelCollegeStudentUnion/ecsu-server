@@ -1,6 +1,7 @@
 ---
 title: Easter Term and teaching/exams
 pubdate: 2020-03-20T21:59:59.898Z
+ordering: 6
 ---
 Unfortunately, there will be no face-to-face teaching or exams in Cambridge in Easter Term. All teaching will move online, and the University will communicate with all students about alternative assessment arrangements by **Tuesday, 31st March**. 
 

@@ -1,6 +1,7 @@
 ---
 title: Staying in college
 pubdate: 2020-03-20T22:03:01.360Z
+ordering: 4
 ---
 * Please read college's [advice for those still staying in residence](https://www.emma.cam.ac.uk/images/files/COVID-19%20Strategy.pdf)
 * Please join our **Staying in Emma Facebook group** at https://facebook.com/groups/stayinginemma for peer support and advice
