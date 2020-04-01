@@ -1,21 +1,42 @@
 ---
 title: Easter Term and teaching/exams
 pubdate: 2020-03-20T21:59:59.898Z
-ordering: 6
+number: 4
 ---
-Unfortunately, there will be no face-to-face teaching or exams in Cambridge in Easter Term. All teaching will move online, and the University will communicate with all students about alternative assessment arrangements by **Tuesday, 31st March**. 
+There will be no face-to-face teaching or exams in Cambridge in Easter Term. All teaching will move online, and the University has communicated with all students about alternative assessment arrangements. Please see the "Assessment" information below.
 
 There are legitimate reasons why assessment over the Easter term period is not possible for some students, such as illness, caring responsibilities or technical difficulties. Therefore, for those students whose preparation or assessment is significantly disrupted, a further opportunity to take the assessment will be available once the University is fully operational again. It is, at this stage, difficult to predict when this might be. 
 
-As a students’ union, we will campaign for fairer arrangements that do not disadvantage disabled and international students, or those students experiencing difficult home environments, variable access to work tools and spaces, and demands placed upon them by the pandemic.
+As a students’ union, we have campaigned for fairer arrangements that do not disadvantage carers, disabled and/or international students, or those students experiencing difficult home environments, health issues, variable access to work tools and spaces, and additional demands placed upon them by the pandemic. 
 
 ## Important - Academic Survey
 
-Please fill in [this survey](https://www.emma.cam.ac.uk/images/files/COVID-19AcademicSurvey.docx) and send it to your tutor. This is an ideal means for you to raise any health concerns (mental or physical) with the college and let them know how you will be affected as you study at home in Easter Term. Providing them with details as to your circumstances will help them best support you over the coming months, especially in relation to exams. 
+Please fill in the survey on the Emmanuel Tutorial moodle site. This is an ideal means for you to raise any health concerns (mental or physical) with the college and let them know how you will be affected as you study at home in Easter Term. Providing your tutor with details as to your circumstances will help them best support you over the coming months, especially in relation to exams. 
 
-## Concerns about assessment
+## Assessment
 
-If you have concerns about alternative forms of assessment, we encourage you to get in contact with your **DoS and Tutor** to express these as soon as you can.  You can also contact your **Schools or Faculty students reps**: https://docs.google.com/spreadsheets/d/1yR-respMVQrAoJfwV9Z09HWTCq2DM8T8SX1wRqVTnRQ/edit?usp=sharing
+By 31st March 2020 all students should have received an email from Professor Graham Virgo, the Pro-Vice-Chancellor for Education, outlining the principles behind the alternative forms of assessment adopted by the various faculties.  See here: https://www.cam.ac.uk/coronavirus/students/assessment/assessment-principles-and-policies-easter-term-2020
+
+You will then also receive/have received an email from your faculty outlining the specific alternative forms of assessment adopted by them.  If you have not received this email by 2nd April, contact your DoS and Faculty immediately.
+
+The essential information is as follows:
+
+* All students (except in individual cases) will be expected to undertake some form of alternative assessment.
+* Students in 1st and 2nd years will not be ‘classed’ on their marks.  This boils down to either a pass or a fail.
+  * In some forms of assessment, ‘summative’, you will receive a mark on your transcript 
+  * In others, ‘formative’, you will not receive a mark on your transcript 
+  * This depends on the policies of individual faculties 
+* All finalists will have the opportunity to receive a classed degree if necessary for progression to 4th year of an integrated masters or they intend to graduate 
+* For all finalists a ‘safety net’ has been adopted, meaning that you will not receive a grade lower than the grade you received in 2019 examinations and your grade may be higher.
+  * All finalists will be assessed and receive a mark on their transcript from which a class will be determined 
+* If this mark is a class lower than that received in 2019, then the 2019 grade will be recorded.
+* There are exceptions to this information and we encourage you to read the statement in full (link above) and the information sent from your faculties.  
+
+If you have concerns about assessment this page may answer your questions: https://www.cam.ac.uk/coronavirus/students/assessment
+
+We also encourage you to get in contact with your DoS and Tutor to express your concerns as soon as possible.  You can also contact yout Schools or Faculty Reps here: https://docs.google.com/spreadsheets/d/1yR-respMVQrAoJfwV9Z09HWTCq2DM8T8SX1wRqVTnRQ/edit?usp=sharing
+
+
 
 ## Note-sharing Drives: ECSU and CUSU
 
