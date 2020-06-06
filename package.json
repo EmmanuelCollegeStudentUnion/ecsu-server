@@ -9,7 +9,7 @@
   "dependencies": {
     "@types/graphql": "^14.0.5",
     "@types/jest": "^24.0.11",
-    "apollo-server-express": "^2.3.1",
+    "apollo-server-express": "^2.14.2",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
     "feed": "^2.0.2",
