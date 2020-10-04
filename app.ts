@@ -1,6 +1,7 @@
 require('dotenv').config()
 import express from 'express';
 import image from './image';
+import { reload } from './loaders/index';
 import applyMinutesMiddleware, { minutes } from './minutes';
 import applyGraphqlMiddleware from './schema';
 import applyRssFeedMiddleware from './rssfeed';
@@ -19,6 +20,11 @@ app.use(function (req, res, next) {
 });
 
 app.get('/', (_req, res) => res.send('Server running.'))
+
+app.get('/reload', (_req, res) => {
+    reload();
+    res.send('Reloading content...')
+})
 
 applyAuthMiddleware(app);
 applyMinutesMiddleware(app);

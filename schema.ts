@@ -327,6 +327,13 @@ const resolvers = {
         return null;
       }
       return message;
+    },
+    async pageCreEdit(parent, args, context) {
+      var user = context.user;
+      if (!(user.crsid)) throw new AuthenticationError(`Only authorised users allowed`);
+      const content = args.content
+      args.content = undefined;
+      
     }
   }
 };

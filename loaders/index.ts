@@ -36,10 +36,14 @@ function itemsForContent(contentType) {
         }).sort(compare)
 }
 
-const roomDatabase = fs.readJSONSync('./content/room-database.json')
-const roomComments = fs.readJSONSync('./content/room-comments.json')
+function filename(filepath) {
+    return filepath.split('\\').pop().split('/').pop().split('.')[0]
+}
 
-const content = {
+var roomDatabase = fs.readJSONSync('./content/room-database.json')
+var roomComments = fs.readJSONSync('./content/room-comments.json')
+
+var content = {
     'blogs': itemsForContent(`blogs`),
     'exec': itemsForContent(`exec`),
     'info': itemsForContent(`info`),
@@ -58,11 +62,7 @@ const content = {
 
 }
 
-function filename(filepath) {
-    return filepath.split('\\').pop().split('/').pop().split('.')[0]
-}
-
-const mapping = {}
+var mapping = {}
 Object.keys(content).forEach(collection => {
     mapping[collection] = {}
     content[collection].forEach(item => {
@@ -93,7 +93,7 @@ export default async (contentType, contentSlug: string = "") => {
     }
 }
 
-export const navItems = [
+export var navItems = [
     {
         text: "Home",
         icon: "home",
@@ -186,7 +186,7 @@ export const navItems = [
 ]
 
 const flatMap = (arr: Array<any>, f) => ([] as Array<any>).concat(...arr.map(f))
-export const routes = flatMap(navItems, (x => [
+export var routes = flatMap(navItems, (x => [
     x,
     ...x.routes
 
@@ -231,3 +231,132 @@ export function roomDatabaseImages(obj) {
     return roomDatabase['Images'].filter(image => image['Room'] == obj['Room']).map(x => resolveImage(x["Image"], obj["Title"])).concat(
         paths.map(src => ({ src: src.replace('./user_uploads', 'https://api.ecsu.org.uk/user_uploads'), alt: obj["Title"] }))).reverse()
 };
+
+export function reload() {
+    roomDatabase = fs.readJSONSync('./content/room-database.json')
+    roomComments = fs.readJSONSync('./content/room-comments.json')
+    content = {
+        'blogs': itemsForContent(`blogs`),
+        'exec': itemsForContent(`exec`),
+        'info': itemsForContent(`info`),
+        'pages': itemsForContent(`pages`),
+        'posts': itemsForContent(`posts`),
+        'covid': itemsForContent(`covid`),
+        'prospective': itemsForContent(`prospective`),
+        'room_locations': itemsForContent(`room_locations`),
+        'societies': itemsForContent(`societies`),
+        'welfare': itemsForContent(`welfare`),
+        'whatson': itemsForContent(`whatson`),
+        'opportunities': itemsForContent(`opportunities`),
+        'rooms': roomDatabase['Rooms'].sort((a, b) => compare({ title: a["Title"] }, { title: b["Title"] })),
+        'room_comments': roomComments,
+        'room_images': roomDatabase['Images'],
+    }
+    mapping = {}
+    Object.keys(content).forEach(collection => {
+        mapping[collection] = {}
+        content[collection].forEach(item => {
+            mapping[collection][item.slug] = item
+        });
+    })
+    routes = flatMap(navItems, (x => [
+        x,
+        ...x.routes
+    
+    ])).concat(
+        itemsForContent("rooms"),
+        itemsForContent("whatson"),
+        itemsForContent("opportunities"),
+        itemsForContent("posts"))
+    navItems = [
+        {
+            text: "Home",
+            icon: "home",
+            url: "/",
+            routes: []
+        },
+        {
+            text: "Calendar",
+            icon: "today",
+            url: "/whatson/",
+            routes: []
+        },
+        {
+            text: "Opportunities",
+            icon: "announcement",
+            url: "/opportunities/",
+            routes: []
+        },
+        {
+            text: "Prospective students",
+            icon: "face",
+            url: "/prospective/",
+            routes: content["prospective"]
+        },
+        {
+            text: "Current students",
+            icon: "account_circle",
+            url: "/members/",
+            routes: [
+                {
+                    title: "Minutes",
+                    url: "/members/minutes",
+                    routes: []
+                },
+                {
+                    title: "Official Documents",
+                    url: "/members/official_documents",
+                    routes: []
+                }
+            ]
+        },
+        {
+            text: "Committee",
+            icon: "assignment_ind",
+            url: "/exec/",
+            routes: content["exec"]
+        },
+        {
+            text: "Posts",
+            icon: "assignment",
+            url: "/blogs/",
+            routes: content["blogs"]
+        },
+        {
+            text: "Welfare",
+            icon: "sentiment_very_satisfied",
+            url: "/welfare/",
+            routes: [
+                ...content["welfare"],
+                {
+                    title: "Pregnancy Kit",
+                    url: "/welfare/pregnancy_kit",
+                    routes: []
+                },
+                {
+                    title: "Welfare Request",
+                    url: "/welfare/welfare_request",
+                    routes: []
+                }
+            ]
+        },
+        {
+            text: "Societies",
+            icon: "rowing",
+            url: "/societies/",
+            routes: content["societies"]
+        },
+        {
+            text: "Room database",
+            icon: "location_city",
+            url: "/room_locations/",
+            routes: content["room_locations"]
+        },
+        {
+            text: "Info",
+            icon: "info",
+            url: "/info/",
+            routes: content["info"]
+        }
+    ]
+}
