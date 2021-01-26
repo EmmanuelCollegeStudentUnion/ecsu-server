@@ -26,10 +26,10 @@ ecsu_does:
     title: Campaigning
 whats_here:
   - description: >-
-      Find out about the 2020 ECSU Committee - who we are, what we do and how to
+      Find out about the 2021 ECSU Committee - who we are, what we do and how to
       get in touch.
     image: /assets/images/pages/home/slide01.jpg
-    title: Meet the 2020 Committee
+    title: Meet the 2021 Committee
     url: /exec
   - description: >-
       Access the Emmanuel Room Database, to help inform your decision when
