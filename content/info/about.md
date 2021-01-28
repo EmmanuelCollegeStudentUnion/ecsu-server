@@ -90,6 +90,10 @@ Colin Kaljee (Vice President)
 Harriet Hards (President)\
 Jerry Chen (Vice President)
 
+**2021**\
+Charlotte McGuire (President)\
+Sawen Ali (Vice President)
+
 _Email vicepresident@ecsu.org.uk if you would like to correct any errors or add to our record._
 
 ## Emmanuel College
