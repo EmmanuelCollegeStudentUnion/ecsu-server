@@ -1,7 +1,7 @@
 ---
 title: Vice President
 email: vicepresident@ecsu.org.uk
-name: Phoenix Ali
+name: Sawen Ali
 image: 'https://ucarecdn.com/3aa9bdeb-1b41-4714-8dcf-b027b4b7f200/'
 crsid:
   - jc2068
