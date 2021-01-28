@@ -1,8 +1,9 @@
 ---
 title: Secretary
 email: secretary@ecsu.org.uk
-name: Meg Webb
-image: /assets/images/exec/Secretary.png
-crsid: [mhgw2]
+name: Fran Hardyman
+image: 'https://ucarecdn.com/9c661b2a-d529-466e-8ae7-e0d408568e73/'
+crsid:
+  - mhgw2
 ---
-My name’s Meg Webb, I’m a third year music undergraduate, and looking forward to my second year as an ECSU Officer, this time as Secretary. I love novelty socks, the ducks on Paddock, a good pint of cider, and having a clear email inbox. I hope to continue working with the new Disabilities Officer to improve outreach and accessibility of information, and increase interaction between the ECSU officers and the student body via social media and other physical means within college.
+Hi, I’m Fran (she/her). I’m looking forward to working with all the lovely people on committee to make this year as good as possible. My job is to create the ECSU event calendar, prepare the agenda and take minutes for meetings, and to run our social media. My main aims are to increase ECSU transparency, keep everything running smoothly, and to support the others with all of their plans.
