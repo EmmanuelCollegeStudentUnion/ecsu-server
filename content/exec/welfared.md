@@ -1,12 +1,9 @@
 ---
-email: welfaredamola@ecsu.org.uk
-image: /assets/images/exec/WelfareD.jpeg
-name: Damola Odeyemi
-title: Welfare Officer (Damola)
-crsid: [aao31]
+title: Welfare Officer (Ted)
+email: welfare-ted@ecsu.org.uk
+name: Ted Perkin
+image: 'https://ucarecdn.com/924e7421-6d67-4559-b345-d91a6ff8bbce/'
+crsid:
+  - aao31
 ---
-Hi! My name’s Damola. I’m a first year BioNatSci. I am one of your two welfare officers; I work closely with Leoni to organise weekly welfare events in Emma. We plan to compile a document with clear and concise information on the different levels of welfare training given to college officials along with making the required college/university welfare contacts available to all students.
-
-I hope to continue what is already a great welfare system and make Emma an even happier and friendlier place!
-
-Feel free to approach me around college at any time, or email me.
+Hi, we’re Ted and Cli! As welfare officers, we’re here to help students feel welcome and happy at Emma. That means providing fun and inclusive events which encourage a sense of community. On an individual level, we’re here for anyone whose welfare is suffering and needs someone to talk to and to signpost the services available.
