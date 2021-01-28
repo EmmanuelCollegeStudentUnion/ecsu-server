@@ -1,16 +1,14 @@
 ---
 title: President
 email: president@ecsu.org.uk
-name: Harriet Hards
-image: /assets/images/exec/President.png
+name: Charlotte McGuire
+image: 'https://ucarecdn.com/9619f3e9-41d4-4568-a947-10b2bc951499/'
+crsid:
+  - heh38
 ordering: 2
-crsid: [heh38]
 ---
-Hi, I’m Harriet (she/her) and I’m a second year HSPS student from Gloucestershire. This year I’m very excited to be taking on the role of ECSU President and representing the lovely students of Emma within college, the university and beyond. 
- 
-My role involves making sure that the committee runs smoothly and effectively, representing student views and concerns to senior members of the college and generally endeavouring to make Emma a place where all students feel welcome and heard. 
- 
-This year, my three main aims are to:
-* Support the welfare and liberation officers in running their events and make welfare and liberation issues a key part of all conversations with college
-* Revamp the Alternative Prospectus and create new student videos for the Emma website, to boost pre-admissions Access efforts
-* Continue a process of constitutional reform, proposing the idea of an additional Access Officer
+Hello! I’m Charlotte (she/her) and I’m delighted to be serving as your ECSU President for 2021. In my role I head the Committee, represent the student body and provide a direct line to College. I’ll be using my position to ensure the Committee is fully supported in achieving their aims and that ECSU is a positive place and successful union for everyone. 
+
+My aims as President include improving the ballot experience, reassessing certain living arrangements, improving College communications and enacting small but impactful changes to student life that will make Emma an even better place. 
+
+Never hesitate to get in contact via president@ecsu.org.uk !
