@@ -1,16 +1,9 @@
 ---
-title: Access Officer
-email: access@ecsu.org.uk
-name: Cara Malcolm
-image: /assets/images/exec/Access.png
-crsid: [cm968]
+title: Access and Class Act Officer (Francesca)
+email: access-francesca@ecsu.org.uk
+name: Francesca Mann
+image: 'https://ucarecdn.com/cf27d5bd-4f76-459a-a9e0-d8e02015be80/'
+crsid:
+  - cm968
 ---
-Hi, I’m Cara, a second year engineering student and Emma’s Access Officer!
-
-My priorities for this year are to:
-* Continue the success of outreach schemes such as Access Bus and the shadowing scheme
-* Work towards making May Week more accessible
-* Support students from access backgrounds within college.
-
-
-Please feel free to contact me at access@ecsu.org.uk
+Hi, I’m Francesca (commonly known by Chez) and I’m one of your new Access & Class Act Officers. My goals are to create an inclusive and supportive ‘Access Community’ here at Emma, and to successfully organise the new ECSU BME shadowing scheme. I’m looking forward to Alex and I collaborating a lot with the rest of the (amazing) committee to bring about much needed change following on from the events of 2020!
