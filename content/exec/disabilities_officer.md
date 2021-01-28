@@ -1,10 +1,9 @@
 ---
 title: Disabilities and Mental Health (DMH) Officer
 email: disabilities@ecsu.org.uk
-name: Anya Brown
-image: /assets/images/exec/Disabilities.jpeg
-crsid: [ab2651]
+name: Cerys Llewelyn
+image: 'https://ucarecdn.com/5ca6cd27-fa16-4ec0-a4ac-fb7139382e9d/'
+crsid:
+  - ab2651
 ---
-Hi, my name is Anya Brown. I am a first year Law student at Emmanuel from Sheffield. I have many years of experience with long-term health conditions and am looking to use that experience to improve the lives of students at Emmanuel. During my time serving on ECSU I hope to engage with and listen carefully to students, ascertaining the ways in which their experience of the College could be improved.
-
-I aim to work on a one-to-one basis with students to help in liaising with College and highlighting appropriate routes of medical and pastoral support. I intend to work with the Welfare team to raise awareness as to the importance of taking care of your mental health, as well as working with past officers to continue to ensure the college is as physically accessible as possible.
+Hello! I'm Cerys and I am the new 2021 ECSU Disabilities and Mental Health Officer! My role involves signposting routes of support as well as liaising with college about Covid guidelines. During my time in ECSU, my aims as DMH officer include creating a resource for international disabled students, starting a buddy or induction scheme and working with the welfare officers to host collaborative check-in events during term!
