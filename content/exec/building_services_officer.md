@@ -1,15 +1,9 @@
 ---
-title: Buildings & Services Officer
+title: Buildings and Services Officer
 email: buildingsandservices@ecsu.org.uk
-name: Eliza Tewson
-image: /assets/images/exec/Buildings.png
-crsid: [et431]
+name: Monty Dunn
+image: 'https://ucarecdn.com/5a6df1da-5df5-4a67-9abb-ef181c4b83a3/'
+crsid:
+  - et431
 ---
-Hi! I’m Eliza (she/her), a Second Year English student.
-
-My responsibilities as Buildings and Services Officer include liaising between catering staff and students (formal hall, regular hall and the vending machine), looking after sports equipment and the gym, anything relating to student accommodation and the bike maintenance equipment in Plodge.
-
-This year I’m keen to try to achieve three main things:
-* Make the process of sorting returning accommodation for intermitting students more transparent and inclusive
-* Collaborate with Green Officer and President to develop a means of implementing a composting system across College
-* Have College switch to Ecolabel cleaning products
+Hello, I'm Monty. I'm this year's Buildings and Services Officer. That means I'll be investigating ways we can improve the things college provides. I'm particularly keen to look into the balloting system and how we can improve the information we give freshers on how it all works. I'll be working closely with the President/VP and certain liberation officers to make sure we represent all members of college in any changes we make.
