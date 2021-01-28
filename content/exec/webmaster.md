@@ -2,8 +2,9 @@
 title: Webmaster
 email: webmaster@ecsu.org.uk
 name: Jiaxin Wang
-image: /assets/images/exec/Webmaster.png
-crsid: [jw2117]
+image: 'https://ucarecdn.com/886ecc56-10fb-43d0-b685-cc46d554505b/'
+crsid:
+  - jw2117
 ---
 Hi I'm Jiaxin and I'm either the "Webmaster" or the "Communications and Publicity Officer" depending on whether you want the role to sound cool or be technically correct. My main job is running the ECSU website and maintaining the room database. With the communication part of the role I admin:
 
