@@ -1,8 +1,9 @@
 ---
-email: welfareleoni@ecsu.org.uk
-image: /assets/images/exec/WelfareL.png
-name: Leoni Boyle
-title: Welfare Officer (Leoni)
-crsid: [lb778]
+title: Welfare Officer (Clíodhna)
+email: welfare-cliodhna@ecsu.org.uk
+name: Clíodhna Herkommer
+image: 'https://ucarecdn.com/274feef2-a842-4158-9845-88a559a252f4/'
+crsid:
+  - lb778
 ---
-Hey there! I’m Leoni and I’m in my second year studying Education. I’m a welfare officer alongside Damola here at Emma, and I’m excited to work with him to improve signposting for welfare services/contacts, at both a college and a university-wide level. On top of this, I aim to be a friendly face in college that people feel comfortable to approach.
+Hi, we’re Ted and Cli! As welfare officers, we’re here to help students feel welcome and happy at Emma. That means providing fun and inclusive events which encourage a sense of community. On an individual level, we’re here for anyone whose welfare is suffering and needs someone to talk to and to signpost the services available.
