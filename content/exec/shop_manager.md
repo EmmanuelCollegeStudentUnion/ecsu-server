@@ -1,8 +1,9 @@
 ---
-email: shop@ecsu.org.uk
-image: /assets/images/exec/Shop.jpg
-name: Cecilia Yearsley
 title: Shop Manager
-crsid: [cy312]
+email: shop@ecsu.org.uk
+name: Anna Hayward-Surry
+image: 'https://ucarecdn.com/991d24ff-bc56-4592-bcac-3b633977cf50/'
+crsid:
+  - cy312
 ---
-I’m Ceci, a 2nd year studying classics. My main goal is to keep the shop tidy and well stocked with everyone’s favorite snacks and sweets. I also hope to make magazines and other projects run by Cambridge students available in the shop. And I want your input -- email me if you have any suggestions or requests!
+Hi, I’m Anna and I am the ECSU shop manager this year! My main goal is to get the shop back up and running (in a Covid-Secure manner!!) once we are finally allowed back to Cambridge! I am really looking forward to working alongside the rest of the ECSU committee this year, and making friendships through the process :))
