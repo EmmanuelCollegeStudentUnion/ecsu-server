@@ -1,16 +1,10 @@
 ---
 title: Vice President
 email: vicepresident@ecsu.org.uk
-name: Jerry Chen
-image: /assets/images/exec/Vice.jpg
-ordering: 1
+name: Phoenix Ali
+image: 'https://ucarecdn.com/3aa9bdeb-1b41-4714-8dcf-b027b4b7f200/'
 crsid:
   - jc2068
+ordering: 1
 ---
-I’m a third year medic (he/him) currently doing an intercalated year in Archaeology. The role of Vice President is multi-faceted and involves a number of duties including oversight over Freshers’ Week and Freshers’ Reps, coordination of events such as the 1584 Dinner (halfway hall), acting as Returning Officer in elections, representing Emmanuel as External Officer at things like CUSU Council, attending college meetings and deputising for Harriet. 
-
-This year, I’m also working on the following things:
-
-* Look at reform of our students’ union, particularly in the areas of academic welfare and access work
-* Modernise communications, including setting up the new ECSU Calendar and overhauling the Alternative Prospectus
-* Oversee Freshers’ Week, appointing and coordinating with the Freshers’ Rep team
+As Vice President, my first priority is to work closely with Charlotte to help her run and organise the committee. I’m also keen on working with other committee members on reforming the disciplinary process, continuing to represent students on a university level, and promoting liberation aims wherever possible.
