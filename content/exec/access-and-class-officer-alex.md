@@ -2,8 +2,7 @@
 title: Access and Class Officer (Alex)
 email: access-alex@ecsu.org
 name: Alex Govan
-image: >-
-  https://ucarecdn.com/5b242b5b-2daa-4d19-90fa-15bab8fee90b/-/crop/540x519/0,0/-/preview/
+image: 'https://ucarecdn.com/5b242b5b-2daa-4d19-90fa-15bab8fee90b/-/crop/540x519/0,0/-/preview/'
 crsid:
   - ajg228
 ---
