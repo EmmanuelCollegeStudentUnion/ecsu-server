@@ -8,7 +8,7 @@ image: /assets/images/info/aid_ico.png
 * [Confidentiality Policy](https://docs.google.com/document/d/1RYgyNXiyxQ35xMOq1CPx5qQaL0qXWZy9RnuzNpn4OQI/edit)
 * [Where to find help in Cambridge](https://drive.google.com/open?id=1OsxXQEyyVVSP7PDmX333_MqBGLdi_7uG)
 
-Student welfare is a top priority for the [Exec](/exec), and there are dedicated [Welfare Officers](/female_welfare) who strive to ensure that students at Emma at Emma are happy and healthy.
+Student welfare is a top priority for the [Exec](/exec), and there are dedicated [Welfare Officers](/exec/welfarel) who strive to ensure that students at Emma at Emma are happy and healthy.
 
 University can and should overall be an amazing experience: studying a subject you enjoy, meeting interesting people that share your same interests, and beginning to find your way in the adult world.
 
@@ -30,8 +30,8 @@ In addition, we encourage you to download and read the "Bumper Welfare Document'
 
 ## ECSU Welfare Team
 
-* [Welfare Officer (Female)](/exec/female_welfare)
-* [Welfare Officer (Male)](/exec/male_welfare)
+* [Welfare Officer (Female)](/exec/welfarel)
+* [Welfare Officer (Male)](/exec/welfared)
 * [Women's Officer](/exec/womens_officer)
 * [LGBT+ Officer](/exec/lgbt_officer)
 * [International Officer](/exec/international_officer)

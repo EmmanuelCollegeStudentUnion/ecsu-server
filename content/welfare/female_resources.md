@@ -17,4 +17,4 @@ Morning after pills are available in multiple locations around Cambridge. Please
 
 ## Request an Pregnancy Kit
 
-If you would like to request a free anonymous pregnancy test, please do so [Here](pregnancy_kit). No personal information about you is collected; we will simply ask the [Women's Officer](/exec/womens_officer) to place a free pregnancy test inside an envelope in her pigeonhole for you to collect.
+If you would like to request a free anonymous pregnancy test, please do so [Here](/welfare/pregnancy_kit/). No personal information about you is collected; we will simply ask the [Women's Officer](/exec/womens_officer) to place a free pregnancy test inside an envelope in her pigeonhole for you to collect.

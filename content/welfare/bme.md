@@ -8,7 +8,7 @@ There is a Facebook group for BME individuals in Emma, where all sorts of fun ac
 
 The Facebook group is moderated by the BME Officer, who serves to represent BME students both in ECSU and to college. Their role involves representation, so any concerns you have as a BME student should be brought up to them to facilitate discussion within ECSU!
 
-The BME Officer can be contacted at minorities@ecsu.org.uk, including any confidential concerns, help and advice that arise during your time in Emmanuel, or to simply join the super-fun Emma Ethnic Minorities (EM) Group! 
+The BME Officer can be contacted at [racial-equalities@ecsu.org.uk](mailto:racial-equalities@ecsu.org.uk), including any confidential concerns, help and advice that arise during your time in Emmanuel, or to simply join the super-fun Emma Ethnic Minorities (EM) Group! 
 
 
 ## The BME Community in Cambridge
