@@ -4,7 +4,7 @@ subtitle: Details Regarding ECSU Open Meetings
 title: Open Meetings
 ---
 
-Open Meetings are an opportunity for all members of ECSU to make their views known. Not only can you ask questions to the [Exec](/about/exec), and expect a formal response, but you can also bring forward motions, which can act to change some aspect of ECSU policy. Minutes from past open meetings are available at [Minutes of Exec and Open Meetings](/about/minutes)
+Open Meetings are an opportunity for all members of ECSU to make their views known. Not only can you ask questions to the [Exec](/exec), and expect a formal response, but you can also bring forward motions, which can act to change some aspect of ECSU policy. Minutes from past open meetings are available at [Minutes of Exec and Open Meetings](/members/minutes)
 
 The Open Meetings are governed by a set of Standing Orders, which are available for download in PDF format.
 

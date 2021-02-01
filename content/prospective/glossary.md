@@ -17,7 +17,7 @@ Here you'll find a (non-exclusive) list of terms used by students at Cambridge.
 |CUSU|[Cambridge University Students' Union](http://www.cusu.cam.ac.uk/)
 |Easter Term|Also known as Exam Term - the term between Easter and the Long Vacation
 |Emma|[Emmanuel College](http://www.emma.cam.ac.uk)
-|Exec|The [Executive](exec.html) - a group elected by the members of ECSU who take on specific responsibilities
+|Exec|The [Executive](https://ecsu.org.uk/exec/) - a group elected by the members of ECSU who take on specific responsibilities
 |Fitz|[Fitzwilliam College](http://www.fitz.cam.ac.uk/)
 |Full term|The 8-9 weeks that you must be in residence in Cambridge to qualify for a degree
 |Gyp room|Room in which the (now extinct) College manservants (Gyps) sat. Name given to the kitchens on the staircases.

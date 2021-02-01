@@ -49,7 +49,7 @@ Check out the health benefits of [ juicing ](https://www.vouchercloud.com/resour
 
 The [BBC site](http://www.bbc.co.uk/health/healthy_living/nutrition/) carries a lot of very useful information, so have a browse for everything from a recipe to a supermarket game...
 
-See what the government has to say at [www.eatwell.gov.uk](http://www.eatwell.gov.uk)
+See what the government has to say at [The Eatwell Guide](https://www.gov.uk/government/publications/the-eatwell-guide)
 
 For information specific to women, [the BBC](http://www.bbc.co.uk/health/womens_health/) is again very useful, clear and realistic.
 
