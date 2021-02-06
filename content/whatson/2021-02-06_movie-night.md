@@ -7,4 +7,8 @@ dtend: 2021-02-06T22:30:00.000Z
 allDay: false
 image: ''
 ---
-We're watching The Half of It on Netflix party!
+Location: Netflix party
+
+Film: the Half of It
+
+Officers: Dottie (LGBT+), Cliodhna (Welfare), Ted (Welfare)
