@@ -17,3 +17,5 @@ https://www.ecsu.org.uk/feedback
 so if you're ever unsure of which ECSU officer to email about something absolutely use this (we know there's a lot of us 😃). 
 
 The above is an adjustment to to the last year's webmaster's bio because I'm making these changes as I update the site. Like this!
+
+Manifesto: [Jiaxin](https://drive.google.com/file/d/1nM3RMFqfBwHyB4SpeSUL_mwnSFRGeBz3/view?usp=sharing)

@@ -7,3 +7,5 @@ crsid:
   - cac217
 ---
 Hi !! I’m Cath (she/her), and I feel so lucky to have the opportunity to make Emma a more welcoming and supportive place for women and non-binary students here. I’m hoping to run an active FemSoc to help foster a social community within Emma, and simultaneously create structural change through initiatives like harassment procedure reform and the establishment of a private therapy fund. I’m excited to get to work, and hope that my role means I get to meet loads of lovely new people!
+
+Manifesto: [Cath](https://drive.google.com/file/d/1LDcPNJc5ikyRk3GBTdzIxlrRqJqJd0uC/view?usp=sharing)
