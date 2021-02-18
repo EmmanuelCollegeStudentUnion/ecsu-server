@@ -11,8 +11,4 @@ Hello! I’m Charlotte (she/her) and I’m delighted to be serving as your ECSU 
 
 My aims as President include improving the ballot experience, reassessing certain living arrangements, improving College communications and enacting small but impactful changes to student life that will make Emma an even better place. 
 
-Never hesitate to get in contact via president@ecsu.org.uk !
-
-Manifesto: 
-[Charlotte-0](https://drive.google.com/file/d/14ltx5BYP1EEDrv-tDR-15sO7xtGd4w2H/view?usp=sharing)
-[Charlotte-1](https://drive.google.com/file/d/16pWjqmy9JNQz7sGidzp6_kSqgEuKpR2s/view?usp=sharing)
+Manifesto: [Charlotte](https://drive.google.com/file/d/1lHeESlG-ePYk7KQUgcjU0xMHfYTpWfeI/view?usp=sharing)
