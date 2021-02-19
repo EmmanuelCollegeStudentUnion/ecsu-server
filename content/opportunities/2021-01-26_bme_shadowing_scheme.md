@@ -24,5 +24,5 @@ Each month will have a theme:
 
 If you would be unable to participate in this programme due to connectivity issues, lack of device access, caring responsibilities, or something else beyond your control, please email slo@emma.cam.ac.uk.
 
-Apply [here](https://cambridge.eu.qualtrics.com/jfe/form/SV_6JMirzKEMbY6rXf). **Deadline for applications INCLUDING PARENT/GUARDIAN CONSENT is Friday 22nd Febuary 2021; we aim to inform successful applicants by 1 March 2021.**
+Apply [here](https://cambridge.eu.qualtrics.com/jfe/form/SV_6JMirzKEMbY6rXf). **Deadline for applications INCLUDING PARENT/GUARDIAN CONSENT is Monday 22nd Febuary 2021; we aim to inform successful applicants by 1 March 2021.**
 Email slo@emma.cam.ac.uk with any questions.
