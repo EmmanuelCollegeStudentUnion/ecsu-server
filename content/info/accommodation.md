@@ -9,6 +9,7 @@ Accommodation information for prospective students can be found [Here](/prospect
 
 All undergraduates are guaranteed accommodation, either in College or in a property owned and serviced by College, for the duration of their undergraduate course.
 
+- [Accessibility Info and Floor Plans](https://l.messenger.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1u7ouGBFfJ1Uo0YZ4OxO0mQm9es9Q4R2X%3Fusp%3Dsharing&h=AT1XhCo6yi8lha4UbfAmYU2UDYhHjyVyi1mrXCmmIXnzqKNBHXkscIPR9Fwjsx4g9oQb4nSmYv9V81X-sXmPAqbcj-HH39qN4PQfktTyplA07DDKSqX2Fzh6ydu06OptjqtnUw)
 - [Rents and Charges](/info/rents)
 - [Room Photos](/room_locations)
 
