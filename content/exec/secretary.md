@@ -2,7 +2,7 @@
 title: Secretary
 email: secretary@ecsu.org.uk
 name: Fran Hardyman
-image: 'https://ucarecdn.com/9c661b2a-d529-466e-8ae7-e0d408568e73/'
+image: /assets/images/exec/Secretary.png
 crsid:
   - ferh2
 ---

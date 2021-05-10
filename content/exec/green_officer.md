@@ -2,7 +2,7 @@
 title: Green and Ethical Officer
 email: green@ecsu.org.uk
 name: Eddie Wilkinson
-image: 'https://ucarecdn.com/c36da405-d089-4ce7-8e39-e884bb55bacb/'
+image: /assets/images/exec/Green.png
 crsid:
   - ew546
 ---

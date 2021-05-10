@@ -2,7 +2,7 @@
 title: Careers & Education Officer
 email: education@ecsu.org.uk
 name: Rosie McLeish
-image: 'https://ucarecdn.com/cea564c9-02aa-43c7-9619-3c173c99d66e/'
+image: /assets/images/exec/Careers.png
 crsid:
   - rjm270
 ---

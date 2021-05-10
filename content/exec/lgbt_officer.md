@@ -2,7 +2,7 @@
 title: LGBT+ Officer
 email: lgbt@ecsu.org.uk
 name: Dottie Birss
-image: 'https://ucarecdn.com/585efb4d-0342-4896-8244-675aef31cc5b/'
+image: /assets/images/exec/LGBT.png
 crsid:
   - db805
 ---

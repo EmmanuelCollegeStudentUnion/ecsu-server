@@ -2,7 +2,7 @@
 title: Webmaster
 email: webmaster@ecsu.org.uk
 name: Jiaxin Wang
-image: 'https://ucarecdn.com/886ecc56-10fb-43d0-b685-cc46d554505b/'
+image: /assets/images/exec/Webmaster.png
 crsid:
   - jw2117
 ---

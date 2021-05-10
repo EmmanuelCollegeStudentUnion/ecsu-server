@@ -2,7 +2,7 @@
 title: Treasurer
 email: treasurer@ecsu.org.uk
 name: Michael Roach
-image: 'https://ucarecdn.com/5eac46c5-f5ea-46ea-9300-4a51ca98091f/'
+image: /assets/images/exec/Treasurer.png
 crsid:
   - mger2
 ---

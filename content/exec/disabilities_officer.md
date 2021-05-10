@@ -2,7 +2,7 @@
 title: Disabilities and Mental Health (DMH) Officer
 email: disabilities@ecsu.org.uk
 name: Cerys Llewelyn
-image: 'https://ucarecdn.com/5ca6cd27-fa16-4ec0-a4ac-fb7139382e9d/'
+image: /assets/images/exec/Disabilities.png
 crsid:
   - csl55
 ---

@@ -2,7 +2,7 @@
 title: Vice President
 email: vicepresident@ecsu.org.uk
 name: Sawen Ali
-image: 'https://ucarecdn.com/3aa9bdeb-1b41-4714-8dcf-b027b4b7f200/'
+image: /assets/images/exec/Vice.png
 crsid:
   - sa971
 ordering: 1

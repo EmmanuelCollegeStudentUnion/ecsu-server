@@ -2,7 +2,7 @@
 title: Charities Officer
 email: charities@ecsu.org.uk
 name: Rosie Caddy
-image: 'https://ucarecdn.com/b906210e-17c4-4e35-86c6-fd44f6123bae/'
+image: /assets/images/exec/Charities.png
 crsid:
   - rmc90
 ---

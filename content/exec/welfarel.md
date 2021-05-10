@@ -2,7 +2,7 @@
 title: Welfare Officer (Clíodhna)
 email: welfare-cliodhna@ecsu.org.uk
 name: Clíodhna Herkommer
-image: 'https://ucarecdn.com/274feef2-a842-4158-9845-88a559a252f4/'
+image: /assets/images/exec/WelfareC.png
 crsid:
   - cmh233
 ---

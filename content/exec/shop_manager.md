@@ -2,7 +2,7 @@
 title: Shop Manager
 email: shop@ecsu.org.uk
 name: Anna Hayward-Surry
-image: 'https://ucarecdn.com/991d24ff-bc56-4592-bcac-3b633977cf50/'
+image: /assets/images/exec/Shop.png
 crsid:
   - ah2094
 ---

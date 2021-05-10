@@ -2,7 +2,7 @@
 title: ROAR Editor
 email: roar@ecsu.org.uk
 name: Alfie Eltis and Lucas Pangaro
-image: 'https://ucarecdn.com/bac1e69c-6fc3-4e8e-96d2-d6762b302abe/'
+image: /assets/images/exec/Roar.png
 crsid:
   - ae461
   - lp550

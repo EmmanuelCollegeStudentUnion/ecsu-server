@@ -2,7 +2,7 @@
 title: Welfare Officer (Ted)
 email: welfare-ted@ecsu.org.uk
 name: Ted Perkin
-image: 'https://ucarecdn.com/924e7421-6d67-4559-b345-d91a6ff8bbce/'
+image: /assets/images/exec/WelfareT.png
 crsid:
   - top22
 ---

@@ -2,7 +2,7 @@
 title: Women and Non-Binary Students Officer
 email: womens@ecsu.org.uk
 name: Cath Churchill
-image: 'https://ucarecdn.com/0ef79f84-3b93-48e9-b45f-9c38efa62031/'
+image: /assets/images/exec/Womens.png
 crsid:
   - cac217
 ---

@@ -2,7 +2,7 @@
 title: President
 email: president@ecsu.org.uk
 name: Charlotte McGuire
-image: 'https://ucarecdn.com/9619f3e9-41d4-4568-a947-10b2bc951499/'
+image: /assets/images/exec/President.png
 crsid:
   - cgm41
 ordering: 2

@@ -2,7 +2,7 @@
 title: International Officer
 email: internationals@ecsu.org.uk
 name: Henri Durousseau
-image: 'https://ucarecdn.com/f81e37e1-7816-4b49-acc1-10de0817d261/'
+image: /assets/images/exec/International.png
 crsid:
   - hmad2
 ---

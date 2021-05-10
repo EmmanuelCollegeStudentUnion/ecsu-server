@@ -2,7 +2,7 @@
 title: Access and Class Act Officer (Francesca)
 email: access-francesca@ecsu.org.uk
 name: Francesca Mann
-image: 'https://ucarecdn.com/cf27d5bd-4f76-459a-a9e0-d8e02015be80/'
+image: /assets/images/exec/AccessF.png
 crsid:
   - fmm37
 ---

@@ -2,7 +2,7 @@
 title: Buildings and Services Officer
 email: buildingsandservices@ecsu.org.uk
 name: Monty Dunn
-image: 'https://ucarecdn.com/5a6df1da-5df5-4a67-9abb-ef181c4b83a3/'
+image: /assets/images/exec/Buildings.png
 crsid:
   - msd56
 ---

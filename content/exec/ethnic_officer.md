@@ -2,7 +2,7 @@
 title: Racial Equalities Officer
 email: racial-equalities@ecsu.org.uk
 name: Akshata Kapoor
-image: 'https://ucarecdn.com/6eea84d4-4312-4823-84e5-127f52e1020f/'
+image: /assets/images/exec/BME.png
 crsid:
   - ak2314
 ---
