@@ -27,7 +27,7 @@ append :linked_files, ".env"
 append :linked_dirs, "user_uploads"
 
 # Default value for default_env is {}
-set :default_env, { path: "/home/btfs2/.local/bin:$PATH" }
+set :default_env, { path: "/home/jw2117/.local/bin:$PATH" }
 
 
 # Default value for copy_files is []
