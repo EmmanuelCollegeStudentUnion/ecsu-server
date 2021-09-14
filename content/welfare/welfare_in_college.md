@@ -20,8 +20,6 @@ However, if the lows don't pass and you need further advice or help beyond that 
 
 In this section are links to various services at college, university and national levels. Find links to the services available by selecting the relevant topic from the drop-down menu of this welfare section.
 
-In addition, we encourage you to download and read the "Bumper Welfare Document', which contains this information all in one place, in a less daunting format.
-
 | File                                              | Size       |
 | ------------------------------------------------- | ---------- |
 | [Welfare and Liberation Resources](https://drive.google.com/file/d/1FYHwStEajC-hbaTYKtfxf0CN05ZH37v2/view?usp=sharing) | 391 KiB |
