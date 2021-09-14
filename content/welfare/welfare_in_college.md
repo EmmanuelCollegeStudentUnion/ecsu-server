@@ -24,7 +24,9 @@ In addition, we encourage you to download and read the "Bumper Welfare Document'
 
 | File                                              | Size       |
 | ------------------------------------------------- | ---------- |
-| [Bumper Welfare Document](/pdf/bumperwelfare.pdf) | 153.62 KiB |
+| [Welfare and Liberation Resources](https://drive.google.com/file/d/1FYHwStEajC-hbaTYKtfxf0CN05ZH37v2/view?usp=sharing) | 391 KiB |
+| [Eating Disorder Information](https://drive.google.com/file/d/13MoMsepqxjwCkcp6zhKD0a9Cwq2Iaflk/view?usp=sharing) | 1.1 MiB |
+| [Welfare and Liberation Resources Document](https://docs.google.com/document/d/1znaUg2tVfhCcF1wIqDK7GikZJ2s_hE8esp_y4G27nWc/edit?usp=sharing) | 0 B |
 
 # Points of Contact
 
@@ -32,7 +34,7 @@ In addition, we encourage you to download and read the "Bumper Welfare Document'
 
 * [Welfare Officer (Female)](/exec/welfarel)
 * [Welfare Officer (Male)](/exec/welfared)
-* [Women's Officer](/exec/womens_officer)
+* [Women's and Non-binary Students' Officer](/exec/womens_officer)
 * [LGBT+ Officer](/exec/lgbt_officer)
 * [International Officer](/exec/international_officer)
 * [Disabilities](/exec/disabilities_officer)
