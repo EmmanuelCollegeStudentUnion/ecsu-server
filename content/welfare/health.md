@@ -1,12 +1,14 @@
 ---
-image: /assets/images/info/fruit.jpg
-subtitle: Information on Staying Healthy whilst at Cambridge
 title: Staying Healthy
+subtitle: Information on Staying Healthy whilst at Cambridge
+image: /assets/images/info/fruit.jpg
 ---
 
 Life at Emma demands a lot of us physically and mentally. Unless we give our bodies the best, we can not expect the same of our minds, so this site is to let you know what your body needs to perform. Nutrition is something we all need an awareness of, and most of us know generally what we need, whether its from what makes us feel good or from hazy food tech lessons in year 7. This covers the basics, and there is more information online, just be careful - there is a lot of misinformed material on the web.
 
 A good diet is central to overall good health. So look at the facts, to help you make realistic, informed choices both in Sainsburys and Hall!
+Remember, however, that if thinking too much about food may be damaging for your mental health, it is important to look out for this too. Read [this document](https://drive.google.com/file/d/13MoMsepqxjwCkcp6zhKD0a9Cwq2Iaflk/view?usp=sharing) for some advice and information on eating disorders, and sources of support.
+ 
 
 ## Is this possible in Hall, and on a student loan?
 
