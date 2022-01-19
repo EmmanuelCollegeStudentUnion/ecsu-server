@@ -1,9 +1,9 @@
 ---
 title: Shop Manager
 email: shop@ecsu.org.uk
-name: Anna Hayward-Surry
-image: /assets/images/exec/Shop.png
+name: Eloïse Suissa
+image: /assets/images/exec/Ents.png
 crsid:
-  - ah2094
+  - ers67
 ---
-Hi, I’m Anna and I am the ECSU shop manager this year! My main goal is to get the shop back up and running (in a Covid-Secure manner!!) once we are finally allowed back to Cambridge! I am really looking forward to working alongside the rest of the ECSU committee this year, and making friendships through the process :))
+Hi! I'm Eloise (she/her) and I'm the shop manager this year. My goals are to open up the shop, even for isolating students, and make sure it's stocked up with all the old favourites! Feel free to let me know if you want a specific snack on the shelves and I'll try my best to provide :)
