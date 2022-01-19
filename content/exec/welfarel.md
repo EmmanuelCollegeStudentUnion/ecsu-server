@@ -1,11 +1,10 @@
 ---
-title: Welfare Officer (Clíodhna)
+title: Welfare Officer (Shosahna)
 email: welfare-cliodhna@ecsu.org.uk
-name: Clíodhna Herkommer
-image: /assets/images/exec/WelfareC.png
+name: Shoshana Dahdi
+image: /assets/images/exec/Ents.png
 crsid:
-  - cmh233
+  - sd940
 ---
-Hi, we’re Ted and Cli! As welfare officers, we’re here to help students feel welcome and happy at Emma. That means providing fun and inclusive events which encourage a sense of community. On an individual level, we’re here for anyone whose welfare is suffering and needs someone to talk to and to signpost the services available.
-
-Manifesto: [Clíodhna Herkommer](https://drive.google.com/file/d/1aITHSGqvydYquHBuk48Oi0-_YEk8E1SS/view?usp=sharing)
+Hey, I’m Shoshana and as the female/ non-binary welfare officer I will be working with Fabian to ensure students feel happy, healthy and safe at Emma! To help foster this kind of environment we will provide inclusive weekly events and offer individual support if you feel your welfare is suffering. 
+Manifesto: [Shoshana](https://drive.google.com/file/d/1gGm7We8jWJnb7jB-bHRlaOZkMgDByK6v/view?usp=sharing)
