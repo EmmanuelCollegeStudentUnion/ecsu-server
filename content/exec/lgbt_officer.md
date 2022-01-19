@@ -1,11 +1,11 @@
 ---
 title: LGBT+ Officer
 email: lgbt@ecsu.org.uk
-name: Dottie Birss
+name:  Reuben Mason
 image: /assets/images/exec/LGBT.png
 crsid:
-  - db805
+  - rjm269
 ---
-Hi, I’m Dottie! I’m really excited to do loads of socials with the Emma LGBT+ community and to run some fun charity events for everyone in LGBT+ History Month. I’m also looking forward to trying to get an official gender expression fund to support trans/non-binary students.
+My name is Reuben and I’m a non-binary second year mathmo. I’m looking forward to running lots of events for the LGBT+ community at Emma and working on making Emma as inclusive and welcoming a place as possible! 
 
-Manifesto: [Dottie](https://drive.google.com/file/d/1UtBD3F-80v-qOxeDQCwrZGaoCa6KjbvU/view?usp=sharing)
+Manifesto: [Reuben](https://drive.google.com/file/d/19QFdlLqHkTJE9ZqT_mcR5EIRAhdKK93Q/view?usp=sharing)
