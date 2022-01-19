@@ -1,9 +1,9 @@
 ---
-title: Access and Class Officer (Alex)
-email: access-alex@ecsu.org
-name: Alex Govan
+title: Access and Class Officer (Ann)
+email: access-ann@ecsu.org
+name: Ann Nguyen
 image: /assets/images/exec/AccessA.png
 crsid:
-  - ajg228
+  - ajln2
 ---
-Hi, I’m Alex. I’m excited to get involved and have more of a role in running access at Emma this year, helping continue projects like the CUSU and Emma shadowing schemes. As well as trying to build an access community and possibly create an access week for incoming freshers. I’m excited and already enjoying working with Chez, as well as with the rest of the committee.
+Hi! I'm Ann and I'm a second year HisPol student. Aside from continuing the work of the Access Bus and other Shadowing Schemes previously established by other Access Officers, one of my goals include trying to make the Emma Access community a more 'social' one. From more social events and trying to bring to life the 'Access week' for future freshers.  
