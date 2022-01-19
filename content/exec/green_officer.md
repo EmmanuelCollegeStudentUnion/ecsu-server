@@ -1,13 +1,11 @@
 ---
 title: Green and Ethical Officer
 email: green@ecsu.org.uk
-name: Eddie Wilkinson
+name:  Mia Becker
 image: /assets/images/exec/Green.png
 crsid:
-  - ew546
+  - mb2453
 ---
-Hello, I’m Eddie. As Green and Ethical Officer for ECSU 2021 I have many things that I really want to achieve. I hope to make Emmanuel switch to a more ethically-friendly bank (from Barclays), organise a fun and accessible green week regardless of whether we are at college or not, work with 'Cambridge defend jobs' to better protect the rights of college staff and with much more! 
+Hi my name is Mia and I'm very excited to be the green and ethical affairs officer! I'm very committed to making Emma a greener community for everyone and I'm looking forward to running lots of events focussed on sustainability. Lots of green love xxxx
 
-I look forward to working with the other members of ECSU to make Emmanuel a better place not only for the students and staff but environmentally too!
-
-Manifesto: [Eddie](https://drive.google.com/file/d/1SKsAoKrFU4CXNg0l4FcnmMAG0Y3nm293/view?usp=sharing)
+Manifesto: [Mia](https://drive.google.com/file/d/1WvBMKBo8Fw_3v9lMELfiqGzAsCjsQ2dJ/view?usp=sharing)
