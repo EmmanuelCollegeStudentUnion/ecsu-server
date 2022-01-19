@@ -1,11 +1,11 @@
 ---
 title: International Officer
 email: internationals@ecsu.org.uk
-name: Henri Durousseau
+name: Vicky Wang
 image: /assets/images/exec/International.png
 crsid:
-  - hmad2
+  - vyew2
 ---
-Hiya everyone :)) I'm Henri, a 2nd yr engineer and am so so excited to be able to work on ECSU as international officer. I am already in touch with college about how they can help reduce the impact of covid on internationals, and am planning \~ fun \~ activities for when we return to College (I will be in touch shortly about this if you want to get involved!) see you all very soon xx
+Hey everyone! I'm Vicky, and I'm going to be your international officer for this year :))) I'm a second year Engling who's had to move across three continents in the past two years because of COVID, so I hope I will be able to lend a helping hand to any internationals impacted by the pandemic. I also look forward to planning some fun socials which I hope to see you all at! See you all soon <3
 
-Manifesto: [Henri](https://drive.google.com/file/d/13o-5x2T2Z-TJx7l0ymVzzYhIpXj2muEs/view?usp=sharing)
+Manifesto: [Vicky](https://drive.google.com/file/d/1mMKA2WIV8K9aMX_s6cNGAE2p-Ziy0zPY/view?usp=sharing)
