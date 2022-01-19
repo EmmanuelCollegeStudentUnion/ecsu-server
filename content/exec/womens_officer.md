@@ -1,11 +1,10 @@
 ---
 title: Women and Non-Binary Students Officer
 email: womens@ecsu.org.uk
-name: Cath Churchill
-image: /assets/images/exec/Womens.png
+name: Bridie Milsom
+image: /assets/images/exec/Ents.png
 crsid:
-  - cac217
+  - bm586
 ---
-Hi !! I’m Cath (she/her), and I feel so lucky to have the opportunity to make Emma a more welcoming and supportive place for women and non-binary students here. I’m hoping to run an active FemSoc to help foster a social community within Emma, and simultaneously create structural change through initiatives like harassment procedure reform and the establishment of a private therapy fund. I’m excited to get to work, and hope that my role means I get to meet loads of lovely new people!
-
-Manifesto: [Cath](https://drive.google.com/file/d/1LDcPNJc5ikyRk3GBTdzIxlrRqJqJd0uC/view?usp=sharing)
+Hi, I'm Bridie (she/her) and I am so grateful to be your new Women's and Non-Binary Officer! I hope that this year I can work alongside the other liberation officers to create a more inclusive and empathetic community across college and within Emma's FemSoc. I can't wait to work alongside the rest of the amazing ECSU team and continue Cath's already transformative work regarding Emma's harassment and sexual misconduct policies. I'm really looking forward to getting started and supporting such a wonderful community! 
+Manifesto: [Bridie](https://drive.google.com/file/d/1F4zt0OoOhauVd0yl_24-xcfVZ0p0Y2o9/view?usp=sharing)
