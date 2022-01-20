@@ -2,7 +2,7 @@
 title: ROAR Editor
 email: roar@ecsu.org.uk
 name: Joe Hill and Edward Allen 
-image: /assets/images/exec/Roar.png
+image: /assets/images/exec/Ents.png
 crsid:
   - jh2292
   - ea546
