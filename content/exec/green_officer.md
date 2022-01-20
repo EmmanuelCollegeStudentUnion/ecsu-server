@@ -2,7 +2,7 @@
 title: Green and Ethical Officer
 email: green@ecsu.org.uk
 name:  Mia Becker
-image: /assets/images/exec/Green.png
+image: /assets/images/exec/Ents.png
 crsid:
   - mb2453
 ---
