@@ -2,7 +2,7 @@
 title: Vice President
 email: vicepresident@ecsu.org.uk
 name: Natasha Usselmann
-image: /assets/images/exec/Vice.png
+image: /assets/images/exec/Ents.png
 crsid:
   - nu225
 ordering: 1
