@@ -2,7 +2,7 @@
 title: Access and Class Officer (Ann)
 email: access-ann@ecsu.org
 name: Ann Nguyen
-image: /assets/images/exec/AccessA.png
+image: /assets/images/exec/Ents.png
 crsid:
   - ajln2
 ---
