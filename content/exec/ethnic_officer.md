@@ -2,7 +2,7 @@
 title: Racial Equalities Officer
 email: racial-equalities@ecsu.org.uk
 name: Ebenezer Boakye
-image: /assets/images/exec/BME.png
+image: /assets/images/exec/Ents.png
 crsid:
   - eab96
 ---
