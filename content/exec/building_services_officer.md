@@ -2,7 +2,7 @@
 title: Buildings and Services Officer
 email: buildingsandservices@ecsu.org.uk
 name:  Ben Silva
-image: /assets/images/exec/Buildings.png
+image: /assets/images/exec/Ents.png
 crsid:
   - blcs2
 ---
