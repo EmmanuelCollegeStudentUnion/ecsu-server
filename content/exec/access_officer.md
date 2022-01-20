@@ -2,7 +2,7 @@
 title: Access and Class Act Officer (Kaycee)
 email: access-francesca@ecsu.org.uk
 name: Kaycee Barwell
-image: /assets/images/exec/AccessF.png
+image: /assets/images/exec/Ents.png
 crsid:
   - kmb78
 ---
