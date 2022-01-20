@@ -2,7 +2,7 @@
 title: Careers & Education Officer
 email: education@ecsu.org.uk
 name: Amal Abdirahman
-image: /assets/images/exec/Careers.png
+image: /assets/images/exec/Ents.png
 crsid:
   - aa2325
 ---
