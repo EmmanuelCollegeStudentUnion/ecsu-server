@@ -1,5 +1,5 @@
 ---
-image: null
+image: assets/images/societies/acs.png
 title: Asian Cultural Society
 ---
 
