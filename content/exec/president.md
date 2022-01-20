@@ -2,7 +2,7 @@
 title: President
 email: president@ecsu.org.uk
 name: Sawen Ali
-image: /assets/images/exec/President.png
+image: /assets/images/exec/Ents.png
 crsid:
   - sa971
 ordering: 2
