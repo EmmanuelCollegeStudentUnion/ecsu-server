@@ -1,9 +1,11 @@
 ---
 title: Charities Officer
 email: charities@ecsu.org.uk
-name: Rosie Caddy
-image: /assets/images/exec/Charities.png
+name:  Chloe Li 
+image: /assets/images/exec/Ents.png
 crsid:
-  - rmc90
+  - xl485
 ---
-Hi!! I’m Rosie (she/her) and I’m the charities officer for this year! I’m excited to support some really important charities! I can’t wait to run lots of different events both online and (hopefully) in person and to sell lots of charity stash! I also want to organise some volunteering opportunities once everyone is back in college and it’s safe to do so! I’m really looking forwards to the year ahead.
+Hey, I’m Chloe and I’m happy to be running Emma’s charities events this year. I look forward to getting us more involved with helping good causes. Watch out for resources on how to be helpful, donation drives, and of course, charities stash and formals! 
+
+Manifesto: [Chloe](https://drive.google.com/file/d/1wB5z-zj9tSiqCQdmru70Cu5kkMXnd8NQ/view?usp=sharing)
