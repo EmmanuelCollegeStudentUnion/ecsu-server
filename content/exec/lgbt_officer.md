@@ -2,7 +2,7 @@
 title: LGBT+ Officer
 email: lgbt@ecsu.org.uk
 name:  Reuben Mason
-image: /assets/images/exec/LGBT.png
+image: /assets/images/exec/Ents.png
 crsid:
   - rjm269
 ---
