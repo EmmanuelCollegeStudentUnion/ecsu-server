@@ -2,7 +2,7 @@
 title: International Officer
 email: internationals@ecsu.org.uk
 name: Vicky Wang
-image: /assets/images/exec/International.png
+image: /assets/images/exec/Ents.png
 crsid:
   - vyew2
 ---
