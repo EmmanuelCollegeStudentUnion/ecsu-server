@@ -2,7 +2,7 @@
 title: Disabilities and Mental Health (DMH) Officer
 email: disabilities@ecsu.org.uk
 name: Caspar Costello Slee
-image: /assets/images/exec/Disabilities.png
+image: /assets/images/exec/Ents.png
 crsid:
   - cs2145
 ---
