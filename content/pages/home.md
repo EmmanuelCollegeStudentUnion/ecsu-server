@@ -27,7 +27,7 @@ ecsu_does:
 whats_here:
   - description: >-
       Find out about the 2022 ECSU Committee - who we are, what we do and how to
-      get in touch.
+      get in touch
     image: /assets/images/pages/home/slide01.jpg
     title: Meet the 2022 Committee
     url: /exec
