@@ -2,7 +2,7 @@
 title: BME Shadowing Scheme
 category: 'BME'
 pubdate: 2022-02-14T07:23:31Z
-datetime: 'Before 22nd Feburary 2022'
+datetime: 'Before 21st Feburary 2022'
 image: /assets/images/ECSU_BME_SS.png
 ---
 Following the success of last year's program, the BME Shadowing Scheme will be running again! Led by Emmanuel’s Students' Union, the BME Shadowing Scheme is open to Year 11 students from our link areas of Sheffield, Essex, Thurrock, and Southend-on-Sea, who identify as being part of an underrepresented ethnic group.
@@ -24,5 +24,5 @@ Each month will have a theme:
 
 If you would be unable to participate in this programme due to connectivity issues, lack of device access, caring responsibilities, or something else beyond your control, please email slo@emma.cam.ac.uk.
 
-Apply [here](https://cambridge.eu.qualtrics.com/jfe/form/SV_6JMirzKEMbY6rXf). **Deadline for applications INCLUDING PARENT/GUARDIAN CONSENT is Monday 22nd Febuary 2021; we aim to inform successful applicants by 1 March 2021.**
+Apply [here](https://cambridge.eu.qualtrics.com/jfe/form/SV_6JMirzKEMbY6rXf). **Deadline for applications INCLUDING PARENT/GUARDIAN CONSENT is Monday 21st Febuary 2022; we aim to inform successful applicants by 1 March 2022.**
 Email slo@emma.cam.ac.uk with any questions.
