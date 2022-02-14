@@ -1,13 +1,13 @@
 ---
 title: BME Shadowing Scheme
 category: 'BME'
-pubdate: 2021-01-26T07:23:31Z
-datetime: 'Before 22nd Feb 2021'
-image: 'https://www.emma.cam.ac.uk/images/ECSU%20S_S%20%20(2).png'
+pubdate: 2022-02-14T07:23:31Z
+datetime: 'Before 22nd Feburary 2022'
+image: /assets/images/ECSU_BME_SS.png
 ---
-Led by Emmanuel’s Students' Union, the BME Shadowing Scheme is open to Year 11 students from our link areas of Sheffield, Essex, Thurrock, and Southend-on-Sea, who identify as being part of an underrepresented ethnic group.
+Following the success of last year's program, the BME Shadowing Scheme will be running again! Led by Emmanuel’s Students' Union, the BME Shadowing Scheme is open to Year 11 students from our link areas of Sheffield, Essex, Thurrock, and Southend-on-Sea, who identify as being part of an underrepresented ethnic group.
 
-The programme will run from March 2021 through to July 2021, involving mentoring from current students, the opportunity to ‘try out’ new courses through the ‘subject strands’ (via lectures & supervisions), and get insight into what it might be like to be a student at the University of Cambridge. The programme will run virtually, over MS Teams/Zoom, but we hope to invite participants to Cambridge for the final celebration of the programme. The Shadowing Scheme is open to any student who identifies as BME, but will prioritise
+The programme will run from March 2022 through to May 2022, involving mentoring from current students, the opportunity to ‘try out’ new courses through the ‘subject strands’ (via lectures & supervisions), and get insight into what it might be like to be a student at the University of Cambridge. The programme will run virtually, over MS Teams/Zoom, but we hope to invite participants to Cambridge for the final celebration of the programme. The Shadowing Scheme is open to any student who identifies as BME, but will prioritise
 
 + those who identify as part of the the most under-represented ethnic groups at the University of Cambridge (Black, Bangladeshi, Pakistani and Arab students)
 + those in care or who are care leavers, those eligible for free school meals (or who have been eligible in the last six years), those who live in areas with low levels of progression to HE as determined by home postcode, estranged students, young carers, and those who would be the first generation of their family to progress to higher education
